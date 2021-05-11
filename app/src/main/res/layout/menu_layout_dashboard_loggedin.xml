@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dashboard_footer"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_dashboard_header_blue"/>
+
+        <ImageView
+            android:id="@+id/ivBG"
+            android:background="@drawable/bg_dashboard_top"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_dashboard_header_blue"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="26dp">
+
+            <org.chromium.chrome.browser.widget.TintedImageButton
+                android:id="@+id/ibtnCloseDashboard"
+                style="@style/ToolbarButton"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/btn_close_white"
+                android:tint="@android:color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    app:srcCompat="@drawable/ic_user_placeholder" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginStart="16dp"
+                    android:orientation="vertical">
+
+                    <com.facebook.shimmer.ShimmerFrameLayout
+                        android:id="@+id/sflUsername"
+                        app:shimmer_base_alpha="0.2"
+                        app:shimmer_base_color="#fff"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+                        <TextView
+                            android:id="@+id/tvLastUsername"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="bottom"
+                            android:text="richguy143"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/dashboard_popup_username_text_size"
+                            android:textStyle="bold"
+                            android:singleLine="true"
+                            android:ellipsize="end"/>
+                    </com.facebook.shimmer.ShimmerFrameLayout>
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/tvUsername"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="bottom"
+                        android:text="richguy143"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/dashboard_popup_username_text_size"
+                        android:textStyle="bold"
+                        android:singleLine="true"
+                        android:ellipsize="end"/>
+                    <com.facebook.shimmer.ShimmerFrameLayout
+                        android:id="@+id/sflPurchases"
+                        app:shimmer_base_alpha="0.2"
+                        app:shimmer_base_color="#fff"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/tvLastPurchases"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textSize="@dimen/dashboard_popup_purchases_text_size"
+                                android:textStyle="bold"
+                                android:text="0"
+                                android:textColor="@android:color/white" />
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:textSize="@dimen/dashboard_popup_purchases_text_size"
+                                android:textStyle="bold"
+                                android:text=" USD"
+                                android:textColor="@color/chart_download_link_point" />
+                        </LinearLayout>
+                    </com.facebook.shimmer.ShimmerFrameLayout>
+                    <LinearLayout
+                        android:id="@+id/llPurchases"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/tvPurchases"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textSize="@dimen/dashboard_popup_purchases_text_size"
+                            android:textStyle="bold"
+                            android:text="0"
+                            android:textColor="@android:color/white" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:textSize="@dimen/dashboard_popup_purchases_text_size"
+                            android:textStyle="bold"
+                            android:text=" USD"
+                            android:textColor="@color/chart_download_link_point" />
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/tvViewProfile"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/dashboard_popup_viewprofile_text_size"
+                        android:text="@string/dashboard_popup_view_profile"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dashboard_popup_pando_mined"
+                    android:textSize="@dimen/dashboard_popup_sections_text_size"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="#eeeeee" />
+
+                <ImageView
+                    android:layout_width="14dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/ic_pando_info"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="@drawable/bg_dashboard_details"
+                android:orientation="horizontal"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_gravity="center_vertical"
+                    app:srcCompat="@drawable/btn_pandora" />
+
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:id="@+id/sflPandobalance"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:visibility="gone"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tvLastPandoBalance"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:textSize="@dimen/dashboard_popup_sections_text_size"
+                        android:text="0.00 PANDO"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold" />
+
+                </com.facebook.shimmer.ShimmerFrameLayout>
+
+                <TextView
+                    android:id="@+id/tvPandoBalance"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center_vertical"
+                    android:textSize="@dimen/dashboard_popup_sections_text_size"
+                    android:text="0.00 PANDO"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"/>
+
+                <org.chromium.chrome.browser.widget.TintedImageButton
+                    android:id="@+id/ibtnRefreshEarnings"
+                    style="@style/ToolbarButton"
+                    android:layout_width="32dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_refresh"
+                    android:tint="@android:color/white"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dashboard_popup_referral_earnings"
+                android:textSize="@dimen/dashboard_popup_sections_text_size"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="#eeeeee" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="@drawable/bg_dashboard_details"
+                android:orientation="horizontal"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_gravity="center_vertical"
+                    app:srcCompat="@drawable/btn_pandora" />
+
+                <TextView
+                    android:id="@+id/tvReferralEarnings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center_vertical"
+                    android:textSize="@dimen/dashboard_popup_sections_text_size"
+                    android:text="0.00 PANDO"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dashboard_popup_mining_runtime"
+                android:textSize="@dimen/dashboard_popup_sections_text_size"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="#eeeeee" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="@drawable/bg_dashboard_details"
+                android:orientation="horizontal"
+                android:paddingStart="4dp"
+                android:paddingEnd="4dp">
+
+                <TextView
+                    android:id="@+id/tvDays"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/dashboard_popup_sections_text_size"
+                    android:text="0D"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#fefefe"/>
+
+                <TextView
+                    android:id="@+id/tvHours"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/dashboard_popup_sections_text_size"
+                    android:text="0H"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#fefefe"/>
+
+                <TextView
+                    android:id="@+id/tvMinutes"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/dashboard_popup_sections_text_size"
+                    android:text="0M"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#fefefe"/>
+
+                <TextView
+                    android:id="@+id/tvSeconds"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/dashboard_popup_sections_text_size"
+                    android:text="0S"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#fefefe"/>
+
+                <TextView
+                    android:id="@+id/tvMilliseconds"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textSize="@dimen/dashboard_popup_sections_text_size"
+                    android:text="0MS"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dashboard_popup_membership_balance"
+                    android:textSize="@dimen/dashboard_popup_sections_text_size"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="#eeeeee" />
+
+                <ImageView
+                    android:layout_width="14dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/ic_pando_info"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="@drawable/bg_dashboard_details"
+                android:orientation="horizontal"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp">
+
+                <ImageView
+                    android:padding="2dp"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_gravity="center_vertical"
+                    app:srcCompat="@drawable/ic_usdt" />
+
+                <TextView
+                    android:id="@+id/tvEthBalance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:gravity="center_vertical"
+                    android:text="0.00 USDT"
+                    android:textSize="@dimen/dashboard_popup_sections_text_size"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnRewardsDashboard"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/btn_login_selector"
+                android:text="@string/dashboard_popup_reward_dashboard"
+                android:textSize="@dimen/dashboard_popup_reward_dashboard_text_size"
+                android:textAllCaps="false"
+                android:visibility="gone"
+                android:textColor="@android:color/white" />
+
+            <LinearLayout
+                android:id="@+id/llMemberDashboard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/ic_member_dashboard" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/dashboard_popup_member_dashboard"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/dashboard_popup_other_text_size" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

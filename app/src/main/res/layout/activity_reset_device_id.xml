@@ -23,6 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:orientation="vertical"
+            android:id="@+id/llRoot"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp">
 
@@ -55,8 +56,9 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="32dp"
                 android:layout_marginEnd="16dp"
-                android:text="@string/email_otp_title"
+                android:text="@string/reset_device_id_title"
                 android:textSize="16sp"
+                android:textColor="#1a1666"
                 android:textStyle="bold" />
 
             <TextView
@@ -69,7 +71,7 @@
                 android:layout_marginEnd="16dp"
                 android:gravity="center"
                 android:lineSpacingExtra="8.5sp"
-                android:text="@string/email_otp_message"
+                android:text="@string/reset_device_id_message"
                 android:textSize="14sp" />
 
             <TextView
@@ -79,101 +81,41 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="48dp"
-                android:text="@string/email_otp_code_label"
+                android:text="@string/reset_device_id_email_label"
                 android:textSize="12sp" />
 
-            <org.chromium.chrome.browser.pandora.widget.SquarePinField
+            <EditText
+                android:id="@+id/etEmail"
+                android:background="@drawable/bg_edittext_pandora"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="16dp"
+                android:layout_height="48dp"
                 android:layout_marginStart="16dp"
-                android:inputType="text"
-                android:textSize="16sp"
-                android:cursorVisible="false"
-                app:cornerRadius="8dp"
-                app:fieldBgColor="#f9f9fb"
-                app:noOfFields="6"
-                app:highlightSingleFieldMode="true"
-                app:highlightColor="#3b60dc"
-                app:fieldColor="#d8d4e1"
-                android:id="@+id/sfCode"
-                android:layout_marginTop="4dp"/>
+                android:layout_marginEnd="16dp"
+                android:ems="10"
+                android:hint="@string/reset_device_id_email_hint"
+                android:inputType="textEmailAddress" />
 
             <android.support.v4.widget.Space
                 android:layout_width="match_parent"
                 android:layout_height="48dp"/>
 
-            <LinearLayout
-                android:id="@+id/llResentOtpAvailable"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:visibility="gone"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/tvRemainingSec"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="@string/device_otp_resend_message"
-                    android:textSize="14sp" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/llDidntGetTheCode"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:visibility="visible"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="@string/device_otp_did_not_get_the_code"
-                    android:textSize="14sp" />
-
-                <TextView
-                    android:id="@+id/tvResendOtpCode"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="5dp"
-                    android:gravity="center"
-                    android:textColor="@color/resend_code_tint_color"
-                    android:text="@string/device_otp_resend_action"
-                    android:textSize="14sp" />
-            </LinearLayout>
-
             <Button
-                android:id="@+id/btnResetPassword"
+                android:id="@+id/btnContinue"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginEnd="16dp"
+                android:layout_marginBottom="32dp"
                 android:background="@drawable/btn_login_selector"
                 android:gravity="center"
-                android:text="@string/email_otp_reset_password"
+                android:text="@string/reset_device_id_continue"
                 android:textColor="@android:color/white"
                 android:textSize="14sp"
                 android:textAllCaps="false" />
 
-            <TextView
-                android:id="@+id/tvCancel"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginEnd="16dp"
-                android:layout_marginBottom="32dp"
-                android:gravity="center"
-                android:text="@string/two_fa_cancel"
-                android:textSize="14sp" />
-
         </LinearLayout>
+
     </ScrollView>
 
 </FrameLayout>
