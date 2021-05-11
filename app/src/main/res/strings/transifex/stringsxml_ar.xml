@@ -1,0 +1,115 @@
+<resources>
+
+    <string name="brave_settings_title">إعدادات موقع درع Osiris  ل</string>
+    <string name="brave_shields_down">أسفل</string>
+    <string name="brave_shields_up">فوق</string>
+    <string name="brave_shields_ads_trackers">حجب القتفون والإعلانات</string>
+    <string name="brave_shields_https_upgrades">تحديثات HTTPS</string>
+    <string name="brave_shields_scripts_blocked">حجب النصوص</string>
+    <string name="brave_shields_ads_tracking_switch">حظر الإعلانات والتتبع</string>
+    <string name="brave_shields_https_everywhere_switch">HTTPS في كل مكان</string>
+    <string name="brave_shields_blocks_scripts_switch">حظر النصوص</string>
+    <string name="accessibility_toolbar_btn_brave_shields">تفعيل/ تعطيل دروع Osiris</string>
+    <string name="brave_shields_block_3rd_party_cookies_switch">حجب ملفات تعريف الارتباط لطرف ثالث</string>
+
+    <string name="httpse_summary">يفتح المواقع المدعمة باستخدام HTTPS بدلا من HTTP إن أمكن</string>
+    <string name="tracking_protection_title">تتبع وضع الحماية</string>
+    <string name="tracking_protection_summary">يمنع الموارد التي تتبعها من التحميل</string>
+    <string name="ad_block_title">حجب الإعلانات</string>
+    <string name="ad_block_summary">يمنع تحميل الإعلانات</string>
+
+    <string name="fingerprinting_protection_title">حماية البصمة</string>
+    <string name="fingerprinting_protection_summary">يمنع المتصفح من التعرف على بصمتك الخاصة</string>
+    <string name="brave_shields_fingerprints_blocked">حظر وسائل الحصول على البصمة</string>
+    <string name="brave_shields_block_fingerprints_switch">حماية البصمة</string>
+
+    <string name="ad_block_regional_title">حظر الإعلانات المحلية</string>
+    <string name="ad_block_regional_summary">يمنع تحميل الإعلانات الإقليمية</string>
+
+    <string name="ad_block_regional_summary_no_list">لا توجد قوائم إضافية مُتاحة في موقعك</string>
+
+    <string name="menu_exit">ىخرج</string>
+
+    <string name="brave_sync">Osiris Sync</string>
+    <string name="brave_sync_description">قم بمزامنة بيانات المتصفح بين أجهزتك
+ بصورة آمنه باستخدام Osiris Sync، لا
+ يتطلب إنشاء حساب. انقر أدناه للبدء.</string>
+    <string name="brave_sync_have_existing_code">يوجد لديّ رمز مزامنة حالي</string>
+    <string name="sync_settings_add_device_name_title">إضافة اسم جهاز</string>
+    <string name="sync_settings_add_device_name_label">أدخل اسمًا اختياريًا لهذا الجهاز</string>
+    <string name="sync_example_device_name">جهاز أندرويد</string>
+    <string name="brave_sync_qrcode">المزامنة مع الجهاز</string>
+    <string name="brave_sync_qrcode_message">باستخدام الجهاز المتزامن
+حاليًا، افتح إعدادات Osiris وانتقل إلى
+"إعدادات&amp;الجهاز" وانقر على الرمز `+`
+ لإضافة جهاز جديد وإظهار رمز المزامنة.</string>
+    <string name="enter_code_words_sync">أدخل كلمات الرمز</string>
+    <string name="enter_code_words_below_sync">أدخل كلمات الرمز أدناه.</string>
+    <string name="sync_device">مزامنة الجهاز</string>
+    <string name="sync_device_failure">تعذر إعداد المزامنة</string>
+    <string name="sync_device_success">أكتملت عملية إعداد المزامنة بنجاح</string>
+    <string name="reset_sync">إعادة تعيين المزامنة...</string>
+    <string name="resetting_sync">هل ترغب بالتأكيد في إعادة تعيين إعدادات مزامنة هذا الجهاز والتطبيقات؟</string>
+
+    <string name="brave_stats_text_trackers">تم حظر
+المتتبعات
+</string>
+    <string name="brave_stats_text_ads">تم حظر
+الإعلانات</string>
+    <string name="brave_stats_text_https">ترقيات 
+HTTPS</string>
+    <string name="brave_stats_text_time">حُفِظ
+توقيت الساحل الشرقي
+</string>
+
+    <string name="send_metrics_title">إرسال المقاييس</string>
+
+    <string name="desktop_mode_title">وضع سطح المكتب</string>
+    <string name="website_settings_category_desktop_view_enabled_summary">هل تفضل إصدار سطح المكتب للمواقع</string>
+    <string name="website_settings_category_desktop_view_disabled_summary">هل تفضل إصدار الهاتف الجوال للمواقع </string>
+    <string name="website_settings_category_desktop_view_enabled">تمكين عرض سطح المكتب لعلامات التبويب الجديدة</string>
+    <string name="website_settings_category_desktop_view_disabled">استخدم إصدارات الهاتف الجوال للمواقع للحصول على علامات تبويب جديدة (مُستحسن)</string>
+
+    <string name="brave_shields_first_group_title">حظر المراقبة</string>
+    <string name="brave_shields_second_group_title">وسائل التحكم الفردية</string>
+    <string name="brave_shields">دروع</string>
+    <string name="brave_shields_ads_and_trackers">إعلانات ومتتبعات</string>
+    <string name="brave_shields_fingerprint_methods">وسائل قراءة البصمات</string>
+    <string name="brave_shields_block_phishing_switch">حظر التصيد الاحتيالي</string>
+
+    <string name="play_video_in_background_title">تشغيل الفيديو في الخلفية
+</string>
+    <string name="website_settings_category_play_video_in_background_enabled_summary">مُمَكَّنْ</string>
+    <string name="website_settings_category_play_video_in_background_disabled_summary">مُعَطَّلْ</string>
+    <string name="website_settings_category_play_video_in_background_enabled">تجريبي. يتيح تشغيل صوت من فيديو في الخلفية عندما تكون علامة التبويب غير نشطة، أو عندما تكون شاشة الجهاز مطفأة. إذا كانت هذه الميزة لا تعمل حاول التبديل إلى وضع سطح المكتب.</string>
+    <string name="settings_require_relaunch_notice">سيظهر أثر التغييرات التي قمت بإدخالها في المرة القادمة عند إعادة تشغيل Osiris</string>
+    <string name="settings_require_relaunch_now">إعادة التشغيل الآن</string>
+    <string name="settings_require_relaunch_later">فيما بعد</string>
+
+    <string name="play_yt_video_in_browser_title">تشغيل الفيديو عن طريق Osiris
+</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled_summary">مُمَكن</string>
+    <string name="website_settings_category_play_yt_video_in_browser_disabled_summary">مُعطَّل</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled">إذا تم تمكينه، سيتم تشغيل الفيديو عن طريق Osiris  بدلا من التطبيق المُناظر</string>
+
+    <string name="close_tabs_on_exit_title">قُم بإغلاق علامات التبويب عند الخروج</string>
+    <string name="close_tabs_on_exit_summary">لا تترك علامات التبويب مفتوحة بين جلسات التصفح</string>
+
+    <string name="open_pages_in_custom_tabs_title">افتح الألسنة في \"تخصيص الألسنة\"</string>
+    <string name="open_pages_in_custom_tabs_summary">اعرض فتح الألسنة في \"تخصيص الألسنة\"</string>
+
+    <string name="ddg_offer_title">هل تريد القيام ببحث خاص بواسطة DuckDuckGo؟</string>
+    <string name="ddg_offer_text">بواسطة البحث الخاص، سنقوم باستخدم DuckDuckGo للإجابة عن عمليات البحث الخاصة بك أثناء وجودك في علامة التبويب الخاصة هذه. DuckDuckGo هو محرك بحث لا يقوم بتتبع سجل البحث الخاص بك، مما يتيح لك البحث بشكلٍ خاص.</string>
+    <string name="ddg_offer_positive">نعم</string>
+    <string name="ddg_offer_negative">لا</string>
+    <string name="ddg_offer_link">تعرّف على البحث الخاص بواسطة DuckDuckGo</string>
+    <string name="prefs_standard_search_engine">علامة تبويب قياسية</string>
+    <string name="prefs_private_search_engine">علامة تبويب خاصة</string>
+
+    <string name="brave_open_in_private_tab">فتح في علامة تبويب خاصة</string>
+    <string name="brave_close_all_private_tabs">غلق علامات التبويب الخاصة</string>
+    <string name="brave_new_private_tab">علامة تبويب خاصة جديدة</string>
+    <string name="brave_new_tab_private_header">هذه علامة تبويب خاصة</string>
+    <string name="brave_new_tab_private_message">على الرغم من أن المواقع التي تزورها في علامات التبويب الخاصة لا يتم حفظها محلياً، إلا أنها لا تجعلك مجهولاً أو غير مرئياً بالنسبة لمزود خدمة الإنترنت أو صاحب العمل الخاص بك أو المواقع التي تزورها.</string>
+
+</resources>

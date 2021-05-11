@@ -1,0 +1,112 @@
+<resources>
+
+    <string name="brave_settings_title">הגדרות מגן אתר Osiris עבור</string>
+    <string name="brave_shields_down">למטה</string>
+    <string name="brave_shields_up">למעלה</string>
+    <string name="brave_shields_ads_trackers">מודעות ושרתי מעקב שנחסמו</string>
+    <string name="brave_shields_https_upgrades">שדרוגי HTTPS</string>
+    <string name="brave_shields_scripts_blocked">קובצי תסריט שנחסמו</string>
+    <string name="brave_shields_ads_tracking_switch">חסימת מודעות ומעקב</string>
+    <string name="brave_shields_https_everywhere_switch">HTTPS בכל מקום</string>
+    <string name="brave_shields_blocks_scripts_switch">לחסום קובצי תסריט</string>
+    <string name="accessibility_toolbar_btn_brave_shields">הפעלה/השבתה של מגני Osiris</string>
+    <string name="brave_shields_block_3rd_party_cookies_switch">לחסום עוגיות צד שלישי</string>
+
+    <string name="httpse_summary">פתיחת אתרים נתמכים באמצעות HTTPS במקום HTTP כשאפשר</string>
+    <string name="tracking_protection_title">מצב הגנה מפני מעקב</string>
+    <string name="tracking_protection_summary">מניעת טעינה של משאבים שעוקבים אחריך</string>
+    <string name="ad_block_title">לחסום פרסומות</string>
+    <string name="ad_block_summary">מניעת טעינה של פרסומות</string>
+
+    <string name="fingerprinting_protection_title">להגן מפני תקיפת טביעת אצבע</string>
+    <string name="fingerprinting_protection_summary">מניעת הדפדפן מלקיחת טביעות אצבעות</string>
+    <string name="brave_shields_fingerprints_blocked">שיטות לקיחת טביעת אצבע חסומות</string>
+    <string name="brave_shields_block_fingerprints_switch">הגנה מפני תקיפת טביעת אצבע</string>
+
+    <string name="ad_block_regional_title">לחסום פרסומות אזוריות</string>
+    <string name="ad_block_regional_summary">מניעת טעינה של פרסומות אזוריות</string>
+
+    <string name="ad_block_regional_summary_no_list">אין רשימות נוספות זמינות עבור האזור שלך</string>
+
+    <string name="menu_exit">יציאה</string>
+
+    <string name="brave_sync">Osiris Sync</string>
+    <string name="brave_sync_description">סנכרן את נתוני הדפדפן בין המכשירים
+באמצעות Osiris Sync. אין צורך ליצור
+חשבון. הקש להלן כדי להתחיל.</string>
+    <string name="brave_sync_have_existing_code">יש לי קוד סנכרון קיים</string>
+    <string name="sync_settings_add_device_name_title">נא להוסיף שם מכשיר</string>
+    <string name="sync_settings_add_device_name_label">נא להזין שם אופציונלי עבור מכשיר זה</string>
+    <string name="sync_example_device_name">מכשיר אנדרואיד</string>
+    <string name="brave_sync_qrcode">לסנכרן למכשיר</string>
+    <string name="brave_sync_qrcode_message">במכשיר מסונכרן קיים,
+פתח את הגדרות Osiris,
+ונווט אל הגדרות מכשיר,
+ולחץ + להוספת מכשיר חדש
+והצגת קוד הסנכרון.</string>
+    <string name="enter_code_words_sync">נא להזין מילות קוד</string>
+    <string name="enter_code_words_below_sync">נא להזין את מילות הקוד להלן.</string>
+    <string name="sync_device">לסנכרן מכשיר</string>
+    <string name="sync_device_failure">לא ניתן להגדיר את הסנכרון</string>
+    <string name="sync_device_success">הגדרת הסנכרון הושלמה בהצלחה</string>
+    <string name="reset_sync">איפוס הסנכרון...</string>
+    <string name="resetting_sync">האם ברצונך באמת לאפס את הגדרות הסנכרון של מכשיר זה?</string>
+
+    <string name="brave_stats_text_trackers">כלי מעקב
+שנחסמו</string>
+    <string name="brave_stats_text_ads">פרסומות
+שנחסמו</string>
+    <string name="brave_stats_text_https">שדרוגי
+HTTPS</string>
+    <string name="brave_stats_text_time">הזמן המשוער
+שנחסך</string>
+
+    <string name="send_metrics_title">לשלוח מדדים</string>
+
+    <string name="desktop_mode_title">מצב שולחן עבודה</string>
+    <string name="website_settings_category_desktop_view_enabled_summary">להעדיף את גרסאות האתרים לשולחן עבודה</string>
+    <string name="website_settings_category_desktop_view_disabled_summary">להעדיף את גרסאות האתרים למכשירים ניידים</string>
+    <string name="website_settings_category_desktop_view_enabled">להפעיל תצוגת שולחן עבודה לכרטיסיות חדשות</string>
+    <string name="website_settings_category_desktop_view_disabled">להשתמש בגרסאות האתרים למכשירים ניידים בכרטיסיות חדשות (מומלץ)</string>
+
+    <string name="brave_shields_first_group_title">צג חסימות</string>
+    <string name="brave_shields_second_group_title">פקדים פרטניים</string>
+    <string name="brave_shields">מגנים</string>
+    <string name="brave_shields_ads_and_trackers">פרסומות וכלי מעקב</string>
+    <string name="brave_shields_fingerprint_methods">שיטות לקיחת טביעת אצבע</string>
+    <string name="brave_shields_block_phishing_switch">חסימת דיוג</string>
+
+    <string name="play_video_in_background_title">נגינת סרטים ברקע</string>
+    <string name="website_settings_category_play_video_in_background_enabled_summary">מופעל</string>
+    <string name="website_settings_category_play_video_in_background_disabled_summary">כבוי</string>
+    <string name="website_settings_category_play_video_in_background_enabled">ניסיוני. מאפשר הפעלת צליל מווידאו ברקע כשכרטיסיות אינן פעילות או כשמסך המכשיר מכובה. נא לנסות לעבור למצב שולחן עבודה אם תכונה זו אינה פועלת.</string>
+    <string name="settings_require_relaunch_notice">השינויים שלך ייכנסו לתוקף בפעם הבאה ש־Osiris יופעל מחדש</string>
+    <string name="settings_require_relaunch_now">להפעיל מחדש עכשיו</string>
+    <string name="settings_require_relaunch_later">מאוחר יותר</string>
+
+    <string name="play_yt_video_in_browser_title">הצגת סרטים ב־Osiris</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled_summary">מופעל</string>
+    <string name="website_settings_category_play_yt_video_in_browser_disabled_summary">כבוי</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled">אם זה מופעל, הסרטים יוצגו ב־Osiris במקום באפליקציה המשויכת</string>
+
+    <string name="close_tabs_on_exit_title">סגור כרטיסיות ביציאה</string>
+    <string name="close_tabs_on_exit_summary">אין להחזיק כרטיסיות בין זמני עיון שונים</string>
+
+    <string name="open_pages_in_custom_tabs_title">פתח לשוניות ב׳לשוניות מותאמות׳</string>
+    <string name="open_pages_in_custom_tabs_summary">הצעה לפתוח לשוניות ב׳לשוניות מותאמות׳</string>
+
+    <string name="ddg_offer_title">חיפוש אישי בעזרת DuckDuckGo?</string>
+    <string name="ddg_offer_text">בחיפוש הפרטי, Osiris ישתמש ב-DuckDuckGo כדי לענות על החיפושים שלכם בזמן שתהיו בלשונית פרטית זו. DuckDuckGo הוא מנוע חיפוש שאינו עוקב אחרי היסטוריית החיפושים שלכם, ובכך הוא מאפשר לכם לבצע חיפושים באופן פרטי.</string>
+    <string name="ddg_offer_positive">כן</string>
+    <string name="ddg_offer_negative">לא</string>
+    <string name="ddg_offer_link">למדו אודות חיפוש פרטי בעזרת DuckDuckGo</string>
+    <string name="prefs_standard_search_engine">לשונית סטנדרטית</string>
+    <string name="prefs_private_search_engine">לשונית פרטית</string>
+
+    <string name="brave_open_in_private_tab">פתחו בלשונית פרטית</string>
+    <string name="brave_close_all_private_tabs">סגרו את הלשוניות הפרטיות</string>
+    <string name="brave_new_private_tab">לשונית פרטית חדשה</string>
+    <string name="brave_new_tab_private_header">זו לשונית פרטית</string>
+    <string name="brave_new_tab_private_message">למרות שאתרים שבהם ביקרתם בעזרת לשונית פרטית אינם נשמרים במחשב שלכם, הם אינם הופכים אתכם לאנונימיים או לבלתי נראים בפני ספק שירות האינטרנט שלכם, המעביד שלכם או האתרים שבהם אתם מבקרים.</string>
+
+</resources>

@@ -1,0 +1,112 @@
+<resources>
+
+    <string name="brave_settings_title">Osiris sitesi koruma ayarları:</string>
+    <string name="brave_shields_down">Aşağı</string>
+    <string name="brave_shields_up">Yukarı</string>
+    <string name="brave_shields_ads_trackers">Reklam ve Takipçiler Engellendi</string>
+    <string name="brave_shields_https_upgrades">HTTPS Yükseltmeleri</string>
+    <string name="brave_shields_scripts_blocked">Betikler Engellendi</string>
+    <string name="brave_shields_ads_tracking_switch">Reklam ve Takipçileri Engelle</string>
+    <string name="brave_shields_https_everywhere_switch">HTTPS Her yerde</string>
+    <string name="brave_shields_blocks_scripts_switch">Betikleri Engelle</string>
+    <string name="accessibility_toolbar_btn_brave_shields">Osiris Korumalarını Aç/Kapat</string>
+    <string name="brave_shields_block_3rd_party_cookies_switch">Üçüncü kişi çerezlerini engelleyin</string>
+
+    <string name="httpse_summary">Desteklenen siteleri mümkün olduğunda HTTP yerine HTTPS kullanarak açar</string>
+    <string name="tracking_protection_title">İzleme Koruması Modu</string>
+    <string name="tracking_protection_summary">Sizi izleyen kaynakların yüklenmesini engeller</string>
+    <string name="ad_block_title">Reklam Engelleme</string>
+    <string name="ad_block_summary">Reklamların yüklenmesini engeller</string>
+
+    <string name="fingerprinting_protection_title">Parmak izi koruması</string>
+    <string name="fingerprinting_protection_summary">Tarayıcının parmak izi bırakmasını önler</string>
+    <string name="brave_shields_fingerprints_blocked">Parmak İzi Yöntemleri Engellendi</string>
+    <string name="brave_shields_block_fingerprints_switch">Parmak izi koruması</string>
+
+    <string name="ad_block_regional_title">Bölgesel Reklam Engeli</string>
+    <string name="ad_block_regional_summary">Bölgesel reklamların yüklenmesini önler</string>
+
+    <string name="ad_block_regional_summary_no_list">Yerel ayarınız için ek listeler yok</string>
+
+    <string name="menu_exit">Çıkış</string>
+
+    <string name="brave_sync">Osiris Sync</string>
+    <string name="brave_sync_description">Tarayıcı verilerini, Osiris Sync'i kullanarak
+cihazlarınız arasında güvenli bir şekilde senkronize edin,
+hiçbir hesap oluşturulması gerekli değildir.
+Başlamak için aşağıya dokunun.</string>
+    <string name="brave_sync_have_existing_code">Mevcut bir senkronizasyon kodum var</string>
+    <string name="sync_settings_add_device_name_title">Cihaz adı ekle</string>
+    <string name="sync_settings_add_device_name_label">Bu cihaz için isteğe bağlı bir ad girin</string>
+    <string name="sync_example_device_name">Android cihazı</string>
+    <string name="brave_sync_qrcode">Cihazı senkronize etme</string>
+    <string name="brave_sync_qrcode_message"> Cihazı senkronize kullanma Osiris Settings ayarlarını
+açar ve Cihaz ve amp;Ayarlar"ına yönlendirir,
+yeni bir cihaz eklemek için ve senkronizasyon
+kodu ortaya çıkarmak için"+" üzerine dokunun.</string>
+    <string name="enter_code_words_sync">Kod kelimeleri ekle</string>
+    <string name="enter_code_words_below_sync">Aşağıdaki kod kelimelerini girin.</string>
+    <string name="sync_device">Senkronizasyon cihazı</string>
+    <string name="sync_device_failure">Senk. sıfırlanamadı.</string>
+    <string name="sync_device_success">Senkronizasyon başarıyla tamamlandı</string>
+    <string name="reset_sync">Senkronizasyonu sıfırlayın</string>
+    <string name="resetting_sync">Bu cihazı Senk. ayarlarını sıfırlamak istediğinizden emin misiniz?</string>
+
+    <string name="brave_stats_text_trackers">Takipçiler
+Engellendi</string>
+    <string name="brave_stats_text_ads">Reklam
+Engellendi</string>
+    <string name="brave_stats_text_https">HTTPS
+Yükseltmeleri</string>
+    <string name="brave_stats_text_time">Tahmini Zaman
+Kaydedildi</string>
+
+    <string name="send_metrics_title">Ölçümleri gönder</string>
+
+    <string name="desktop_mode_title">Masaüstü Modu</string>
+    <string name="website_settings_category_desktop_view_enabled_summary">Sitelerin masaüstü versiyonunu tercih et</string>
+    <string name="website_settings_category_desktop_view_disabled_summary">Sitelerin mobil versiyonunu tercih et</string>
+    <string name="website_settings_category_desktop_view_enabled">Yeni sekmeler için Masaüstü Görünümünü Etkinleştir</string>
+    <string name="website_settings_category_desktop_view_disabled">Yeni sekmeler için sitelerin mobil versiyonlarını kullanın (önerilir)</string>
+
+    <string name="brave_shields_first_group_title">Ekranı Engelleme</string>
+    <string name="brave_shields_second_group_title">Bireysel Kontroller</string>
+    <string name="brave_shields">Kalkanlar</string>
+    <string name="brave_shields_ads_and_trackers">Reklamlar ve Takipçiler</string>
+    <string name="brave_shields_fingerprint_methods">Parmak İzi Yöntemleri</string>
+    <string name="brave_shields_block_phishing_switch">Kimlik Avını Engelleyin</string>
+
+    <string name="play_video_in_background_title">Arka planda vide oynatma</string>
+    <string name="website_settings_category_play_video_in_background_enabled_summary">Etkin</string>
+    <string name="website_settings_category_play_video_in_background_disabled_summary">Kapalı</string>
+    <string name="website_settings_category_play_video_in_background_enabled">Deneme niteliğinde. Sekme etkin olmadığında veya cihaz ekranı kapalıyken arka plandaki videnun oynatma sesini etkinleştirir. Bu özellik çalışmıyorsa masaüstü moduna geçmeyi deneyin.</string>
+    <string name="settings_require_relaunch_notice">Değişiklikleriniz Osiris\'i bir sonraki yeniden başlattığınızda geçerli olacak</string>
+    <string name="settings_require_relaunch_now">ŞİMDİ YENİDEN BAŞLAT</string>
+    <string name="settings_require_relaunch_later">SONRA</string>
+
+    <string name="play_yt_video_in_browser_title">Osiris\'de video oynatma</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled_summary">Etkin</string>
+    <string name="website_settings_category_play_yt_video_in_browser_disabled_summary">Devre Dışı</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled">Etkinleştirilmesi halinde videolar ilişkili uygulama yerine Osiris\'de oynatılacaktır</string>
+
+    <string name="close_tabs_on_exit_title">Çıkışta sekmeleri kapatın</string>
+    <string name="close_tabs_on_exit_summary">Tarama oturumları arasında sekmeleri sürdürmeyin</string>
+
+    <string name="open_pages_in_custom_tabs_title">Sekmeleri Özel Sekmelerde Açın</string>
+    <string name="open_pages_in_custom_tabs_summary">Sekmeleri Özel Sekmelerde açma teklifi</string>
+
+    <string name="ddg_offer_title">DuckDuckGo ile gizli arama yapılsın mı?</string>
+    <string name="ddg_offer_text">Gizli arama özelliği kullanıldığında Osiris, bu gizli sekmede yaptığınız aramaları yanıtlamak için DuckDuckGo\'yu kullanır. DuckDuckGo, arama geçmişinizi takip etmeyen ve gizli şekilde arama yapmanızı sağlayan bir arama motorudur.</string>
+    <string name="ddg_offer_positive">Evet</string>
+    <string name="ddg_offer_negative">Hayır</string>
+    <string name="ddg_offer_link">DuckDuckGo ile gizli arama yapma hakkında bilgi edinin</string>
+    <string name="prefs_standard_search_engine">Standart Sekme</string>
+    <string name="prefs_private_search_engine">Gizli Sekme</string>
+
+    <string name="brave_open_in_private_tab">Gizli sekmede aç</string>
+    <string name="brave_close_all_private_tabs">Gizli sekmeleri kapat</string>
+    <string name="brave_new_private_tab">Yeni gizli sekme</string>
+    <string name="brave_new_tab_private_header">Bu bir Gizli Sekme</string>
+    <string name="brave_new_tab_private_message">Gizli sekmelerde ziyaret ettiğiniz siteler yerel olarak kaydedilmese de anonim olarak kalmazsınız ve bu siteler internet servis sağlayıcınız, işvereniniz veya ziyaret ettiğiniz siteler tarafından görülebilir.</string>
+
+</resources>

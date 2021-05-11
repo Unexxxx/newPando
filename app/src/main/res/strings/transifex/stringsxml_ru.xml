@@ -1,0 +1,515 @@
+<resources>
+
+    <string name="brave_settings_title">Настройки Pando для</string>
+    <string name="brave_shields_down">Вниз</string>
+    <string name="brave_shields_up">Вверх</string>
+    <string name="brave_shields_ads_trackers">Объявления и трекеры заблокированы</string>
+    <string name="brave_shields_https_upgrades">Https Обновления</string>
+    <string name="brave_shields_scripts_blocked">Сценарии заблокированы</string>
+    <string name="brave_shields_ads_tracking_switch">Блокировка рекламы и отслеживания</string>
+    <string name="brave_shields_https_everywhere_switch">HTTPS Везде</string>
+    <string name="brave_shields_blocks_scripts_switch">Блок-скрипты</string>
+    <string name="accessibility_toolbar_btn_brave_shields">Включить/отключить щиты Пандо</string>
+    <string name="brave_shields_block_3rd_party_cookies_switch">Блок 3-й стороны печенье</string>
+
+    <string name="httpse_summary">Открывает поддерживаемые сайты с помощью HTTPS вместо HTTP, когда это возможно</string>
+    <string name="tracking_protection_title">Режим защиты слежения</string>
+    <string name="tracking_protection_summary">Предотвращает загрузку ресурсов, отслеживая вас</string>
+    <string name="ad_block_title">Рекламный блок</string>
+    <string name="ad_block_summary">Предотвращает загрузку рекламы</string>
+
+    <string name="fingerprinting_protection_title">Защита отпечатков пальцев</string>
+    <string name="fingerprinting_protection_summary">Предотвращает дактилоскопию браузера</string>
+    <string name="brave_shields_fingerprints_blocked">Методы дактилоскопии заблокированы</string>
+    <string name="brave_shields_block_fingerprints_switch">Защита отпечатков пальцев</string>
+
+    <string name="ad_block_regional_title">Региональный рекламный блок</string>
+    <string name="ad_block_regional_summary">Предотвращает загрузку региональных объявлений</string>
+
+    <string name="ad_block_regional_summary_no_list">Нет дополнительных списков, доступных для вашего места</string>
+
+    <string name="menu_exit">Выход</string>
+
+    <string name="brave_sync">Пандо Синхронизация</string>
+    <string name="brave_sync_description">Синхронизация данных браузера между устройствами
+        безопасно использовать Pando Sync, нет учетной записи
+        создание требуется. Нажмите ниже, чтобы начать работу.</string>
+    <string name="brave_sync_have_existing_code">У меня есть существующий код синхронизации</string>
+    <string name="sync_settings_add_device_name_title">Добавить имя устройства</string>
+    <string name="sync_settings_add_device_name_label">Введите дополнительное имя для этого устройства</string>
+    <string name="sync_example_device_name">Android устройство</string>
+    <string name="brave_sync_qrcode">Синхронизация с устройством</string>
+    <string name="brave_sync_qrcode_message">Использование существующего синхронизированного устройства открытое Pando
+        Настройки и перейдите на \"Устройство &amp;
+        Настройки\", нажмите \'q\', чтобы добавить новое устройство и
+        выявить код синхронизации.</string>
+    <string name="enter_code_words_sync">Введите кодовые слова</string>
+    <string name="enter_code_words_below_sync">Введите кодовые слова ниже.</string>
+    <string name="sync_device">Синхронизация устройства</string>
+    <string name="sync_device_failure">Синхронизация не может быть настроена</string>
+    <string name="sync_device_success">Настройка синхронизации успешно завершена</string>
+    <string name="reset_sync">Перезагрузка синхронизации...</string>
+    <string name="resetting_sync">Вы уверены, что хотите сбросить настройки синхронизации этого устройства?</string>
+
+    <string name="brave_stats_text_trackers">Трекеров
+        Заблокирован</string>
+    <string name="brave_stats_text_spyce">Спайс</string>
+    <string name="brave_stats_text_ads">Объявления
+        Заблокирован</string>
+    <string name="brave_stats_text_https">HTTPS
+        Обновления</string>
+    <string name="brave_stats_text_time">Est. Время
+        Сохранено</string>
+
+    <string name="send_metrics_title">Отправка метрик</string>
+
+    <string name="desktop_mode_title">Режим рабочего стола</string>
+    <string name="website_settings_category_desktop_view_enabled_summary">Предпочитают десктопную версию сайтов</string>
+    <string name="website_settings_category_desktop_view_disabled_summary">Предпочитаю мобильную версию сайтов</string>
+    <string name="website_settings_category_desktop_view_enabled">Включить просмотр рабочего стола для новых вкладок</string>
+    <string name="website_settings_category_desktop_view_disabled">Используйте мобильные версии сайтов для новых вкладок (рекомендуется)</string>
+
+    <string name="brave_shields_first_group_title">Блокирующий монитор</string>
+    <string name="brave_shields_second_group_title">Индивидуальные элементы управления</string>
+    <string name="brave_shields">Щиты</string>
+    <string name="brave_shields_ads_and_trackers">Объявления и трекеры</string>
+    <string name="brave_shields_fingerprint_methods">Методы отпечатков пальцев</string>
+    <string name="brave_shields_block_phishing_switch">Блокировка фишинга</string>
+
+    <string name="play_video_in_background_title">Воспроизведение фонового видео</string>
+    <string name="website_settings_category_play_video_in_background_enabled_summary">Включен</string>
+    <string name="website_settings_category_play_video_in_background_disabled_summary">Отключен</string>
+    <string name="website_settings_category_play_video_in_background_enabled">Экспериментальные. Позволяет воспроизведение аудио из видео в фоновом режиме, когда вкладка не активна или экран устройства выключен. Попробуйте переключиться на настольный режим, если эта функция не работает.</string>
+    <string name="settings_require_relaunch_notice">Ваши изменения вступят в силу при следующем перезапуске Pando</string>
+    <string name="settings_require_relaunch_now">ПЕРЕЗАПУСТИТЕ СЕЙЧАС</string>
+    <string name="settings_require_relaunch_later">Позже</string>
+
+    <string name="play_yt_video_in_browser_title">Воспроизведение видео в Пандо</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled_summary">Включен</string>
+    <string name="website_settings_category_play_yt_video_in_browser_disabled_summary">Отключен</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled">Если включено, видео будут воспроизведены в Pando вместо соответствующего приложения</string>
+
+    <string name="close_tabs_on_exit_title">Закрыть вкладки на выходе</string>
+    <string name="close_tabs_on_exit_summary">Не сохраняются вкладки между сеансами просмотра</string>
+
+    <string name="open_pages_in_custom_tabs_title">Открытые вкладки в пользовательских вкладок</string>
+    <string name="open_pages_in_custom_tabs_summary">Предложение открыть вкладки в пользовательских вкладок</string>
+
+    <string name="ddg_offer_title">Частный поиск с DuckDuckGo?</string>
+    <string name="ddg_offer_text">При личном поиске Pando будет использовать DuckDuckGo для ответа на ваши поиски, пока вы находитесь в этой частной вкладке. DuckDuckGo является поисковой системой, которая не отслеживает вашу историю поиска, что позволяет искать в частном порядке.</string>
+    <string name="ddg_offer_positive">Да</string>
+    <string name="ddg_offer_negative">Нет</string>
+    <string name="ddg_offer_link">Узнайте о приватном поиске с помощью DuckDuckGo</string>
+    <string name="prefs_standard_search_engine">Стандартная вкладка</string>
+    <string name="prefs_private_search_engine">Частная вкладка</string>
+
+    <string name="brave_open_in_private_tab">Открыт в частной вкладке</string>
+    <string name="brave_close_all_private_tabs">Закрыть частные вкладки</string>
+    <string name="brave_new_private_tab">Новая частная вкладка</string>
+    <string name="brave_new_tab_private_header">Это частная вкладка</string>
+    <string name="brave_new_tab_private_message">Даже если сайты, которые вы посещаете в частных вкладок не сохраняются локально, они не делают вас анонимным или невидимым для вашего провайдера, вашего работодателя, или на сайты, которые вы посещаете.</string>
+
+    <string name="fre_welcome_title">Поздравляю!</string>
+    <string name="fre_welcome_text">Добро пожаловать в Новый Web 3.0 Пандо</string>
+    <string name="menu_add_to_bookmarks">Добавить в</string>
+    <string name="menu_favorites">Избранное</string>
+    <string name="menu_mode_day">День</string>
+    <string name="menu_mode_night">Ночь</string>
+    <string name="menu_night_mode">Ночной режим</string>
+    <string name="menu_osiris_statistics">Статистика Пандо</string>
+    <string name="day_theme_on">Режим дня на</string>
+    <string name="day_theme_off">Выходной режим выходной</string>
+    <string name="add_to_favorites">Добавить в избранное</string>
+    <string name="favorites_placeholder_summary">Ваши избранные появятся здесь</string>
+
+    <!--  Pando Strings  -->
+    <string name="dashboard_popup_level">Уровень:</string>
+
+    <string name="dashboard_popup_title">Добро пожаловать в веб-браузер Pando</string>
+    <string name="dashboard_popup_message">Наслаждайтесь бесшовными, быстрыми и безопасными транзакциями под рукой. Ваши данные защищены с помощью постоянного шифрования, чтобы гарантировать, что все типы транзакций всегда будут оставаться частными и безопасными.</string>
+    <string name="dashboard_popup_view_profile">Посмотреть профиль</string>
+    <string name="dashboard_popup_pando_mined">ПАНДО Минеда</string>
+    <string name="dashboard_popup_referral_earnings">Реферальные доходы</string>
+    <string name="dashboard_popup_mining_runtime">Время выполнения майнинга</string>
+    <string name="dashboard_popup_membership_balance">Общий баланс</string>
+    <string name="dashboard_popup_reward_dashboard">Вознаграждение приборной панели</string>
+    <string name="dashboard_popup_member_dashboard">Панель мониторинга участников</string>
+    <string name="dashboard_popup_vpn">VPN</string>
+    <string name="dashboard_popup_ads_mining">Реклама Майнинг</string>
+
+    <string name="login_already_have">У вас уже есть учетная запись?</string>
+    <string name="login_button">Входа</string>
+    <string name="login_message">Добро пожаловать в свой собственный веб-браузер Pando! Теперь вы можете наслаждаться бесшовными, быстрыми и безопасными транзакциями под рукой.</string>
+    <string name="login_email_label">Электронная почта</string>
+    <string name="login_email_hint">Введите адрес электронной почты</string>
+    <string name="login_password_label">Пароль</string>
+    <string name="login_password_hint">Введите пароль</string>
+    <string name="login_remember_me">Запоми меня</string>
+    <string name="login_forgot_password">Забыли пароль?</string>
+    <string name="login_reset_device_id">Идентификатор устройства сброса</string>
+    <string name="login_needs_device_verification_title">Проверка устройств</string>
+    <string name="login_needs_device_verification_message">Вы используете новое устройство. Вы уверены, что хотите войти в систему? Вы будете автоматически выйти из существующего устройства.</string>
+    <string name="login_needs_device_verification_action_text">Продолжить</string>
+    <string name="login_multiple_device_not_supported_title">Функция не поддерживается</string>
+    <string name="login_multiple_device_not_supported_message">Вход в систему на нескольких устройствах поддерживается только для пользователей с планом.</string>
+    <string name="login_multiple_device_not_supported_action_text">Хорошо</string>
+
+    <string name="forgot_password_title">Забыли пароль?</string>
+    <string name="forgot_password_message">Введите свой адрес электронной почты, который вы используете для своей учетной записи ниже, и мы отправим код проверки для сброса пароля.</string>
+    <string name="forgot_password_email_label">Электронная почта</string>
+    <string name="forgot_password_email_hint">Введите адрес электронной почты</string>
+    <string name="forgot_password_continue">Продолжить</string>
+
+    <string name="email_otp_title">Проверка электронной почты</string>
+    <string name="email_otp_message">Введите код проверки, который мы только что отправили вам на ваш адрес электронной почты для сброса пароля.</string>
+    <string name="email_otp_code_label">Код проверки</string>
+    <string name="email_otp_reset_password">Сброс пароля</string>
+
+    <string name="device_otp_message">Введите код проверки, который мы только что отправили вам на ваш адрес электронной почты для обновления устройства.</string>
+    <string name="device_otp_update_device">Обновление устройства</string>
+    <string name="device_otp_title_dialog">Проверка завершена!</string>
+    <string name="device_otp_message_dialog">Вы успешно проверили свою учетную запись с помощью нового устройства.</string>
+    <string name="device_otp_action_text">Войти сейчас</string>
+
+    <string name="setup_password_title">Настройка нового пароля</string>
+    <string name="setup_password_message">Ваш новый пароль должен соответствовать требованиям политики паролей для этой учетной записи.</string>
+    <string name="setup_password_req1">Должно быть не менее 8 символов длиной</string>
+    <string name="setup_password_req2">Должен включать по крайней мере одну букву верхнего регистра</string>
+    <string name="setup_password_req3">Должен включать по крайней мере одну букву нижнего регистра</string>
+    <string name="setup_password_req4">Должен включать по крайней мере один номер</string>
+    <string name="setup_password_req5">Должен включать по крайней мере один не-альфанумерный символ</string>
+    <string name="setup_password_password_label">Пароль</string>
+    <string name="setup_password_password_hint">Введите пароль</string>
+    <string name="setup_password_cpassword_label">Подтвердить пароль</string>
+    <string name="setup_password_cpassword_hint">Повторно введите пароль</string>
+    <string name="setup_password_password_str">Сила пароля</string>
+    <string name="setup_password_submit">Отправить</string>
+
+    <string name="change_password_title">Изменение пароля</string>
+    <string name="change_password_message">Ваш новый пароль должен соответствовать требованиям политики паролей для этой учетной записи.</string>
+    <string name="change_password_old_password_label">Старый пароль</string>
+    <string name="change_password_old_password_hint">Введите свой старый пароль</string>
+    <string name="change_password_password_label">Новый пароль</string>
+    <string name="change_password_password_hint">Введите пароль</string>
+    <string name="change_password_cpassword_label">Подтвердить пароль</string>
+    <string name="change_password_cpassword_hint">Повторно введите пароль</string>
+    <string name="change_password_password_str">Сила пароля</string>
+    <string name="change_password_save">Сохранить</string>
+    <string name="change_password_dialog_title">Успех</string>
+    <string name="change_password_dialog_message">Пароль обновлен!</string>
+
+    <string name="signup_donthaveaccount">У вас нет учетной записи?</string>
+    <string name="signup_button">Регистрации</string>
+    <string name="signup_title">Информация об учетной записи</string>
+    <string name="signup_fullname_label">Полное имя</string>
+    <string name="signup_fullname_hint">Введите свое полное имя</string>
+    <string name="signup_email_label">Электронная почта</string>
+    <string name="signup_email_hint">Введите адрес электронной почты</string>
+    <string name="signup_password_label">Пароль</string>
+    <string name="signup_password_hint">Введите пароль</string>
+    <string name="signup_cpassword_label">Подтвердить пароль</string>
+    <string name="signup_cpassword_hint">Повторно введите пароль</string>
+    <string name="signup_password_str">Сила пароля</string>
+    <string name="signup_country_label">Страны</string>
+
+    <string name="referral_code_title">Реферальный код</string>
+    <string name="referral_code_message">Пожалуйста, предоставьте реферальный код, который приглашает вас на эту платформу. Спасибо</string>
+    <string name="referral_code_referral_label">Реферальный код</string>
+    <string name="referral_code_referral_hint">Введите реферальный код</string>
+    <string name="referral_code_scan_qrcode">Сканирование КР-кода направления</string>
+    <string name="referral_code_skip_for_now">Пропустить на данный момент</string>
+    <string name="referral_code_continue">Продолжить</string>
+
+    <string name="mining_popup_title">Горнодобывающей</string>
+    <string name="mining_popup_pando_mined">ПАНДО Минеда</string>
+    <string name="mining_popup_total_balance">Общий баланс</string>
+
+    <string name="toast_invalid_credentials">Недействительные учетные данные</string>
+    <string name="toast_user_email_not_registered">Пользователь с электронной почтой `%s` не зарегистрирован</string>
+    <string name="toast_creds_cannot_empty">Электронная почта или пароль не могут быть пустыми</string>
+    <string name="toast_check_connectivity">Пожалуйста, проверьте подключение к Интернету</string>
+    <string name="toast_account_not_validated">Ваша учетная запись не проверена</string>
+    <string name="toast_user_logged_in">Пользователь вошел в систему</string>
+    <string name="toast_minimum_password_level">Пароль недостаточно силен для своего формата</string>
+    <string name="toast_all_fields_are_required">Требуются все поля</string>
+    <string name="toast_password_did_not_match">Пароли не соответствовали</string>
+    <string name="toast_old_password_incorrect">Неправильный старый пароль</string>
+    <string name="toast_invalid_email_format">Недействительный формат электронной почты</string>
+    <string name="toast_email_already_exists">Электронная почта уже существует</string>
+    <string name="toast_user_registered">Пользователь зарегистрирован</string>
+    <string name="toast_email_cannot_be_empty">Электронная почта не может быть пустой</string>
+    <string name="toast_email_does_not_exist">Электронная почта не существует</string>
+    <string name="toast_otp_code_should_be_6_digits">OTP-код должен быть 6 цифр</string>
+    <string name="toast_otp_code_cannot_be_empty">OTP-код не может быть пустым</string>
+    <string name="toast_invalid_otp_code">Недействительный OTP-код</string>
+    <string name="toast_password_not_strong_enough">Пароль недостаточно силен для своего формата</string>
+    <string name="toast_new_password_cannot_be_empty">Новый пароль не может быть пустым</string>
+    <string name="toast_password_cannot_be_empty">Пароль не может быть пустым</string>
+    <string name="toast_cpassword_cannot_be_empty">Подтверждение пароля не может быть пустым</string>
+    <string name="toast_old_password_cannot_be_empty">Старый пароль не может быть пустым</string>
+    <string name="toast_password_is_successfully_updated">Вы успешно обновили пароль</string>
+    <string name="toast_referral_invalid_code">Недействительный реферальный код.</string>
+    <string name="toast_referral_code_cannot_be_empty">Реферальный код необходим и не может быть пустым.</string>
+    <string name="toast_referrer_invalid_code">Недействительный реферер-код.</string>
+    <string name="toast_account_is_deactivated">Учетная запись деактивирована.</string>
+    <string name="toast_relogin_needed">Срок действия сеанса истек. Для входа в учетные данные.</string>
+    <string name="toast_feature_will_be_soon">Эта функция будет доступна в ближайшее время.</string>
+    <string name="toast_copied_to_clipboard">Копируется на буфер обмена</string>
+
+    <string name="toast_vpn_feature_will_be_soon">"VPN переключатель" будет поддерживаться в ближайшее время, пожалуйста, проверьте pandobrowser.com сайт для обновления.</string>
+    <string name="toast_ads_mining_feature_will_be_soon">"Реклама Майнинг" будет поддерживаться в ближайшее время, пожалуйста, проверьте pandobrowser.com сайт для обновления.</string>
+    <string name="toast_rewards_feature_will_be_soon">"Награды Dashboard" будет поддерживаться в ближайшее время, пожалуйста, проверьте pandobrowser.com сайт для обновления.</string>
+    <string name="toast_view_profile_feature_will_be_soon">"Посмотреть профиль" будет поддерживаться в ближайшее время, пожалуйста, проверьте pandobrowser.com для обновления.</string>
+
+    <string name="progress_dialog_title">Подождите</string>
+    <string name="progress_dialog_logging_in">Вход в систему...</string>
+    <string name="progress_dialog_signing_up">Регистрация...</string>
+    <string name="progress_dialog_sending_otp_code">Отправка OTP-кода...</string>
+    <string name="progress_dialog_verifying_email">Проверка электронной почты...</string>
+    <string name="progress_dialog_saving_new_password">Сохранение нового пароля...</string>
+    <string name="progress_dialog_verifying_referral_code">Проверка реферального кода...</string>
+    <string name="progress_dialog_verifying_referrer_code">Проверка кода реферера...</string>
+    <string name="progress_dialog_loading_users">Загрузка пользователей в соответствии с вашим планом...</string>
+    <string name="progress_dialog_saving_changes">Сохранение изменений...</string>
+
+    <string name="users_nothing_under_plan">Пока нет пользователей по вашему плану</string>
+    <string name="users_under_my_plan_label">Пользователи по моему плану</string>
+
+    <string name="account_settings_save">Сохранить</string>
+    <string name="account_settings_edit_information">Редактировать информацию</string>
+    <string name="account_settings_reminder_title">Напоминание</string>
+    <string name="account_settings_reminder_continue">Продолжить</string>
+    <string name="account_settings_reminder_cancel">Отмена</string>
+    <string name="account_settings_reminder_message_save">Вы можете ввести реферер код только один раз. Вы не сможете изменить это, как только он успешно сохранен.</string>
+    <string name="account_settings_reminder_message_edit">Вы можете ввести реферер код только один раз. Вы не сможете изменить его сейчас.</string>
+    <string name="account_settings_discard_changes">Отказаться от изменений?</string>
+    <string name="account_settings_already_setup">У вас уже есть реферер-код.</string>
+    <string name="account_settings_cannot_use_own_referral_code_as_referrer_code">Вы не можете использовать свой собственный реферальный код в качестве реферального кода.</string>
+    <string name="account_settings_cannot_be_empty">Полное имя не может быть пустым.</string>
+
+    <string name="update_available_title">Обновление браузера Pando</string>
+    <string name="update_available_message">Доступно обновление. Загрузите версию для лучшего опыта Pando.</string>
+    <string name="update_available_confirm">Подтвердить</string>
+    <string name="update_available_skip">Пропустить</string>
+    <string name="update_available_install_via_playstore">Вы можете установить последнюю версию через Google Play Store.</string>
+
+    <string name="pando_games_comingsoon">Пандо игры в ближайшее время</string>
+
+    <string name="fre_pando_page1_title">Просмотр быстрее</string>
+    <string name="fre_pando_page1_message">В 3-7 раз быстрее, чем традиционный просмотр веб-страниц с его гипер-скорости просмотра.</string>
+    <string name="fre_pando_page2_title">Блокировка объявлений и трекеров</string>
+    <string name="fre_pando_page2_message">Блокирует все навязчивые объявления. Выпивка смотреть содержание в течение нескольких часов без перерывов.</string>
+    <string name="fre_pando_page3_title">Защитите свою конфиденциальность</string>
+    <string name="fre_pando_page3_message">Защищает и защищает данные и конфиденциальность пользователей&apos;, гарантируя, что они не будут переданы третьим лицам.</string>
+    <string name="fre_pando_page4_title">Заработок Вознаграждение</string>
+    <string name="fre_pando_page4_message">Добыча Pando Runtime позволяет получать вознаграждение с помощью экосистемных продуктов Pando. Не забудьте следить за обновлениями, чтобы наслаждаться максимальной выгодой.</string>
+
+    <string name="fre_pando_next">Следующий</string>
+    <string name="fre_pando_get_started">Начать работу</string>
+
+    <string name="toolbar_phone_close_all">Закрыть все</string>
+
+    <string name="edit_favorite_label">Редактировать этикетку</string>
+    <string name="edit_favorite_save">Сохранить</string>
+
+    <string name="under_maintenance_title">Обслуживания</string>
+    <string name="under_maintenance_message">В настоящее время мы находимся на техническом обслуживании на сервере, чтобы улучшить ваш опыт. Это не займет много времени. Приносим свои извинения за доставленные неудобства.</string>
+    <string name="under_maintenance_ok">Хорошо</string>
+
+    <string name="password_str_1">Слишком короткая</string>
+    <string name="password_str_2">Слабым</string>
+    <string name="password_str_3">Справедливой</string>
+    <string name="password_str_4">Хорошо</string>
+    <string name="password_str_5">Сильный</string>
+    <string name="password_str_6">Очень сильный</string>
+
+    <string name="search_engine_title">Поисковой</string>
+    <string name="coming_soon_title">Скоро</string>
+
+    <string name="prefs_section_basics">Основные</string>
+    <string name="prefs_display_title">Внешний вид</string>
+    <string name="prefs_autofill_and_payments">Автозаполненные и платежи</string>
+    <string name="prefs_saved_passwords_title">Пароли</string>
+    <string name="prefs_notifications">Уведомления</string>
+
+    <string name="prefs_section_advanced">Дополнительные</string>
+    <string name="prefs_privacy">Конфиденциальности</string>
+    <string name="prefs_accessibility">Доступность</string>
+    <string name="prefs_site_settings">Настройки сайта</string>
+    <string name="prefs_languages">Языки</string>
+    <string name="menu_downloads">Загрузки</string>
+    <string name="prefs_about_pando">О Браузере Пандо</string>
+
+    <string name="prefs_display_theme">Тема</string>
+
+    <string name="cookies_title">Печенье</string>
+    <string name="pando_android_settings_permission_off_plural">Включите разрешения для Pando в &lt;link&gt;Настройках Android&lt;/link&gt;.</string>
+    <string name="pando_android_settings_permission_off">Включите разрешение для Pando в &lt;link&gt;Настройках Android&lt;/link&gt;.</string>
+    <string name="pando_legal_information_summary">Авторское право %1$d Pando Software Inc. Все права зарезервированы.</string>
+    <string name="terms_of_service_title">Пандо Условия обслуживания</string>
+    <string name="privacy_notice_title">Уведомление о конфиденциальности Pando</string>
+
+    <string name="dialog_negative_title">Oops...</string>
+    <string name="dialog_positive_action">Хорошо</string>
+
+    <string name="account_settings_title">Настройки учетной записи</string>
+    <string name="account_settings_fullname_label">Полное имя</string>
+    <string name="account_settings_email">Электронная почта</string>
+    <string name="account_settings_referrer_code">Код реферера</string>
+    <string name="account_settings_password">Пароль</string>
+    <string name="account_settings_change_password">Изменение пароля</string>
+    <string name="account_settings_country">Страны</string>
+    <string name="account_settings_eth_wallet">Ethereum Кошелек</string>
+    <string name="account_settings_pando_wallet">Пандо Кошелек</string>
+    <string name="account_settings_logout">Выход</string>
+
+    <string name="member_dashboard_membership_bonus">Бонус за членство</string>
+    <string name="member_dashboard_referral_bonus">Реф</string>
+    <string name="member_dashboard_local_mining">Местная добыча полезных ископаемых</string>
+    <string name="member_dashboard_pando_balance">Пандо Заработок</string>
+    <string name="member_dashboard_download_link">Ссылка на реферальную загрузку</string>
+    <string name="member_dashboard_referral_code">Реферальный код</string>
+    <string name="member_dashboard_referral_analytics">Реферальная аналитика</string>
+    <string name="member_dashboard_total_users">Всего пользователей в соответствии с моим планом</string>
+    <string name="member_dashboard_view_all_users">Посмотреть все пользователи</string>
+    <string name="member_dashboard_view_transaction_history">Просмотр истории транзакций</string>
+    <string name="member_dashboard_show_qr_code">Показать код КР</string>
+
+    <string name="sw_mining_title">SW Майнинг</string>
+    <string name="sw_mining_membership_level">Уровень членства</string>
+    <string name="sw_mining_total_balance">Общий баланс</string>
+
+    <string name="tab_header_ads_blocked">Объявления заблокированы</string>
+    <string name="tab_header_data_saved">Данные сохранены</string>
+    <string name="tab_header_time_saved">Сэкономлено время</string>
+
+    <string name="user_loggedin_to_different_device">Вы вошли в систему на другое устройство. Вы будете зарегистрированы здесь.</string>
+
+    <string name="reset_device_id_title">Идентификатор устройства сброса</string>
+    <string name="reset_device_id_message">Введите свой адрес электронной почты, который вы используете для своей учетной записи ниже, и мы отправим код проверки для сброса идентификатора устройства.</string>
+    <string name="reset_device_id_email_label">Электронная почта</string>
+    <string name="reset_device_id_email_hint">Введите адрес электронной почты</string>
+    <string name="reset_device_id_continue">Продолжить</string>
+
+    <string name="pando_edit_label">Редактировать этикетку</string>
+
+    <string name="member_dashboard_sun">Солнце</string>
+    <string name="member_dashboard_mon">Пн</string>
+    <string name="member_dashboard_tue">Вт</string>
+    <string name="member_dashboard_wed">Ср</string>
+    <string name="member_dashboard_thu">Чт</string>
+    <string name="member_dashboard_fri">Пт</string>
+    <string name="member_dashboard_sat">Сидел</string>
+    <string name="member_dashboard_download_link_label">Скачать ссылку</string>
+    <string name="member_dashboard_referral_code_label">Реферальный код</string>
+
+    <string name="member_dashboard_withdrawable_balance">Выводной остаток</string>
+    <string name="member_dashboard_withdraw">Снятия</string>
+    <string name="member_dashboard_previous_withdrawn">Предыдущий снятый</string>
+    <string name="member_dashboard_transaction_history">История транзакций</string>
+
+    <string name="withdrawal_page_title">Вывести Пандо</string>
+    <string name="withdrawal_page_withdrawable_balance_label">Выводной остаток</string>
+    <string name="withdrawal_page_to_label">Кому</string>
+    <string name="withdrawal_page_amount_label">Сумма</string>
+    <string name="withdrawal_page_max_amount">Макс Сумма</string>
+    <string name="withdrawal_page_to_hint">Введите адрес кошелька Pando</string>
+    <string name="withdrawal_page_amount_hint">Введите сумму</string>
+    <string name="withdrawal_page_continue">Продолжить</string>
+    <string name="withdrawal_page_cancel">Отмена</string>
+    <string name="withdrawal_page_invalid_wallet_address">Недействительный адрес кошелька Pando</string>
+    <string name="withdrawal_page_invalid_balance">Недействительный баланс Пандо</string>
+    <string name="withdrawal_page_withdraw_limit_policy">Снятие лимита на политику транзакций</string>
+    <string name="withdrawal_page_minimum_amount">Мин Сумма (PANDO)</string>
+    <string name="withdrawal_page_maximum_amount">Максимальная сумма (PANDO)</string>
+    <string name="withdrawal_page_daily_limit">Дневной лимит</string>
+
+    <string name="withdrawal_confirmation_page_title">Подтверждение транзакции</string>
+    <string name="withdrawal_confirmation_page_messages">Пожалуйста, проверьте детали транзакции, если все правильно. Нажмите кнопку подтверждения ниже, чтобы обработать вывод вашего PANDO.</string>
+    <string name="withdrawal_confirmation_page_to_label">Кому</string>
+    <string name="withdrawal_confirmation_page_amount_label">Сумма</string>
+    <string name="withdrawal_confirmation_page_transaction_fee_label">Плата за транзакции</string>
+    <string name="withdrawal_confirmation_page_receivable_amount_label">Сумма дебиторской задолженности</string>
+    <string name="withdrawal_confirmation_page_confirm">Подтвердить</string>
+    <string name="withdrawal_confirmation_page_cancel">Назад</string>
+
+    <string name="pando_contextual_search_description">
+        Узнайте о темах на веб-сайтах, не покидая страницы. Нажмите на поиск отправляет слово и окружающий его контекст в поиск Google, возвращая определения, фотографии, результаты поиска и другие детали.
+
+        Чтобы настроить срок поиска, долго нажмите, чтобы выбрать. Чтобы усовершенствовать поиск, сдвиньте панель вверх и коснитесь окна поиска.
+    </string>
+    <string name="progress_dialog_validating_wallet_address">Проверка адреса кошелька...</string>
+    <string name="toast_invalid_withdrawable_amount">Недействительная сумма. Пожалуйста, введите сумму снятия в пределах минимальной и максимально допустимой суммы.</string>
+
+    <string name="withdrawal_page_invalid_range_amount">Недействительная сумма. Пожалуйста, введите сумму снятия в пределах минимальной и максимально допустимой суммы.</string>
+    <string name="withdrawal_page_withdrawable_amount_exceeded">Недействительная сумма. Сумма вывода не должна превышать выемый остаток.</string>
+    <string name="withdrawal_page_remaining_amount_exceeded">Сумма превышает ваш дневной лимит</string>
+    <string name="progress_dialog_processing_withdrawal">Обработка вывода...</string>
+
+    <string name="no_transaction_history">Пока нет транзакций</string>
+    <string name="transaction_history_label">История транзакций</string>
+    <string name="transaction_failed">Сбой при</string>
+    <string name="transaction_processing">Ожидающие</string>
+    <string name="transaction_completed">Завершена</string>
+    <string name="transaction_withdraw_to_external_account">Вывести Pando на внешний счет</string>
+    <string name="transaction_details_date_time">Дата &amp; Время</string>
+    <string name="transaction_details_transaction_hash">Сделка Хэш</string>
+    <string name="transaction_details_close">Закрыть</string>
+    <string name="transaction_new">Новые функции</string>
+
+    <string name="progress_dialog_loading_transactions">Загрузка транзакций...</string>
+    <string name="withdrawal_page_withdrawal_limit_updated">Сумма лимита вывода была обновлена, любезно проверить и обработать ваш вывод PANDO снова.</string>
+    <string name="withdrawal_confirmation_page_transaction_fee_updated">Плата за транзакции была обновлена, любезно проверить и обработать ваш вывод PANDO снова.</string>
+
+    <string name="signup_verify_recaptcha">Проверка reCaptcha</string>
+    <string name="signup_protected_by_recaptcha">Защищено reCAPTCHA</string>
+    <string name="toast_recaptcha_error">Не удалось проверить reCaptcha</string>
+    <string name="toast_verify_recaptcha">Пожалуйста, проявите reCaptcha</string>
+
+    <string name="two_fa_title">Двухфакторная аутентификация</string>
+    <string name="two_fa_message">OTP был отправлен вам по электронной почте. Пожалуйста, введите код ниже.</string>
+    <string name="two_fa_continue">Продолжить</string>
+    <string name="two_fa_cancel">Отмена</string>
+    <string name="signup_verification_successful">Проверка Успешная</string>
+
+    <string name="withdrawal_page_is_not_available">Вывод PANDO на данный момент недоступен. Пожалуйста, повторите попытку позже.</string>
+
+    <string name="login_please_update_website">Запрос отклонен. В последнее время мы улучшили нашу безопасность. Пожалуйста, скачайте и установите последнюю версию с нашего сайта (https://pandobrowser.com) для продолжения.</string>
+    <string name="login_please_update_playstore">Запрос отклонен. В последнее время мы улучшили нашу безопасность. Пожалуйста, загрузите и установите последнюю версию с нашего сайта (https://pandobrowser.com) или из Google Play Store, чтобы продолжить.</string>
+
+    <string name="user_has_pending_withdrawal">У вас есть текущая транзакция вывода токенов Pando. Пожалуйста, подождите, пока он будет завершен, прежде чем выполнять еще один вывод. Спасибо.</string>
+    <string name="reprocess_pando_withdrawal">Ошибка при проверке суммы снятия. Пожалуйста, переработайте ваш вывод PANDO.</string>
+
+    <string name="two_fa_resend_message">Resend OTP будет доступен в %d sec</string>
+    <string name="two_fa_did_not_get_the_code">Не получил код?</string>
+    <string name="two_fa_resend_action">Код OTP resend</string>
+    <string name="two_fa_error_sending_otp">Ошибка при попытке отправить OTP на вашу электронную почту. Пожалуйста, попробуйте еще раз.</string>
+    <string name="two_fa_success_sending_otp">Отправка OTP Успешно!</string>
+    <string name="device_otp_resend_message">Электронная почта Resend будет доступна в %d sec</string>
+    <string name="device_otp_did_not_get_the_code">Не получил код?</string>
+    <string name="device_otp_resend_action">Электронная почта Resend</string>
+    <string name="device_otp_error_sending_otp">Ошибка при попытке отправить OTP на вашу электронную почту. Пожалуйста, попробуйте еще раз.</string>
+    <string name="device_otp_success_sending_otp">Отправка OTP Успешно!</string>
+
+    <string name="toast_otp_expired">OtP-код уже истек.</string>
+
+    <string name="too_much_request_verify_login">Слишком много запросов в логин</string>
+    <string name="too_much_request_create_account">Запрос на регистрацию отправлен. Пожалуйста, попробуйте войти с помощью учетной записи электронной почты.</string>
+    <string name="too_much_request_withdraw">Недавний вывод все еще продолжается. Пожалуйста, сделайте еще один вывод позже.</string>
+
+    <string name="two_fa_message_resent">OTP был возмущен к вам по электронной почте. Пожалуйста, введите код ниже.</string>
+    <string name="search_or_input_url">URL-адрес поиска или ввода</string>
+    <string name="device_otp_congratulations">Поздравляем и добро пожаловать в Pando Браузер. Вы успешно входите в систему с помощью нового устройства. Спасибо.</string>
+    <string name="signup_email_invalid_title">Ваш адрес электронной почты недействителен</string>
+    <string name="signup_email_invalid">Пожалуйста, свяжитесь с &lt;link&gt;info@pandobrowser.com&lt;/link&gt; для получения дополнительной поддержки.</string>
+
+    <string name="member_dashboard_max_withdrawal_amount_reached">Вы достигли разрешенной суммы вывода средств за день. Пожалуйста, попробуйте еще раз завтра.</string>
+    <string name="member_dashboard_max_withdrawal_transaction_count_reached">Вы достигли максимального количества транзакций вывода средств за день. Пожалуйста, попробуйте еще раз завтра.</string>
+
+    <string name="withdrawal_page_remaining_withdrawable_amount">Оставшаяся сумма на день (PANDO)</string>
+    <string name="withdrawal_page_remaining_transaction">Оставшаяся транзакция на день</string>
+    <string name="withdrawal_page_policy_updated">Обновление политики!</string>
+    <string name="withdrawal_page_daily_withdrawal_limit_updated">Была обновлена ежедневная политика вывода средств. Хорошо проверить и обработать ваш вывод снова.</string>
+    <string name="withdrawal_page_max_number_of_transaction_per_day_updated">Обновлено максимальное количество транзакций в день. Вы достигли максимального количества транзакций вывода средств за день. Пожалуйста, попробуйте еще раз завтра.</string>
+    <string name="withdrawal_page_daily_withdrawable_amount_limit_updated">Ежедневный лимит суммы снятия средств был обновлен. Теперь у вас есть 0 ставшиеся сумма. Попробуйте завтра еще раз.</string>
+</resources>

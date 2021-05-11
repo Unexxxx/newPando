@@ -1,0 +1,110 @@
+<resources>
+
+    <string name="brave_settings_title">Skjoldinnstillinger for Osiris-nettstedet</string>
+    <string name="brave_shields_down">Ned</string>
+    <string name="brave_shields_up">Opp</string>
+    <string name="brave_shields_ads_trackers">Annonser og sporing blokkert</string>
+    <string name="brave_shields_https_upgrades">HTTPS-oppgraderinger</string>
+    <string name="brave_shields_scripts_blocked">Skript blokkert</string>
+    <string name="brave_shields_ads_tracking_switch">Blokker annonser og sporing</string>
+    <string name="brave_shields_https_everywhere_switch">HTTPS overalt</string>
+    <string name="brave_shields_blocks_scripts_switch">Blokker skript</string>
+    <string name="accessibility_toolbar_btn_brave_shields">Aktiver/deaktiver Osiris-skjold</string>
+    <string name="brave_shields_block_3rd_party_cookies_switch">Blokker informasjonskapsler fra tredjeparter</string>
+
+    <string name="httpse_summary">Åpner støttede nettsteder ved å bruke HTTPS i stedet for HTTP når mulig</string>
+    <string name="tracking_protection_title">Sporingsbeskyttelsesmodus</string>
+    <string name="tracking_protection_summary">Forhindrer ressurser som sporer deg fra å starte</string>
+    <string name="ad_block_title">Blokker annonse</string>
+    <string name="ad_block_summary">Forhindrer annonser å starte</string>
+
+    <string name="fingerprinting_protection_title">Beskyttelse mot bruk av fingeravtrykk</string>
+    <string name="fingerprinting_protection_summary">Hindrer nettleser I å bruke fingeravtrykk</string>
+    <string name="brave_shields_fingerprints_blocked">Metoder for bruk av fingeravtrykk blokkert</string>
+    <string name="brave_shields_block_fingerprints_switch">Beskyttelse mot bruk av fingeravtrykk</string>
+
+    <string name="ad_block_regional_title">Regional annonse blokkering</string>
+    <string name="ad_block_regional_summary">Hindrer regionale annonser fra å laste</string>
+
+    <string name="ad_block_regional_summary_no_list">Ingen flere lister tilgjengelig for din lokasjon</string>
+
+    <string name="menu_exit">Utgang</string>
+
+    <string name="brave_sync">Osiris Sync</string>
+    <string name="brave_sync_description">Synk nettleserdata sikkert, mellom dine enheter
+med Osiris Synk, ingen konto må opprettes.
+Tapp under for å starte.</string>
+    <string name="brave_sync_have_existing_code">Jeg har en eksisterende synkkode</string>
+    <string name="sync_settings_add_device_name_title">Legg til enhetsnavn</string>
+    <string name="sync_settings_add_device_name_label">Skriv inn et valgfritt navn for denne enheten</string>
+    <string name="sync_example_device_name">Android enhet</string>
+    <string name="brave_sync_qrcode">Synkroniser til enhet</string>
+    <string name="brave_sync_qrcode_message">Med en allerede synkronisert enhet åpne Osiris Settings og gå til
+"Device &amp;Settings", fanen `+` for å lege til
+en ny enhet og vise synkroniseringskoden.</string>
+    <string name="enter_code_words_sync">Skriv inn kode ord</string>
+    <string name="enter_code_words_below_sync">Skriv kodeordene under</string>
+    <string name="sync_device">Synk enhet</string>
+    <string name="sync_device_failure">Synk kunne ikke settes opp</string>
+    <string name="sync_device_success">Synkronisering er fullført med suksess.</string>
+    <string name="reset_sync">Reset Synk…</string>
+    <string name="resetting_sync">Er du sikker på at du vil resette denne enheten Synk innstillinger?</string>
+
+    <string name="brave_stats_text_trackers">Sporing
+blokkert</string>
+    <string name="brave_stats_text_ads">Annonser
+blokkert</string>
+    <string name="brave_stats_text_https">HTTPS-
+oppgraderinger</string>
+    <string name="brave_stats_text_time">Beregnet tid
+Lagret</string>
+
+    <string name="send_metrics_title">Send beregninger</string>
+
+    <string name="desktop_mode_title">Skrivebordsmodus</string>
+    <string name="website_settings_category_desktop_view_enabled_summary">Foretrekker skrivebordsversjon av sidene</string>
+    <string name="website_settings_category_desktop_view_disabled_summary">Foretrekker mobilversjon av sidene</string>
+    <string name="website_settings_category_desktop_view_enabled">Aktiver skrivebordsvisning for nye faner</string>
+    <string name="website_settings_category_desktop_view_disabled">Bruk nettstedenes mobilversjoner for nye faner (anbefalt)</string>
+
+    <string name="brave_shields_first_group_title">Blokkeringsmonitor</string>
+    <string name="brave_shields_second_group_title">Individuelle kontroller</string>
+    <string name="brave_shields">Skjermer</string>
+    <string name="brave_shields_ads_and_trackers">Annonser og sporinger</string>
+    <string name="brave_shields_fingerprint_methods">Fingeravtrykksmetoder</string>
+    <string name="brave_shields_block_phishing_switch">Blokker nettfisking</string>
+
+    <string name="play_video_in_background_title">Videoavspilling i bakgrunnen</string>
+    <string name="website_settings_category_play_video_in_background_enabled_summary">Aktivert</string>
+    <string name="website_settings_category_play_video_in_background_disabled_summary">Deaktivert</string>
+    <string name="website_settings_category_play_video_in_background_enabled">Eksperimentelt. Gjør det mulig å spille av lyd fra video i bakgrunnen når fanen ikke er aktiv eller skjermen på enheten er avslått. Prøv å bytte til skrivebordsmodus hvis denne funksjonen ikke virker.</string>
+    <string name="settings_require_relaunch_notice">Endringene dine trer i kraft neste gang du starter Osiris på nytt</string>
+    <string name="settings_require_relaunch_now">START PÅ NYTT NÅ</string>
+    <string name="settings_require_relaunch_later">SENERE</string>
+
+    <string name="play_yt_video_in_browser_title">Videoavspilling i Osiris</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled_summary">Aktivert</string>
+    <string name="website_settings_category_play_yt_video_in_browser_disabled_summary">Deaktivert</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled">Hvis dette er aktivert, blir videoer spilt av i Osiris i stedet for den tilhørende appen</string>
+
+    <string name="close_tabs_on_exit_title">Lukk faner ved avslutning </string>
+    <string name="close_tabs_on_exit_summary">Ikke behold fanene mellom nettleserøktene </string>
+
+    <string name="open_pages_in_custom_tabs_title">Åpne faner i \"Tilpassede faner\"</string>
+    <string name="open_pages_in_custom_tabs_summary">Tilby å åpne faner i \"Tilpassede faner\"</string>
+
+    <string name="ddg_offer_title">Privat søk med DuckDuckGo?</string>
+    <string name="ddg_offer_text">Med privat søk vil Osiris bruke DuckDuckGo til å svare på søkene dine så lenge du er i denne private fanen. DuckDuckGo er en søkemotor som ikke sporer søkehistorikken din, slik at du er i stand til å søke privat.</string>
+    <string name="ddg_offer_positive">Ja</string>
+    <string name="ddg_offer_negative">Nei</string>
+    <string name="ddg_offer_link">Lær om privat søk med DuckDuckGo</string>
+    <string name="prefs_standard_search_engine">Standardfane</string>
+    <string name="prefs_private_search_engine">Privat fane</string>
+
+    <string name="brave_open_in_private_tab">Åpne i privat fane</string>
+    <string name="brave_close_all_private_tabs">Lukk private faner</string>
+    <string name="brave_new_private_tab">Ny privat fane</string>
+    <string name="brave_new_tab_private_header">Dette er en privat fane</string>
+    <string name="brave_new_tab_private_message">Selv om nettsteder du besøker i private faner, ikke lagres lokalt, gjør de deg ikke anonym eller usynlig overfor internettleverandøren din, arbeidsgiveren din eller nettstedene du besøker.</string>
+
+</resources>

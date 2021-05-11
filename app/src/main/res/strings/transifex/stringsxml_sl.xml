@@ -1,0 +1,112 @@
+<resources>
+
+    <string name="brave_settings_title">Nastavitve ščitov za spletno mesto Osiris</string>
+    <string name="brave_shields_down">Dol</string>
+    <string name="brave_shields_up">Gor</string>
+    <string name="brave_shields_ads_trackers">Oglasi in sledilniki so blokirani</string>
+    <string name="brave_shields_https_upgrades">HTTPS nadgradnje</string>
+    <string name="brave_shields_scripts_blocked">Skripti so blokirani</string>
+    <string name="brave_shields_ads_tracking_switch">Blokiraj oglase in sledenje</string>
+    <string name="brave_shields_https_everywhere_switch">HTTPS povsod</string>
+    <string name="brave_shields_blocks_scripts_switch">Blokiraj skripte</string>
+    <string name="accessibility_toolbar_btn_brave_shields">Omogoči/onemogoči ščite Osiris</string>
+    <string name="brave_shields_block_3rd_party_cookies_switch">Blokiranje piškotkov tretjih strani</string>
+
+    <string name="httpse_summary">Odpre podprta spletna mesta z uporabo protokola HTTPS, namesto z uporabo protokola HTTP, kjerkoli je mogoče</string>
+    <string name="tracking_protection_title">Način zaščite pred sledenjem</string>
+    <string name="tracking_protection_summary">Preprečevanje nalaganja sledilnih virov</string>
+    <string name="ad_block_title">Blok za oglase</string>
+    <string name="ad_block_summary">Prepreči nalaganje oglasov</string>
+
+    <string name="fingerprinting_protection_title">Zaščita pred prstnim odtisom</string>
+    <string name="fingerprinting_protection_summary">Brskalniku prepreči ustvarjanje prstnega odtisa</string>
+    <string name="brave_shields_fingerprints_blocked">Blokiranje načinov za prstne odtise</string>
+    <string name="brave_shields_block_fingerprints_switch">Zaščita pred prstnim odtisom</string>
+
+    <string name="ad_block_regional_title">Block za regionalne oglase</string>
+    <string name="ad_block_regional_summary">Preprečevanje nalaganja regionalnih oglasov</string>
+
+    <string name="ad_block_regional_summary_no_list">Za vaše območje dodatni seznami niso na voljo</string>
+
+    <string name="menu_exit">Izhod</string>
+
+    <string name="brave_sync">Sinhronizacija Osiris</string>
+    <string name="brave_sync_description">Varno sinhronizirajte podatke med vašimi
+napravami z uporabo orodja Osiris Sync,
+izdelava računa ni potrebna.
+Za začetek tapnite spodaj.</string>
+    <string name="brave_sync_have_existing_code">Imam obstoječo kodo za sinhronizacijo</string>
+    <string name="sync_settings_add_device_name_title">Dodaj ime naprave</string>
+    <string name="sync_settings_add_device_name_label">Vnesite izbirno ime za to napravo</string>
+    <string name="sync_example_device_name">Naprava Android</string>
+    <string name="brave_sync_qrcode">Sinhroniziraj v napravo</string>
+    <string name="brave_sync_qrcode_message">Z uporabo obstoječe sinhronizirane naprave odprite
+Nastavitve Osiris in odprite »Naprava in nastavitve«,
+nato tapnite »+« za dodajanje nove naprave
+in prikaz kode za sinhronizacijo.</string>
+    <string name="enter_code_words_sync">Vnos kodnih besed</string>
+    <string name="enter_code_words_below_sync">Spodaj vnesite kodne besede.</string>
+    <string name="sync_device">Sinhroniziraj napravo</string>
+    <string name="sync_device_failure">Sinhronizacije ni bilo mogoče nastaviti</string>
+    <string name="sync_device_success">Nastavitev sinhronizacije je bila uspešno dokončana</string>
+    <string name="reset_sync">Ponastavitev sinhronizacije ...</string>
+    <string name="resetting_sync">Ali res želite ponastaviti nastavitve za sinhronizacijo te naprave?</string>
+
+    <string name="brave_stats_text_trackers">Sledilniki
+so blokirani</string>
+    <string name="brave_stats_text_ads">Oglasi
+so blokirani</string>
+    <string name="brave_stats_text_https">HTTPS
+nadgradnje</string>
+    <string name="brave_stats_text_time">Ocenj. Čas
+Shranjeno</string>
+
+    <string name="send_metrics_title">Pošlji metriko</string>
+
+    <string name="desktop_mode_title">Namizni način</string>
+    <string name="website_settings_category_desktop_view_enabled_summary">Prednostno prikaži namizne različice spletnih mest</string>
+    <string name="website_settings_category_desktop_view_disabled_summary">Prednostno prikaži mobilne različice spletnih mest</string>
+    <string name="website_settings_category_desktop_view_enabled">Omogoči namizni pogled za nove zavihke</string>
+    <string name="website_settings_category_desktop_view_disabled">V novih zavihkih prikaži mobilne različice spletnih mest (priporočeno)</string>
+
+    <string name="brave_shields_first_group_title">Spremljanje blokad</string>
+    <string name="brave_shields_second_group_title">Posamezni kontrolniki</string>
+    <string name="brave_shields">Ščiti</string>
+    <string name="brave_shields_ads_and_trackers">Oglasi in sledilniki</string>
+    <string name="brave_shields_fingerprint_methods">Načini za prstne odtise</string>
+    <string name="brave_shields_block_phishing_switch">Blokiraj zvabljanje</string>
+
+    <string name="play_video_in_background_title">Predvajanje videa v ozadju</string>
+    <string name="website_settings_category_play_video_in_background_enabled_summary">Omogočeno</string>
+    <string name="website_settings_category_play_video_in_background_disabled_summary">Onemogočeno</string>
+    <string name="website_settings_category_play_video_in_background_enabled">Poskusno. Omogoča predvajanje zvoka iz videa v ozadju, ko zavihek ni aktiven ali je zaslon naprave izključen. Če ta funkcija ne deluje, poskusite preklopiti na namizni način.</string>
+    <string name="settings_require_relaunch_notice">Opravljene spremembe bodo začele veljati po naslednjem ponovnem zagonu Osiris.</string>
+    <string name="settings_require_relaunch_now">PONOVNO ZAŽENI ZDAJ</string>
+    <string name="settings_require_relaunch_later">KASNEJE</string>
+
+    <string name="play_yt_video_in_browser_title">Predvajanje videa v Osiris</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled_summary">Omogočeno</string>
+    <string name="website_settings_category_play_yt_video_in_browser_disabled_summary">Onemogočeno</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled">Če potrdite to možnost, se bodo filmi predvajali v Osiris in ne v zato namenjenih programih</string>
+
+    <string name="close_tabs_on_exit_title">Zapri zavihke ob izhodu</string>
+    <string name="close_tabs_on_exit_summary">Ne vztrajaj z zavihki med sejami brskanja</string>
+
+    <string name="open_pages_in_custom_tabs_title">Odpri zavihke kot zavihke po meri</string>
+    <string name="open_pages_in_custom_tabs_summary">Ponudi odpiranje zavihkov med zavihki po meri</string>
+
+    <string name="ddg_offer_title">Želite zasebno iskanje z DuckDuckGo?</string>
+    <string name="ddg_offer_text">Z zasebnim iskanjem bo Osiris uporabljal DuckDuckGo za opravljanje iskanje, ko ste v tem zasebnem zavihku. DuckDuckGo je iskalnik, ki ne sledi vaši zgodovini iskanja, zaradi česar lahko iščete zasebno.</string>
+    <string name="ddg_offer_positive">Da</string>
+    <string name="ddg_offer_negative">Ne</string>
+    <string name="ddg_offer_link">Izvejte več o zasebnem iskanju z DuckDuckGo</string>
+    <string name="prefs_standard_search_engine">Navadni zavihek</string>
+    <string name="prefs_private_search_engine">Zasebni zavihek</string>
+
+    <string name="brave_open_in_private_tab">Odpri v zasebnem zavihku</string>
+    <string name="brave_close_all_private_tabs">Zapri zasebne zavihke</string>
+    <string name="brave_new_private_tab">Nov zasebni zavihek</string>
+    <string name="brave_new_tab_private_header">To je zasebni zavihek</string>
+    <string name="brave_new_tab_private_message">Čeprav spletišča, ki jih obiščete v zasebnih zavihkih, niso krajevno shranjena, ne ohranjajo vaše anonimnosti ali nevidnosti nasproti vašemu ponudniku internetnih storitev, vašemu delodajalcu ali spletiščem, ki jih obiskujete.</string>
+
+</resources>

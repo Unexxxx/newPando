@@ -1,0 +1,521 @@
+<resources>
+
+    <string name="brave_settings_title">การตั้งค่า Pando สําหรับ</string>
+    <string name="brave_shields_down">ลง</string>
+    <string name="brave_shields_up">ขึ้น</string>
+    <string name="brave_shields_ads_trackers">โฆษณาและตัวติดตามถูกบล็อก</string>
+    <string name="brave_shields_https_upgrades">อัพเกรด HTTPS</string>
+    <string name="brave_shields_scripts_blocked">สคริปต์ที่ถูกบล็อก</string>
+    <string name="brave_shields_ads_tracking_switch">บล็อกโฆษณาและการติดตาม</string>
+    <string name="brave_shields_https_everywhere_switch">HTTPS ทุกที่</string>
+    <string name="brave_shields_blocks_scripts_switch">บล็อกสคริปต์</string>
+    <string name="accessibility_toolbar_btn_brave_shields">เปิด / ปิดการใช้งานโล่แพนโด</string>
+    <string name="brave_shields_block_3rd_party_cookies_switch">บล็อกคุกกี้ของบุคคลที่ 3</string>
+
+    <string name="httpse_summary">เปิดไซต์ที่สนับสนุนโดยใช้ HTTPS แทน HTTP เมื่อเป็นไปได้</string>
+    <string name="tracking_protection_title">โหมดการป้องกันการติดตาม</string>
+    <string name="tracking_protection_summary">ป้องกันไม่ให้ทรัพยากรที่ติดตามคุณจากการโหลด</string>
+    <string name="ad_block_title">บล็อกโฆษณา</string>
+    <string name="ad_block_summary">ป้องกันไม่ให้โฆษณาโหลด</string>
+
+    <string name="fingerprinting_protection_title">การป้องกันลายนิ้วมือ</string>
+    <string name="fingerprinting_protection_summary">ป้องกันเบราว์เซอร์จากลายนิ้วมือ</string>
+    <string name="brave_shields_fingerprints_blocked">วิธีการลายนิ้วมือถูกบล็อก</string>
+    <string name="brave_shields_block_fingerprints_switch">การป้องกันลายนิ้วมือ</string>
+
+    <string name="ad_block_regional_title">บล็อกโฆษณาภูมิภาค</string>
+    <string name="ad_block_regional_summary">ป้องกันไม่ให้โฆษณาในภูมิภาคโหลด</string>
+
+    <string name="ad_block_regional_summary_no_list">ไม่มีรายการเพิ่มเติมสําหรับตําแหน่งที่ตั้งของคุณ</string>
+
+    <string name="menu_exit">ออก</string>
+
+    <string name="brave_sync">แพนโดซิงค์</string>
+    <string name="brave_sync_description">ซิงค์ข้อมูลเบราว์เซอร์ระหว่างอุปกรณ์ของคุณ
+        ใช้ Pando Sync อย่างปลอดภัยไม่มีบัญชี
+        การสร้างที่จําเป็น แตะด้านล่างเพื่อเริ่มต้นใช้งาน</string>
+    <string name="brave_sync_have_existing_code">ฉันมีรหัสการซิงค์ที่มีอยู่</string>
+    <string name="sync_settings_add_device_name_title">เพิ่มชื่ออุปกรณ์</string>
+    <string name="sync_settings_add_device_name_label">ป้อนชื่อที่เป็นตัวเลือกสําหรับอุปกรณ์นี้</string>
+    <string name="sync_example_device_name">อุปกรณ์แอนดรอยด์</string>
+    <string name="brave_sync_qrcode">ซิงค์กับอุปกรณ์</string>
+    <string name="brave_sync_qrcode_message">การใช้อุปกรณ์ที่ซิงค์อยู่เปิด Pando
+        การตั้งค่าและนําทางไปยัง \"อุปกรณ์ a01a543b21c6b3z0
+        \"การตั้งค่า\" แตะ \"+\" เพื่อเพิ่มอุปกรณ์ใหม่ และ
+        เปิดเผยรหัสการซิงค์</string>
+    <string name="enter_code_words_sync">ใส่คํารหัส</string>
+    <string name="enter_code_words_below_sync">ใส่คํารหัสด้านล่าง</string>
+    <string name="sync_device">ซิงค์อุปกรณ์</string>
+    <string name="sync_device_failure">ไม่สามารถตั้งค่าการซิงค์</string>
+    <string name="sync_device_success">การตั้งค่าการซิงค์เสร็จสมบูรณ์แล้ว</string>
+    <string name="reset_sync">รีเซ็ตการซิงค์...</string>
+    <string name="resetting_sync">คุณแน่ใจหรือไม่ว่าคุณต้องการรีเซ็ตการตั้งค่าการซิงค์ของอุปกรณ์นี้</string>
+
+    <string name="brave_stats_text_trackers">ติดตาม
+        ถูกบล็อก</string>
+    <string name="brave_stats_text_spyce">สไปซ์</string>
+    <string name="brave_stats_text_ads">โฆษณา
+        ถูกบล็อก</string>
+    <string name="brave_stats_text_https">HTTPS
+        การอัพ เกรด</string>
+    <string name="brave_stats_text_time">เวลา Est.
+        บันทึก</string>
+
+    <string name="send_metrics_title">ส่งเมตริก</string>
+
+    <string name="desktop_mode_title">โหมดเดสก์ท็อป</string>
+    <string name="website_settings_category_desktop_view_enabled_summary">ชอบไซต์บนเดสก์ท็อป</string>
+    <string name="website_settings_category_desktop_view_disabled_summary">ชอบเว็บไซต์บนอุปกรณ์เคลื่อนที่</string>
+    <string name="website_settings_category_desktop_view_enabled">เปิดใช้งานมุมมองเดสก์ท็อปสําหรับแท็บใหม่</string>
+    <string name="website_settings_category_desktop_view_disabled">ใช้ไซต์เวอร์ชันสําหรับอุปกรณ์เคลื่อนที่สําหรับแท็บใหม่ (แนะนํา)</string>
+
+    <string name="brave_shields_first_group_title">การปิดกั้นจอภาพ</string>
+    <string name="brave_shields_second_group_title">การควบคุมแต่ละตัว</string>
+    <string name="brave_shields">โล่</string>
+    <string name="brave_shields_ads_and_trackers">โฆษณาและตัวติดตาม</string>
+    <string name="brave_shields_fingerprint_methods">วิธีการลายนิ้วมือ</string>
+    <string name="brave_shields_block_phishing_switch">บล็อกฟิชชิง</string>
+
+    <string name="play_video_in_background_title">การเล่นวิดีโอพื้นหลัง</string>
+    <string name="website_settings_category_play_video_in_background_enabled_summary">เปิด</string>
+    <string name="website_settings_category_play_video_in_background_disabled_summary">ปิด</string>
+    <string name="website_settings_category_play_video_in_background_enabled">ทดลอง เปิดใช้งานการเล่นเสียงจากวิดีโอในพื้นหลังเมื่อแท็บไม่ได้ใช้งานอยู่หรือปิดหน้าจออุปกรณ์ ลองสลับไปยังโหมดเดสก์ท็อปถ้าคุณลักษณะนี้ไม่ทํางาน</string>
+    <string name="settings_require_relaunch_notice">การเปลี่ยนแปลงของคุณจะมีผลในครั้งต่อไปที่คุณเปิด Pando ใหม่</string>
+    <string name="settings_require_relaunch_now">เรลอ้นช์</string>
+    <string name="settings_require_relaunch_later">ภายหลัง</string>
+
+    <string name="play_yt_video_in_browser_title">การเล่นวิดีโอใน Pando</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled_summary">เปิด</string>
+    <string name="website_settings_category_play_yt_video_in_browser_disabled_summary">ปิด</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled">หากเปิดใช้งาน วิดีโอจะเล่นใน Pando แทนแอปที่เกี่ยวข้อง</string>
+
+    <string name="close_tabs_on_exit_title">ปิดแท็บเมื่อออกจาก</string>
+    <string name="close_tabs_on_exit_summary">อย่าคงแท็บระหว่างเซสชันการเรียกดูอยู่</string>
+
+    <string name="open_pages_in_custom_tabs_title">เปิดแท็บในแท็บแบบกําหนดเอง</string>
+    <string name="open_pages_in_custom_tabs_summary">เสนอให้เปิดแท็บในแท็บแบบกําหนดเอง</string>
+
+    <string name="ddg_offer_title">ค้นหาส่วนตัวกับดั๊กโก?</string>
+    <string name="ddg_offer_text">ด้วยการค้นหาส่วนตัว Pando จะใช้ DuckDuckGo เพื่อตอบการค้นหาของคุณในขณะที่คุณอยู่ในแท็บส่วนตัวนี้ DuckDuckGo เป็นเครื่องมือค้นหาที่ไม่ได้ติดตามประวัติการค้นหาของคุณช่วยให้คุณสามารถค้นหาแบบส่วนตัว</string>
+    <string name="ddg_offer_positive">ใช่</string>
+    <string name="ddg_offer_negative">ไม่ใช่</string>
+    <string name="ddg_offer_link">เรียนรู้เกี่ยวกับการค้นหาแบบส่วนตัวด้วย</string>
+    <string name="prefs_standard_search_engine">แท็บมาตรฐาน</string>
+    <string name="prefs_private_search_engine">แท็บส่วนตัว</string>
+
+    <string name="brave_open_in_private_tab">เปิดในแท็บส่วนตัว</string>
+    <string name="brave_close_all_private_tabs">ปิดแท็บส่วนตัว</string>
+    <string name="brave_new_private_tab">แท็บส่วนตัวใหม่</string>
+    <string name="brave_new_tab_private_header">นี่คือแท็บส่วนตัว</string>
+    <string name="brave_new_tab_private_message">แม้ว่าเว็บไซต์ที่คุณเยี่ยมชมในแท็บส่วนตัวจะไม่ถูกบันทึกในประเทศพวกเขาไม่ได้ทําให้คุณไม่ระบุชื่อหรือมองไม่เห็นให้กับ ISP ของคุณนายจ้างของคุณหรือเว็บไซต์ที่คุณกําลังเยี่ยมชม</string>
+
+    <string name="fre_welcome_title">ขอแสดงความยินดี!</string>
+    <string name="fre_welcome_text">ยินดีต้อนรับสู่ Pando ของใหม่ Web 3.0</string>
+    <string name="menu_add_to_bookmarks">เพิ่มใน</string>
+    <string name="menu_favorites">โปรด</string>
+    <string name="menu_mode_day">วัน</string>
+    <string name="menu_mode_night">กลางคืน</string>
+    <string name="menu_night_mode">โหมดกลางคืน</string>
+    <string name="menu_osiris_statistics">สถิติแพนโด</string>
+    <string name="day_theme_on">โหมดวัน</string>
+    <string name="day_theme_off">ปิดโหมดวัน</string>
+    <string name="add_to_favorites">เพิ่มในรายการโปรด</string>
+    <string name="favorites_placeholder_summary">รายการโปรดของคุณจะปรากฏที่นี่</string>
+
+    <!--  Pando Strings  -->
+    <string name="dashboard_popup_level">ระดับ:</string>
+
+    <string name="dashboard_popup_title">ยินดีต้อนรับสู่ Pando เว็บเบราเซอร์</string>
+    <string name="dashboard_popup_message">เพลิดเพลินกับการทําธุรกรรมที่ราบรื่นรวดเร็วและปลอดภัยเพียงปลายนิ้วสัมผัสของคุณ ข้อมูลของคุณได้รับการป้องกันด้วยการเข้ารหัสแบบ end-to-end เพื่อรับประกันว่าธุรกรรมทุกประเภทจะยังคงเป็นส่วนตัวและปลอดภัยอยู่เสมอ</string>
+    <string name="dashboard_popup_view_profile">ดูโปรไฟล์</string>
+    <string name="dashboard_popup_pando_mined">แพนโด มิน</string>
+    <string name="dashboard_popup_referral_earnings">รายได้อ้างอิง</string>
+    <string name="dashboard_popup_mining_runtime">เวลาการทําเหมืองแร่</string>
+    <string name="dashboard_popup_membership_balance">ยอดคงเหลือ</string>
+    <string name="dashboard_popup_reward_dashboard">แดชบอร์ดรางวัล</string>
+    <string name="dashboard_popup_member_dashboard">แดชบอร์ดสมาชิก</string>
+    <string name="dashboard_popup_vpn">VPN</string>
+    <string name="dashboard_popup_ads_mining">การทําเหมืองโฆษณา</string>
+
+    <string name="login_already_have">มีบัญชีอยู่แล้วใช่หรือไม่</string>
+    <string name="login_button">เข้า สู่ ระบบ</string>
+    <string name="login_message">ยินดีต้อนรับสู่ Pando เว็บเบราเซอร์ของคุณเองมาก! ตอนนี้คุณสามารถเพลิดเพลินกับการทําธุรกรรมที่ราบรื่นรวดเร็วและปลอดภัยที่ปลายนิ้วของคุณ</string>
+    <string name="login_email_label">อีเมล</string>
+    <string name="login_email_hint">ป้อนอีเมลของคุณ</string>
+    <string name="login_password_label">รหัส ผ่าน</string>
+    <string name="login_password_hint">ป้อนรหัสผ่านของคุณ</string>
+    <string name="login_remember_me">จําฉันไว้</string>
+    <string name="login_forgot_password">ลืมรหัสผ่าน?</string>
+    <string name="login_reset_device_id">รีเซ็ตรหัสอุปกรณ์</string>
+    <string name="login_needs_device_verification_title">การตรวจสอบอุปกรณ์</string>
+    <string name="login_needs_device_verification_message">คุณกําลังใช้อุปกรณ์ใหม่ คุณแน่ใจหรือไม่ว่าคุณต้องการที่จะเข้าสู่ระบบ คุณจะได้รับการออกจากระบบโดยอัตโนมัติจากอุปกรณ์ที่มีอยู่</string>
+    <string name="login_needs_device_verification_action_text">ดำเนิน</string>
+    <string name="login_multiple_device_not_supported_title">คุณลักษณะไม่ได้รับการสนับสนุน</string>
+    <string name="login_multiple_device_not_supported_message">การเข้าสู่ระบบบนอุปกรณ์หลายเครื่องได้รับการสนับสนุนสําหรับผู้ใช้ที่มีแผนเท่านั้น</string>
+    <string name="login_multiple_device_not_supported_action_text">ตกลง, ได้</string>
+
+    <string name="forgot_password_title">ลืมรหัสผ่าน?</string>
+    <string name="forgot_password_message">ป้อนที่อยู่อีเมลที่คุณใช้สําหรับบัญชีของคุณด้านล่างและเราจะส่งรหัสยืนยันเพื่อรีเซ็ตรหัสผ่านของคุณ</string>
+    <string name="forgot_password_email_label">อีเมล</string>
+    <string name="forgot_password_email_hint">ป้อนอีเมลของคุณ</string>
+    <string name="forgot_password_continue">ดำเนิน</string>
+
+    <string name="email_otp_title">ตรวจสอบอีเมล</string>
+    <string name="email_otp_message">ป้อนรหัสยืนยันที่เราเพิ่งส่งให้คุณในที่อยู่อีเมลของคุณเพื่อรีเซ็ตรหัสผ่าน</string>
+    <string name="email_otp_code_label">รหัสยืนยัน</string>
+    <string name="email_otp_reset_password">รีเซ็ตรหัสผ่าน</string>
+
+    <string name="device_otp_message">ป้อนรหัสยืนยันที่เราส่งให้คุณในที่อยู่อีเมลของคุณเพื่ออัปเดตอุปกรณ์</string>
+    <string name="device_otp_update_device">ปรับปรุงอุปกรณ์</string>
+    <string name="device_otp_title_dialog">การตรวจสอบเสร็จสมบูรณ์!</string>
+    <string name="device_otp_message_dialog">คุณยืนยันบัญชีของคุณกับอุปกรณ์เครื่องใหม่ได้สําเร็จ</string>
+    <string name="device_otp_action_text">เข้าสู่ระบบเดี๋ยวนี้</string>
+
+    <string name="setup_password_title">ตั้งค่ารหัสผ่านใหม่</string>
+    <string name="setup_password_message">รหัสผ่านใหม่ของคุณต้องมีคุณสมบัติตรงตามข้อกําหนดของนโยบายรหัสผ่านสําหรับบัญชีนี้</string>
+    <string name="setup_password_req1">ต้องมีความยาวอย่างน้อย 8 ตัว</string>
+    <string name="setup_password_req2">ต้องมีตัวอักษรตัวพิมพ์ใหญ่อย่างน้อยหนึ่งตัว</string>
+    <string name="setup_password_req3">ต้องมีตัวอักษรตัวพิมพ์เล็กอย่างน้อยหนึ่งตัว</string>
+    <string name="setup_password_req4">ต้องใส่อย่างน้อยหนึ่งหมายเลข</string>
+    <string name="setup_password_req5">ต้องมีอักขระที่ไม่ใช่ตัวอักษรและตัวเลขอย่างน้อยหนึ่งตัว</string>
+    <string name="setup_password_password_label">รหัส ผ่าน</string>
+    <string name="setup_password_password_hint">ป้อนรหัสผ่านของคุณ</string>
+    <string name="setup_password_cpassword_label">ยืนยันรหัสผ่าน</string>
+    <string name="setup_password_cpassword_hint">ใส่รหัสผ่านของคุณอีกครั้ง</string>
+    <string name="setup_password_password_str">ความแรงของรหัสผ่าน</string>
+    <string name="setup_password_submit">ส่ง</string>
+
+    <string name="change_password_title">เปลี่ยนรหัสผ่าน</string>
+    <string name="change_password_message">รหัสผ่านใหม่ของคุณต้องมีคุณสมบัติตรงตามข้อกําหนดของนโยบายรหัสผ่านสําหรับบัญชีนี้</string>
+    <string name="change_password_old_password_label">รหัสผ่านเก่า</string>
+    <string name="change_password_old_password_hint">ป้อนรหัสผ่านเดิม</string>
+    <string name="change_password_password_label">รหัสผ่านใหม่</string>
+    <string name="change_password_password_hint">ป้อนรหัสผ่านของคุณ</string>
+    <string name="change_password_cpassword_label">ยืนยันรหัสผ่าน</string>
+    <string name="change_password_cpassword_hint">ใส่รหัสผ่านของคุณอีกครั้ง</string>
+    <string name="change_password_password_str">ความแรงของรหัสผ่าน</string>
+    <string name="change_password_save">บันทึก</string>
+    <string name="change_password_dialog_title">สำเร็จ</string>
+    <string name="change_password_dialog_message">รหัสผ่านอัปเดต!</string>
+
+    <string name="signup_donthaveaccount">ไม่มีบัญชี?</string>
+    <string name="signup_button">ลง ทะเบียน</string>
+    <string name="signup_title">ข้อมูลบัญชี</string>
+    <string name="signup_fullname_label">ชื่อเต็ม</string>
+    <string name="signup_fullname_hint">ป้อนชื่อเต็มของคุณ</string>
+    <string name="signup_email_label">อีเมล</string>
+    <string name="signup_email_hint">ป้อนอีเมลของคุณ</string>
+    <string name="signup_password_label">รหัส ผ่าน</string>
+    <string name="signup_password_hint">ป้อนรหัสผ่านของคุณ</string>
+    <string name="signup_cpassword_label">ยืนยันรหัสผ่าน</string>
+    <string name="signup_cpassword_hint">ใส่รหัสผ่านของคุณอีกครั้ง</string>
+    <string name="signup_password_str">ความแรงของรหัสผ่าน</string>
+    <string name="signup_country_label">ประเทศ</string>
+
+    <string name="referral_code_title">รหัสอ้างอิง</string>
+    <string name="referral_code_message">โปรดให้รหัสอ้างอิงที่เชิญคุณไปยังแพลตฟอร์มนี้ ขอบคุณ</string>
+    <string name="referral_code_referral_label">รหัสอ้างอิง</string>
+    <string name="referral_code_referral_hint">ป้อนรหัสอ้างอิง</string>
+    <string name="referral_code_scan_qrcode">สแกน QR โค้ดของการอ้างอิง</string>
+    <string name="referral_code_skip_for_now">ข้ามไปเดี๋ยวนี้</string>
+    <string name="referral_code_continue">ดำเนิน</string>
+
+    <string name="mining_popup_title">ทำ เหมือง แร่</string>
+    <string name="mining_popup_pando_mined">แพนโด มิน</string>
+    <string name="mining_popup_total_balance">ยอดคงเหลือ</string>
+
+    <string name="toast_invalid_credentials">ข้อมูลประจําตัวไม่ถูกต้อง</string>
+    <string name="toast_user_email_not_registered">ผู้ใช้ที่มีอีเมล `%s` ไม่ได้ลงทะเบียน</string>
+    <string name="toast_creds_cannot_empty">อีเมลหรือรหัสผ่านไม่สามารถว่างเปล่าได้</string>
+    <string name="toast_check_connectivity">โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณ</string>
+    <string name="toast_account_not_validated">บัญชีของคุณไม่ได้รับการตรวจสอบ</string>
+    <string name="toast_user_logged_in">ผู้ใช้เข้าสู่ระบบ</string>
+    <string name="toast_minimum_password_level">รหัสผ่านไม่รัดกุมเพียงพอสําหรับรูปแบบ</string>
+    <string name="toast_all_fields_are_required">ฟิลด์ทั้งหมดจะต้อง</string>
+    <string name="toast_password_did_not_match">รหัสผ่านไม่ตรงกัน</string>
+    <string name="toast_old_password_incorrect">รหัสผ่านเก่าไม่ถูกต้อง</string>
+    <string name="toast_invalid_email_format">รูปแบบอีเมลไม่ถูกต้อง</string>
+    <string name="toast_email_already_exists">มีอีเมลอยู่แล้ว</string>
+    <string name="toast_user_registered">ลงทะเบียนผู้ใช้แล้ว</string>
+    <string name="toast_email_cannot_be_empty">อีเมลไม่สามารถว่างเปล่าได้</string>
+    <string name="toast_email_does_not_exist">ไม่มีอีเมลอยู่</string>
+    <string name="toast_otp_code_should_be_6_digits">รหัส OTP ควรเป็นตัวเลข 6 หลัก</string>
+    <string name="toast_otp_code_cannot_be_empty">รหัส OTP ไม่สามารถว่างเปล่าได้</string>
+    <string name="toast_invalid_otp_code">รหัส OTP ไม่ถูกต้อง</string>
+    <string name="toast_password_not_strong_enough">รหัสผ่านไม่รัดกุมเพียงพอสําหรับรูปแบบ</string>
+    <string name="toast_new_password_cannot_be_empty">รหัสผ่านใหม่ไม่สามารถว่างเปล่าได้</string>
+    <string name="toast_password_cannot_be_empty">รหัสผ่านไม่สามารถว่างเปล่าได้</string>
+    <string name="toast_cpassword_cannot_be_empty">ยืนยันรหัสผ่านไม่สามารถว่างเปล่า</string>
+    <string name="toast_old_password_cannot_be_empty">รหัสผ่านเก่าไม่สามารถว่างเปล่าได้</string>
+    <string name="toast_password_is_successfully_updated">คุณอัปเดตรหัสผ่านของคุณสําเร็จแล้ว</string>
+    <string name="toast_referral_invalid_code">รหัสอ้างอิงไม่ถูกต้อง</string>
+    <string name="toast_referral_code_cannot_be_empty">จําเป็นต้องมีรหัสการอ้างอิงและไม่สามารถว่างเปล่าได้</string>
+    <string name="toast_referrer_invalid_code">รหัสอ้างอิงไม่ถูกต้อง</string>
+    <string name="toast_account_is_deactivated">บัญชีถูกปิดใช้งาน</string>
+    <string name="toast_relogin_needed">เซสชันของคุณหมดอายุแล้ว กรุณาเข้าสู่ระบบข้อมูลประจําตัวของคุณ</string>
+    <string name="toast_feature_will_be_soon">คุณลักษณะนี้จะพร้อมใช้งานเร็ว ๆ นี้</string>
+    <string name="toast_copied_to_clipboard">คัดลอกไปยังคลิปบอร์ด</string>
+
+    <string name="toast_vpn_feature_will_be_soon">"สลับ VPN" จะได้รับการสนับสนุนเร็ว ๆ นี้โปรดตรวจสอบเว็บไซต์pandobrowser.comสําหรับการปรับปรุง</string>
+    <string name="toast_ads_mining_feature_will_be_soon">"การทําเหมืองโฆษณา" จะได้รับการสนับสนุนเร็ว ๆ นี้โปรดตรวจสอบเว็บไซต์pandobrowser.comสําหรับการปรับปรุง</string>
+    <string name="toast_rewards_feature_will_be_soon">"แดชบอร์ดรางวัล" จะได้รับการสนับสนุนในเร็ว ๆ นี้โปรดตรวจสอบเว็บไซต์pandobrowser.comสําหรับการปรับปรุง</string>
+    <string name="toast_view_profile_feature_will_be_soon">"ดูโปรไฟล์" จะได้รับการสนับสนุนเร็ว ๆ นี้โปรดตรวจสอบเว็บไซต์pandobrowser.comสําหรับการปรับปรุง</string>
+
+    <string name="progress_dialog_title">กรุณารอสักครู่</string>
+    <string name="progress_dialog_logging_in">กําลังล็อกอิน...</string>
+    <string name="progress_dialog_signing_up">ลงทะเบียน...</string>
+    <string name="progress_dialog_sending_otp_code">กําลังส่งรหัส OTP...</string>
+    <string name="progress_dialog_verifying_email">กําลังตรวจสอบอีเมล...</string>
+    <string name="progress_dialog_saving_new_password">กําลังบันทึกรหัสผ่านใหม่...</string>
+    <string name="progress_dialog_verifying_referral_code">กําลังตรวจสอบรหัสการอ้างอิง...</string>
+    <string name="progress_dialog_verifying_referrer_code">กําลังตรวจสอบรหัสผู้อ้างอิง...</string>
+    <string name="progress_dialog_loading_users">กําลังโหลดผู้ใช้ภายใต้แผนของคุณ...</string>
+    <string name="progress_dialog_saving_changes">กําลังบันทึกการเปลี่ยนแปลง...</string>
+
+    <string name="users_nothing_under_plan">ยังไม่มีผู้ใช้ภายใต้แผนของคุณ</string>
+    <string name="users_under_my_plan_label">ผู้ใช้ภายใต้แผนของฉัน</string>
+
+    <string name="account_settings_save">บันทึก</string>
+    <string name="account_settings_edit_information">แก้ไขข้อมูล</string>
+    <string name="account_settings_reminder_title">จดหมาย เตือน ชำระ เงิน</string>
+    <string name="account_settings_reminder_continue">ดำเนิน</string>
+    <string name="account_settings_reminder_cancel">ยกเลิก</string>
+    <string name="account_settings_reminder_message_save">คุณสามารถใส่รหัสอ้างอิงได้เพียงครั้งเดียว คุณจะไม่สามารถเปลี่ยนแปลงข้อมูลนี้ได้เมื่อบันทึกสําเร็จแล้ว</string>
+    <string name="account_settings_reminder_message_edit">คุณสามารถใส่รหัสอ้างอิงได้เพียงครั้งเดียว คุณไม่สามารถเปลี่ยนได้ในขณะนี้</string>
+    <string name="account_settings_discard_changes">ละทิ้งการเปลี่ยนแปลงของคุณหรือไม่</string>
+    <string name="account_settings_already_setup">คุณมีรหัสอ้างอิงอยู่แล้ว</string>
+    <string name="account_settings_cannot_use_own_referral_code_as_referrer_code">คุณไม่สามารถใช้รหัสการอ้างอิงของคุณเองเป็นรหัสอ้างอิง</string>
+    <string name="account_settings_cannot_be_empty">ชื่อเต็มไม่สามารถว่างเปล่าได้</string>
+
+    <string name="update_available_title">ปรับปรุงเบราว์เซอร์ Pando</string>
+    <string name="update_available_message">มีการปรับปรุงที่พร้อมใช้งาน ดาวน์โหลดรุ่น n ใหม่สําหรับประสบการณ์ Pando ที่ดีที่สุด</string>
+    <string name="update_available_confirm">ยืนยัน</string>
+    <string name="update_available_skip">ข้าม</string>
+    <string name="update_available_install_via_playstore">คุณสามารถติดตั้งเวอร์ชันล่าสุดผ่าน Google Play สโตร์</string>
+
+    <string name="pando_games_comingsoon">เกมแพนโดเร็ว ๆ นี้</string>
+
+    <string name="fre_pando_page1_title">เรียกดูได้เร็วขึ้น</string>
+    <string name="fre_pando_page1_message">เร็วกว่าการท่องเว็บแบบดั้งเดิมถึง 3-7 เท่าด้วยการเรียกดูด้วยความเร็วสูง</string>
+    <string name="fre_pando_page2_title">บล็อกโฆษณาและติดตาม</string>
+    <string name="fre_pando_page2_message">บล็อกโฆษณาที่ล่วงล้ําทั้งหมด เนื้อหานาฬิกาแบบดื่มสุราเป็นเวลาหลายชั่วโมงโดยไม่หยุดชะงัก</string>
+    <string name="fre_pando_page3_title">ปกป้องความเป็นส่วนตัวของคุณ</string>
+    <string name="fre_pando_page3_message">รักษาความปลอดภัยและปกป้องข้อมูลและความเป็นส่วนตัวของผู้ใช้งาน</string>
+    <string name="fre_pando_page4_title">รับรางวัล</string>
+    <string name="fre_pando_page4_message">การทําเหมืองแร่รันไทม์ Pando ช่วยให้คุณได้รับผลตอบแทนโดยใช้ผลิตภัณฑ์ระบบนิเวศ Pando อย่าลืมติดตามความคืบหน้าเพื่อประโยชน์สูงสุด</string>
+
+    <string name="fre_pando_next">ถัด ไป</string>
+    <string name="fre_pando_get_started">เริ่มใช้งาน</string>
+
+    <string name="toolbar_phone_close_all">ปิดทั้งหมด</string>
+
+    <string name="edit_favorite_label">แก้ไขป้ายชื่อ</string>
+    <string name="edit_favorite_save">บันทึก</string>
+
+    <string name="under_maintenance_title">บำรุง รักษา</string>
+    <string name="under_maintenance_message">ขณะนี้เรากําลังอยู่ระหว่างการบํารุงรักษาบนเซิร์ฟเวอร์เพื่อปรับปรุงประสบการณ์ของคุณ นี่คงไม่นานหรอก ขออภัยในความไม่สะดวก</string>
+    <string name="under_maintenance_ok">ตกลง, ได้</string>
+
+    <string name="password_str_1">สั้นเกินไป</string>
+    <string name="password_str_2">อ่อนแอ</string>
+    <string name="password_str_3">ยุติธรรม</string>
+    <string name="password_str_4">ดี</string>
+    <string name="password_str_5">แข็ง แกร่ง</string>
+    <string name="password_str_6">แข็งแรงมาก</string>
+
+    <string name="search_engine_title">เครื่องมือค้นหา</string>
+    <string name="coming_soon_title">เร็ว ๆ นี้</string>
+
+    <string name="prefs_section_basics">พื้นฐาน</string>
+    <string name="prefs_display_title">ลักษณะ</string>
+    <string name="prefs_autofill_and_payments">ป้อนอัตโนมัติและการชําระเงิน</string>
+    <string name="prefs_saved_passwords_title">รหัส ผ่าน</string>
+    <string name="prefs_notifications">แจ้ง เตือน</string>
+
+    <string name="prefs_section_advanced">ขั้น สูง</string>
+    <string name="prefs_privacy">สิทธิ ส่วน บุคคล</string>
+    <string name="prefs_accessibility">เข้า ถึง</string>
+    <string name="prefs_site_settings">การตั้งค่าไซต์</string>
+    <string name="prefs_languages">ภาษา</string>
+    <string name="menu_downloads">ดาวน์โหลด</string>
+    <string name="prefs_about_pando">เกี่ยวกับเบราว์เซอร์ Pando</string>
+
+    <string name="prefs_display_theme">ธีม</string>
+
+    <string name="cookies_title">คุกกี้</string>
+    <string name="pando_android_settings_permission_off_plural">เปิดสิทธิ์สําหรับ Pando ใน &lt;link&gt;การตั้งค่า Android&lt;/link&gt;</string>
+    <string name="pando_android_settings_permission_off">เปิดการอนุญาตสําหรับ Pando ใน &lt;link&gt;การตั้งค่า Android&lt;/link&gt;</string>
+    <string name="pando_legal_information_summary">ลิขสิทธิ์ %1$d ซอฟต์แวร์ Pando Inc. สงวน</string>
+    <string name="terms_of_service_title">เงื่อนไขการใช้บริการ Pando</string>
+    <string name="privacy_notice_title">ประกาศเกี่ยวกับความเป็นส่วนตัวของ Pando</string>
+
+    <string name="dialog_negative_title">Oops...</string>
+    <string name="dialog_positive_action">ตกลง, ได้</string>
+
+    <string name="account_settings_title">การตั้งค่าบัญชีผู้ใช้</string>
+    <string name="account_settings_fullname_label">ชื่อเต็ม</string>
+    <string name="account_settings_email">อีเมล</string>
+    <string name="account_settings_referrer_code">รหัสอ้างอิง</string>
+    <string name="account_settings_password">รหัส ผ่าน</string>
+    <string name="account_settings_change_password">เปลี่ยนรหัสผ่าน</string>
+    <string name="account_settings_country">ประเทศ</string>
+    <string name="account_settings_eth_wallet">กระเป๋าเงิน</string>
+    <string name="account_settings_pando_wallet">กระเป๋าสตางค์ Pando</string>
+    <string name="account_settings_logout">ออกจากระบบ</string>
+
+    <string name="member_dashboard_membership_bonus">โบนัสสมาชิก</string>
+    <string name="member_dashboard_referral_bonus">โบนัสแนะนํา</string>
+    <string name="member_dashboard_local_mining">การทําเหมืองแร่ในท้องถิ่น</string>
+    <string name="member_dashboard_pando_balance">รายได้แพนโด</string>
+    <string name="member_dashboard_download_link">ลิงค์ดาวน์โหลดอ้างอิง</string>
+    <string name="member_dashboard_referral_code">รหัสอ้างอิง</string>
+    <string name="member_dashboard_referral_analytics">การวิเคราะห์การอ้างอิง</string>
+    <string name="member_dashboard_total_users">ผู้ใช้ทั้งหมดภายใต้แผนของฉัน</string>
+    <string name="member_dashboard_view_all_users">ดูผู้ใช้ทั้งหมด</string>
+    <string name="member_dashboard_view_transaction_history">ดูประวัติการทําธุรกรรม</string>
+    <string name="member_dashboard_show_qr_code">แสดงรหัส QR</string>
+
+    <string name="sw_mining_title">การทําเหมือง SW</string>
+    <string name="sw_mining_membership_level">ระดับสมาชิก</string>
+    <string name="sw_mining_total_balance">ยอดคงเหลือ</string>
+
+    <string name="tab_header_ads_blocked">โฆษณาที่ถูกบล็อก</string>
+    <string name="tab_header_data_saved">บันทึกข้อมูลแล้ว</string>
+    <string name="tab_header_time_saved">บันทึกเวลา</string>
+
+    <string name="user_loggedin_to_different_device">คุณเข้าสู่ระบบไปยังอุปกรณ์อื่น คุณจะถูกออกจากที่นี่</string>
+
+    <string name="reset_device_id_title">รีเซ็ตรหัสอุปกรณ์</string>
+    <string name="reset_device_id_message">ป้อนที่อยู่อีเมลที่คุณใช้สําหรับบัญชีของคุณด้านล่างและเราจะส่งรหัสยืนยันเพื่อรีเซ็ตรหัสอุปกรณ์ของคุณ</string>
+    <string name="reset_device_id_email_label">อีเมล</string>
+    <string name="reset_device_id_email_hint">ป้อนอีเมลของคุณ</string>
+    <string name="reset_device_id_continue">ดำเนิน</string>
+
+    <string name="pando_edit_label">แก้ไขป้ายชื่อ</string>
+
+    <string name="member_dashboard_sun">อา</string>
+    <string name="member_dashboard_mon">จ</string>
+    <string name="member_dashboard_tue">อ</string>
+    <string name="member_dashboard_wed">พ</string>
+    <string name="member_dashboard_thu">พฤ</string>
+    <string name="member_dashboard_fri">ศุกร์</string>
+    <string name="member_dashboard_sat">เสาร์</string>
+    <string name="member_dashboard_download_link_label">ดาวน์โหลดลิงค์</string>
+    <string name="member_dashboard_referral_code_label">รหัสอ้างอิง</string>
+
+    <string name="member_dashboard_withdrawable_balance">ยอดเงินที่เบิกถอนได้</string>
+    <string name="member_dashboard_withdraw">ถอน</string>
+    <string name="member_dashboard_previous_withdrawn">ถอนก่อนหน้านี้</string>
+    <string name="member_dashboard_transaction_history">ประวัติการทําธุรกรรม</string>
+
+    <string name="withdrawal_page_title">ถอน Pando</string>
+    <string name="withdrawal_page_withdrawable_balance_label">ยอดเงินที่เบิกถอนได้</string>
+    <string name="withdrawal_page_to_label">ถึง</string>
+    <string name="withdrawal_page_amount_label">ยอด</string>
+    <string name="withdrawal_page_max_amount">ยอดเงินสูงสุด</string>
+    <string name="withdrawal_page_to_hint">ป้อนที่อยู่กระเป๋าสตางค์ Pando</string>
+    <string name="withdrawal_page_amount_hint">ป้อนยอดเงิน</string>
+    <string name="withdrawal_page_continue">ดำเนิน</string>
+    <string name="withdrawal_page_cancel">ยกเลิก</string>
+    <string name="withdrawal_page_invalid_wallet_address">ที่อยู่กระเป๋าสตางค์ Pando ไม่ถูกต้อง</string>
+    <string name="withdrawal_page_invalid_balance">ดุลแพนโดไม่ถูกต้อง</string>
+    <string name="withdrawal_page_withdraw_limit_policy">วงเงินถอนต่อนโยบายการทําธุรกรรม</string>
+    <string name="withdrawal_page_minimum_amount">จํานวนต่ําสุด (PANDO)</string>
+    <string name="withdrawal_page_maximum_amount">จํานวนเงินสูงสุด (PANDO)</string>
+    <string name="withdrawal_page_daily_limit">ขีดจํากัดรายวัน</string>
+
+    <string name="withdrawal_confirmation_page_title">ยืนยันการทํารายการ</string>
+    <string name="withdrawal_confirmation_page_messages">โปรดตรวจสอบรายละเอียดการทําธุรกรรมหากทั้งหมดถูกต้อง คลิกปุ่มยืนยันด้านล่างเพื่อประมวลผลการถอนเงิน PANDO ของคุณ</string>
+    <string name="withdrawal_confirmation_page_to_label">ถึง</string>
+    <string name="withdrawal_confirmation_page_amount_label">ยอด</string>
+    <string name="withdrawal_confirmation_page_transaction_fee_label">ค่าธรรมเนียมการทําธุรกรรม</string>
+    <string name="withdrawal_confirmation_page_receivable_amount_label">ยอดเงินค้างรับ</string>
+    <string name="withdrawal_confirmation_page_confirm">ยืนยัน</string>
+    <string name="withdrawal_confirmation_page_cancel">ย้อนกลับ</string>
+
+    <string name="pando_contextual_search_description">
+        เรียนรู้เกี่ยวกับหัวข้อบนเว็บไซต์โดยไม่ต้องออกจากหน้า แตะที่ "ค้นหา" จะส่งคําและบริบทรอบข้างไปยัง Google Search, ส่งกลับคําจํากัดความ รูปภาพ ผลการค้นหา และรายละเอียดอื่นๆ
+
+        หากต้องการปรับคําค้นหา ให้กดค้างไว้เพื่อเลือก ในการปรับแต่งการค้นหาให้เลื่อนแผงขึ้นจนสุด แล้วแตะช่องค้นหา
+    </string>
+
+    <string name="progress_dialog_validating_wallet_address">กําลังตรวจสอบที่อยู่ของกระเป๋าสตางค์...</string>
+    <string name="toast_invalid_withdrawable_amount">ยอดเงินไม่ถูกต้อง โปรดป้อนจํานวนการถอนเงินภายในจํานวนเงินขั้นต่ําและสูงสุดที่อนุญาต</string>
+
+    <string name="withdrawal_page_invalid_range_amount">ยอดเงินไม่ถูกต้อง โปรดป้อนจํานวนการถอนเงินภายในจํานวนเงินขั้นต่ําและสูงสุดที่อนุญาต</string>
+
+    <string name="withdrawal_page_withdrawable_amount_exceeded">จํานวนเงินเกินขีด จํากัด รายวันของคุณ</string>
+    <string name="withdrawal_page_remaining_amount_exceeded">Amount exceeds your daily limit</string>
+
+    <string name="withdrawal_page_withdrawable_amount_exceeded">ยอดเงินไม่ถูกต้อง จํานวนการถอนเงินไม่ควรเกินยอดเงินที่สามารถถอนได้</string>
+    <string name="withdrawal_page_remaining_amount_exceeded">จํานวนเงินเกินขีด จํากัด รายวันของคุณ</string>
+
+    <string name="progress_dialog_processing_withdrawal">กําลังประมวลผลการถอนเงิน...</string>
+
+    <string name="no_transaction_history">ยังไม่มีธุรกรรม</string>
+    <string name="transaction_history_label">ประวัติการทําธุรกรรม</string>
+    <string name="transaction_failed">ล้ม เหลว</string>
+    <string name="transaction_processing">รอ</string>
+    <string name="transaction_completed">เสร็จ สมบูรณ์</string>
+    <string name="transaction_withdraw_to_external_account">ถอน Pando ไปยังบัญชีภายนอก</string>
+    <string name="transaction_details_date_time">วันที่ &amp; เวลา</string>
+    <string name="transaction_details_transaction_hash">แฮชธุรกรรม</string>
+    <string name="transaction_details_close">ปิด</string>
+    <string name="transaction_new">ใหม่</string>
+
+    <string name="progress_dialog_loading_transactions">กําลังโหลดธุรกรรม...</string>
+    <string name="withdrawal_page_withdrawal_limit_updated">จํานวนวงเงินถอนเงินได้รับการอัปเดตโปรดตรวจสอบและประมวลผลการถอน PANDO ของคุณอีกครั้ง</string>
+    <string name="withdrawal_confirmation_page_transaction_fee_updated">ค่าธรรมเนียมการทําธุรกรรมได้รับการอัปเดตโปรดตรวจสอบและประมวลผลการถอน PANDO ของคุณอีกครั้ง</string>
+
+    <string name="signup_verify_recaptcha">ตรวจสอบ reCaptcha</string>
+    <string name="signup_protected_by_recaptcha">ได้รับการคุ้มครองโดย reCAPTCHA</string>
+    <string name="toast_recaptcha_error">ไม่สามารถตรวจสอบ reCaptcha ได้</string>
+    <string name="toast_verify_recaptcha">กรุณาตรวจสอบ reCaptcha</string>
+
+    <string name="two_fa_title">การยืนยันตัวตนแบบสองชั้น</string>
+    <string name="two_fa_message">OTP ถูกส่งถึงคุณทางอีเมล กรุณาใส่รหัสด้านล่าง</string>
+    <string name="two_fa_continue">ดำเนิน</string>
+    <string name="two_fa_cancel">ยกเลิก</string>
+    <string name="signup_verification_successful">การตรวจสอบสําเร็จ</string>
+
+    <string name="withdrawal_page_is_not_available">การถอนเงิน PANDO ไม่สามารถใช้ได้ในขณะนี้ โปรดลองอีกครั้งในภายหลัง</string>
+
+    <string name="login_please_update_website">การร้องขอถูกปฏิเสธ เมื่อเร็ว ๆ นี้เราได้ปรับปรุงความปลอดภัยของเรา โปรดดาวน์โหลดและติดตั้งเวอร์ชันล่าสุดจากเว็บไซต์ของเรา (https://pandobrowser.com) เพื่อดําเนินการต่อ</string>
+    <string name="login_please_update_playstore">การร้องขอถูกปฏิเสธ เมื่อเร็ว ๆ นี้เราได้ปรับปรุงความปลอดภัยของเรา โปรดดาวน์โหลดและติดตั้งเวอร์ชันล่าสุดจากเว็บไซต์ของเรา (https://pandobrowser.com) หรือจาก Google Play Store เพื่อดําเนินการต่อ</string>
+
+    <string name="user_has_pending_withdrawal">คุณมีธุรกรรมการถอนโทเค็น Pando อย่างต่อเนื่อง โปรดรอให้เสร็จสิ้นก่อนก่อนจึงจะทําการถอนเงินอีกครั้ง ขอบคุณ</string>
+    <string name="reprocess_pando_withdrawal">ข้อผิดพลาดขณะตรวจสอบความถูกต้องของยอดเงินที่ถอน โปรดประมวลผลการถอน PANDO ของคุณอีกครั้ง</string>
+
+    <string name="two_fa_resend_message">ส่ง OTP อีกครั้งจะพร้อมใช้งานใน %d sec</string>
+    <string name="two_fa_did_not_get_the_code">ไม่ได้รับรหัส?</string>
+    <string name="two_fa_resend_action">ส่งรหัส OTP อีกครั้ง</string>
+    <string name="two_fa_error_sending_otp">ข้อผิดพลาดขณะพยายามส่งรหัส OTP ไปยังอีเมลของคุณ โปรดลองอีกครั้ง</string>
+    <string name="two_fa_success_sending_otp">การส่ง OTP สําเร็จ!</string>
+    <string name="device_otp_resend_message">ส่งอีเมลอีกครั้งจะพร้อมใช้งานใน %d sec</string>
+    <string name="device_otp_did_not_get_the_code">ไม่ได้รับรหัส?</string>
+    <string name="device_otp_resend_action">ส่งอีเมลอีกครั้ง</string>
+    <string name="device_otp_error_sending_otp">ข้อผิดพลาดขณะพยายามส่งรหัส OTP ไปยังอีเมลของคุณ โปรดลองอีกครั้ง</string>
+    <string name="device_otp_success_sending_otp">การส่ง OTP สําเร็จ!</string>
+
+    <string name="toast_otp_expired">รหัส OTP หมดอายุแล้ว</string>
+
+    <string name="too_much_request_verify_login">มีการร้องขอมากเกินไปในการเข้าสู่ระบบ</string>
+    <string name="too_much_request_create_account">ส่งคําขอลงทะเบียนแล้ว โปรดลองเข้าสู่ระบบโดยใช้บัญชีอีเมลของคุณ</string>
+    <string name="too_much_request_withdraw">การถอนเงินล่าสุดยังอยู่ในระหว่างดําเนินการ โปรดลองถอนเงินเพิ่มเติมในภายหลัง</string>
+
+    <string name="two_fa_message_resent">OTP ไม่พอใจคุณทางอีเมล กรุณาใส่รหัสด้านล่าง</string>
+    <string name="search_or_input_url">URL การค้นหาหรือป้อนค่า</string>
+    <string name="device_otp_congratulations">ขอแสดงความยินดีและยินดีต้อนรับสู่ Pando Browser คุณเข้าสู่ระบบด้วยอุปกรณ์ใหม่ของคุณสําเร็จแล้ว ขอบคุณ</string>
+    <string name="signup_email_invalid_title">อีเมลของคุณไม่ถูกต้อง</string>
+    <string name="signup_email_invalid">โปรดติดต่อ&lt;link&gt;info@pandobrowser.com&lt;/link&gt;สําหรับการสนับสนุนเพิ่มเติม</string>
+
+    <string name="member_dashboard_max_withdrawal_amount_reached">คุณมาถึงจํานวนเงินที่ถอนได้สําหรับวัน โปรดลองอีกครั้งพรุ่งนี้</string>
+    <string name="member_dashboard_max_withdrawal_transaction_count_reached">คุณมาถึงจํานวนสูงสุดของการทําธุรกรรมถอนสําหรับวัน. โปรดลองอีกครั้งพรุ่งนี้</string>
+
+    <string name="withdrawal_page_remaining_withdrawable_amount">จํานวนที่สามารถถอนได้ที่เหลืออยู่สําหรับวัน (PANDO)</string>
+    <string name="withdrawal_page_remaining_transaction">ธุรกรรมที่เหลือสําหรับวัน</string>
+    <string name="withdrawal_page_policy_updated">การปรับปรุงนโยบาย!</string>
+    <string name="withdrawal_page_daily_withdrawal_limit_updated">นโยบายการถอนเงินรายวันได้รับการอัปเดต กรุณาตรวจสอบและประมวลผลการถอนเงินของคุณอีกครั้ง</string>
+    <string name="withdrawal_page_max_number_of_transaction_per_day_updated">จํานวนธุรกรรมสูงสุดต่อวันได้ถูกอัพเดตแล้ว คุณมาถึงจํานวนสูงสุดของการทําธุรกรรมถอนสําหรับวัน. โปรดลองอีกครั้งพรุ่งนี้</string>
+    <string name="withdrawal_page_daily_withdrawable_amount_limit_updated">วงเงินการถอนเงินรายวันได้รับการปรับปรุง ขณะนี้คุณมี 0 จํานวนที่สามารถถอนได้ที่เหลืออยู่ โปรดลองอีกครั้งพรุ่งนี้</string>
+</resources>

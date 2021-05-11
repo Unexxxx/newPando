@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="brave_settings_title">Osiris site shield settings for</string>
+    <string name="brave_shields_down">Down</string>
+    <string name="brave_shields_up">Up</string>
+    <string name="brave_shields_ads_trackers">Ads and Trackers Blocked</string>
+    <string name="brave_shields_https_upgrades">HTTPS Upgrades</string>
+    <string name="brave_shields_scripts_blocked">Scripts Blocked</string>
+    <string name="brave_shields_ads_tracking_switch">Block Ads and Tracking</string>
+    <string name="brave_shields_https_everywhere_switch">HTTPS Everywhere</string>
+    <string name="brave_shields_blocks_scripts_switch">Block Scripts</string>
+    <string name="accessibility_toolbar_btn_brave_shields">Enable/Disable Osiris Shields</string>
+    <string name="brave_shields_block_3rd_party_cookies_switch">Block 3rd party cookies</string>
+
+    </resources>

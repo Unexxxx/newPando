@@ -1,0 +1,766 @@
+<resources>
+
+    <string name="facebook_app_id">2800459153367638</string>
+
+    <string name="dapp_name" translatable="false">Pando Browser</string>
+
+    <string name="brave_settings_title">Pando settings for</string>
+    <string name="brave_shields_down">Down</string>
+    <string name="brave_shields_up">Up</string>
+    <string name="brave_shields_ads_trackers">Ads and Trackers Blocked</string>
+    <string name="brave_shields_https_upgrades">HTTPS Upgrades</string>
+    <string name="brave_shields_scripts_blocked">Scripts Blocked</string>
+    <string name="brave_shields_ads_tracking_switch">Block Ads and Tracking</string>
+    <string name="brave_shields_https_everywhere_switch">HTTPS Everywhere</string>
+    <string name="brave_shields_blocks_scripts_switch">Block Scripts</string>
+    <string name="accessibility_toolbar_btn_brave_shields">Enable/Disable Pando Shields</string>
+    <string name="brave_shields_block_3rd_party_cookies_switch">Block 3rd party cookies</string>
+
+    <string name="httpse_summary">Opens supported sites using HTTPS instead of HTTP when possible</string>
+    <string name="tracking_protection_title">Tracking Protection Mode</string>
+    <string name="tracking_protection_summary">Prevents resources that track you from loading</string>
+    <string name="ad_block_title">Ad Block</string>
+    <string name="ad_block_summary">Prevents ads from loading</string>
+
+    <string name="fingerprinting_protection_title">Fingerprinting Protection</string>
+    <string name="fingerprinting_protection_summary">Prevents browser from fingerprinting</string>
+    <string name="brave_shields_fingerprints_blocked">Fingerprinting Methods Blocked</string>
+    <string name="brave_shields_block_fingerprints_switch">Fingerprinting Protection</string>
+
+    <string name="ad_block_regional_title">Regional Ad Block</string>
+    <string name="ad_block_regional_summary">Prevents regional ads from loading</string>
+
+    <string name="ad_block_regional_summary_no_list">No additional lists available for your locale</string>
+
+    <string name="menu_exit">Exit</string>
+
+    <string name="brave_sync">Pando Sync</string>
+    <string name="brave_sync_description">Sync browser data between your devices
+securely using Pando Sync, no account
+creation required. Tap below to get started.</string>
+    <string name="brave_sync_have_existing_code">I have an existing sync code</string>
+    <string name="sync_settings_add_device_name_title">Add device name</string>
+    <string name="sync_settings_add_device_name_label">Enter an optional name for this device</string>
+    <string name="sync_example_device_name">Android device</string>
+    <string name="brave_sync_qrcode">Sync to device</string>
+    <string name="brave_sync_qrcode_message">Using existing synced device open Pando
+Settings and navigate to "Device &amp;
+Settings", tap `+` to add a new device and
+reveal sync code.</string>
+    <string name="enter_code_words_sync">Enter code words</string>
+    <string name="enter_code_words_below_sync">Enter code words below.</string>
+    <string name="sync_device">Sync device</string>
+    <string name="sync_device_failure">Sync could not be setup</string>
+    <string name="sync_device_success">The sync setup has completed successfully</string>
+    <string name="reset_sync">Reset Sync...</string>
+    <string name="resetting_sync">Are you sure you want to reset this device Sync settings?</string>
+
+    <string name="brave_stats_text_trackers">Trackers
+Blocked</string>
+    <string name="brave_stats_text_spyce">Spyce</string>
+    <string name="brave_stats_text_ads">Ads
+Blocked</string>
+    <string name="brave_stats_text_https">HTTPS
+Upgrades</string>
+    <string name="brave_stats_text_time">Est. Time
+Saved</string>
+
+    <string name="send_metrics_title">Send metrics</string>
+
+    <string name="desktop_mode_title">Desktop Mode</string>
+    <string name="website_settings_category_desktop_view_enabled_summary">Prefer desktop version of sites</string>
+    <string name="website_settings_category_desktop_view_disabled_summary">Prefer mobile version of sites</string>
+    <string name="website_settings_category_desktop_view_enabled">Enable Desktop View for new tabs</string>
+    <string name="website_settings_category_desktop_view_disabled">Use mobile versions of sites for new tabs (recommended)</string>
+
+    <string name="brave_shields_first_group_title">Blocking Monitor</string>
+    <string name="brave_shields_second_group_title">Individual Controls</string>
+    <string name="brave_shields">Shields</string>
+    <string name="brave_shields_ads_and_trackers">Ads and Trackers</string>
+    <string name="brave_shields_fingerprint_methods">Fingerprint Methods</string>
+    <string name="brave_shields_block_phishing_switch">Block Phishing</string>
+
+    <string name="play_video_in_background_title">Background video playback</string>
+    <string name="website_settings_category_play_video_in_background_enabled_summary">Enabled</string>
+    <string name="website_settings_category_play_video_in_background_disabled_summary">Disabled</string>
+    <string name="website_settings_category_play_video_in_background_enabled">Experimental. Enables play audio from video in background when tab is not active or device screen is turned off. Try to switch to desktop mode if this feature is not working.</string>
+    <string name="settings_require_relaunch_notice">Your changes will take effect the next time you relaunch Pando</string>
+    <string name="settings_require_relaunch_now">RELAUNCH NOW</string>
+    <string name="settings_require_relaunch_later">LATER</string>
+
+    <string name="play_yt_video_in_browser_title">Video playback in Pando</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled_summary">Enabled</string>
+    <string name="website_settings_category_play_yt_video_in_browser_disabled_summary">Disabled</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled">If enabled, videos will be played in Pando instead of corresponding app</string>
+
+    <string name="close_tabs_on_exit_title">Close tabs on exit</string>
+    <string name="close_tabs_on_exit_summary">Don't persist tabs between browsing sessions</string>
+
+    <string name="open_pages_in_custom_tabs_title">Open tabs in Custom Tabs</string>
+    <string name="open_pages_in_custom_tabs_summary">Offer to open tabs in Custom Tabs</string>
+
+    <string name="ddg_offer_title">Private search with DuckDuckGo?</string>
+    <string name="ddg_offer_text">With private search, Pando will use DuckDuckGo to answer your searches while you are in this private tab. DuckDuckGo is a search engine that does not track your search history, enabling you to search privately.</string>
+    <string name="ddg_offer_positive">Yes</string>
+    <string name="ddg_offer_negative">No</string>
+    <string name="ddg_offer_link">Learn about private search with DuckDuckGo</string>
+    <string name="prefs_standard_search_engine">Standard Tab</string>
+    <string name="prefs_private_search_engine">Private Tab</string>
+
+    <string name="brave_open_in_private_tab">Open in private tab</string>
+    <string name="brave_close_all_private_tabs">Close private tabs</string>
+    <string name="brave_new_private_tab">New private tab</string>
+    <string name="brave_new_tab_private_header">This is a Private Tab</string>
+    <string name="brave_new_tab_private_message">Even though sites you visit in private tabs are not saved locally, they do not make you anonymous or invisible to your ISP, your employer, or to the sites you are visiting.</string>
+
+    <string name="fre_welcome_title">Congratulations!</string>
+    <string name="fre_welcome_text">Welcome to Pando's New Web 3.0</string>
+    <string name="menu_add_to_bookmarks">Add to</string>
+    <string name="menu_favorites">Favorites</string>
+    <string name="menu_mode_day">Day</string>
+    <string name="menu_mode_night">Night</string>
+    <string name="menu_night_mode">Night Mode</string>
+    <string name="menu_osiris_statistics">Pando Statistics</string>
+    <string name="day_theme_on">Day Mode On</string>
+    <string name="day_theme_off">Day Mode Off</string>
+    <string name="add_to_favorites">Add to Favorites</string>
+    <string name="favorites_placeholder_summary">Your favorites will appear here</string>
+
+    <!--  Pando Strings  -->
+    <string name="dashboard_popup_level">Level:</string>
+
+    <string name="dashboard_popup_title">Welcome to Pando Web Browser</string>
+    <string name="dashboard_popup_message">Enjoy seamless, swift, and secure transactions at your fingertips. Your data is protected with end-to-end encryption to guarantee that all types of transactions will always remain private and safe.</string>
+    <string name="dashboard_popup_view_profile">View Profile</string>
+    <string name="dashboard_popup_pando_mined">PANDO Mined</string>
+    <string name="dashboard_popup_referral_earnings">Referral Earnings</string>
+    <string name="dashboard_popup_mining_runtime">Mining Runtime</string>
+    <string name="dashboard_popup_membership_balance">Total Balance</string>
+    <string name="dashboard_popup_reward_dashboard">Reward Dashboard</string>
+    <string name="dashboard_popup_member_dashboard">Member Dashboard</string>
+    <string name="dashboard_popup_vpn">VPN</string>
+    <string name="dashboard_popup_ads_mining">Ads Mining</string>
+
+    <string name="login_already_have">Already have account?</string>
+    <string name="login_button">Login</string>
+    <string name="login_message">Welcome to your very own Pando Web Browser! You can now enjoy seamless, swift, and secure transactions at your fingertips.</string>
+    <string name="login_email_label">Email</string>
+    <string name="login_email_hint">Enter your email</string>
+    <string name="login_password_label">Password</string>
+    <string name="login_password_hint">Enter your password</string>
+    <string name="login_remember_me">Remember me</string>
+    <string name="login_forgot_password">Forgot Password?</string>
+    <string name="login_reset_device_id">Reset Device ID</string>
+    <string name="login_needs_device_verification_title">Device Verification</string>
+    <string name="login_needs_device_verification_message">You're using new device. Are you sure you want to login? You will be automatically logged out from existing device.</string>
+    <string name="login_needs_device_verification_action_text">Continue</string>
+    <string name="login_multiple_device_not_supported_title">Feature Not Supported</string>
+    <string name="login_multiple_device_not_supported_message">Logging in on a multiple devices is only supported for users with plan.</string>
+    <string name="login_multiple_device_not_supported_action_text">Ok</string>
+
+    <string name="forgot_password_title">Forgot Password?</string>
+    <string name="forgot_password_message">Enter your email address you're using for your account  below and we will send verification code to reset your password.</string>
+    <string name="forgot_password_email_label">Email</string>
+    <string name="forgot_password_email_hint">Enter your email</string>
+    <string name="forgot_password_continue">Continue</string>
+
+    <string name="email_otp_title">Verify Email</string>
+    <string name="email_otp_message">Enter the verification code we just sent you on your email address to reset password.</string>
+    <string name="email_otp_code_label">Verification Code</string>
+    <string name="email_otp_reset_password">Reset Password</string>
+
+    <string name="device_otp_message">Enter the verification code we just sent you on your email address to update device.</string>
+    <string name="device_otp_update_device">Update Device</string>
+    <string name="device_otp_title_dialog">Verification Complete!</string>
+    <string name="device_otp_message_dialog">You successfully verified your account with your new device.</string>
+    <string name="device_otp_action_text">Login Now</string>
+    <string name="device_otp_resend_message">Resend Email will be available in %d sec</string>
+    <string name="device_otp_did_not_get_the_code">Didn't get the code?</string>
+    <string name="device_otp_resend_action">Resend Email</string>
+    <string name="device_otp_error_sending_otp">Error while trying to send OTP to your email. Please try again.</string>
+    <string name="device_otp_success_sending_otp">Sending OTP Successful!</string>
+
+    <string name="two_fa_title">Two-Factor Authentication</string>
+    <string name="two_fa_message">An OTP has been sent to you via email. Please enter the code below.</string>
+    <string name="two_fa_continue">Continue</string>
+    <string name="two_fa_cancel">Cancel</string>
+    <string name="two_fa_resend_message">Resend OTP will be available in %d sec</string>
+    <string name="two_fa_did_not_get_the_code">Didn't get the code?</string>
+    <string name="two_fa_resend_action">Resend OTP Code</string>
+    <string name="two_fa_error_sending_otp">Error while trying to send OTP to your email. Please try again.</string>
+    <string name="two_fa_success_sending_otp">Sending OTP Successful!</string>
+
+    <string name="setup_password_title">Setup New Password</string>
+    <string name="setup_password_message">Your new password must meet the password policy requirements for this account.</string>
+    <string name="setup_password_req1">Must be at least 8 characters long</string>
+    <string name="setup_password_req2">Must include at least one uppercase letter</string>
+    <string name="setup_password_req3">Must include at least one lowercase letter</string>
+    <string name="setup_password_req4">Must include at least one number</string>
+    <string name="setup_password_req5">Must include at least one non-alphanumeric character</string>
+    <string name="setup_password_password_label">Password</string>
+    <string name="setup_password_password_hint">Enter your password</string>
+    <string name="setup_password_cpassword_label">Confirm Password</string>
+    <string name="setup_password_cpassword_hint">Re-enter your password</string>
+    <string name="setup_password_password_str">Password Strength</string>
+    <string name="setup_password_submit">Submit</string>
+
+    <string name="change_password_title">Change Password</string>
+    <string name="change_password_message">Your new password must meet the password policy requirements for this account.</string>
+    <string name="change_password_old_password_label">Old Password</string>
+    <string name="change_password_old_password_hint">Enter your old password</string>
+    <string name="change_password_password_label">New Password</string>
+    <string name="change_password_password_hint">Enter your password</string>
+    <string name="change_password_cpassword_label">Confirm Password</string>
+    <string name="change_password_cpassword_hint">Re-enter your password</string>
+    <string name="change_password_password_str">Password Strength</string>
+    <string name="change_password_save">Save</string>
+    <string name="change_password_dialog_title">Success</string>
+    <string name="change_password_dialog_message">Password Updated!</string>
+
+    <string name="signup_donthaveaccount">Don't have account?</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="signup_title">Account Information</string>
+    <string name="signup_fullname_label">Full Name</string>
+    <string name="signup_fullname_hint">Enter your full name</string>
+    <string name="signup_email_label">Email</string>
+    <string name="signup_email_hint">Enter your email</string>
+    <string name="signup_password_label">Password</string>
+    <string name="signup_password_hint">Enter your password</string>
+    <string name="signup_cpassword_label">Confirm Password</string>
+    <string name="signup_cpassword_hint">Re-enter your password</string>
+    <string name="signup_password_str">Password Strength</string>
+    <string name="signup_country_label">Country</string>
+
+    <string name="referral_code_title">Referral Code</string>
+    <string name="referral_code_message">Please provide referral code, who invite you to this platform. Thank you</string>
+    <string name="referral_code_referral_label">Referral Code</string>
+    <string name="referral_code_referral_hint">Enter referral code</string>
+    <string name="referral_code_scan_qrcode">Scan QR Code of Referral</string>
+    <string name="referral_code_skip_for_now">Skip for now</string>
+    <string name="referral_code_continue">Continue</string>
+
+    <string name="mining_popup_title">Mining</string>
+    <string name="mining_popup_pando_mined">PANDO Mined</string>
+    <string name="mining_popup_total_balance">Total Balance</string>
+
+    <string name="toast_invalid_credentials">Invalid credentials</string>
+    <string name="toast_user_email_not_registered">User with email `%s` is not registered</string>
+    <string name="toast_creds_cannot_empty">Email or password cannot be empty</string>
+    <string name="toast_check_connectivity">Please check your internet connectivity</string>
+    <string name="toast_account_not_validated">Your account is not validated</string>
+    <string name="toast_user_logged_in">User is logged in</string>
+    <string name="toast_minimum_password_level">Password is not strong enough for its format</string>
+    <string name="toast_all_fields_are_required">All fields are required</string>
+    <string name="toast_password_did_not_match">Passwords did not match</string>
+    <string name="toast_old_password_incorrect">Incorrect old password</string>
+    <string name="toast_invalid_email_format">Invalid format of email</string>
+    <string name="toast_email_already_exists">Email already exists</string>
+    <string name="toast_user_registered">User is registered</string>
+    <string name="toast_email_cannot_be_empty">Email cannot be empty</string>
+    <string name="toast_email_does_not_exist">Email does not exist</string>
+    <string name="toast_otp_code_should_be_6_digits">OTP code should be 6 digits</string>
+    <string name="toast_otp_code_cannot_be_empty">OTP code cannot be empty</string>
+    <string name="toast_invalid_otp_code">Invalid OTP code</string>
+    <string name="toast_password_not_strong_enough">Password is not strong enough for its format</string>
+    <string name="toast_new_password_cannot_be_empty">New password cannot be empty</string>
+    <string name="toast_password_cannot_be_empty">Password cannot be empty</string>
+    <string name="toast_cpassword_cannot_be_empty">Confirm password cannot be empty</string>
+    <string name="toast_old_password_cannot_be_empty">Old password cannot be empty</string>
+    <string name="toast_password_is_successfully_updated">You successfully updated your password</string>
+    <string name="toast_referral_invalid_code">Invalid referral code.</string>
+    <string name="toast_referral_code_cannot_be_empty">Referral code is required and cannot be empty.</string>
+    <string name="toast_referrer_invalid_code">Invalid referrer code.</string>
+    <string name="toast_account_is_deactivated">Account is deactivated.</string>
+    <string name="toast_relogin_needed">Your session has expired. Kindly login your credentials.</string>
+    <string name="toast_feature_will_be_soon">This feature will be available soon.</string>
+    <string name="toast_copied_to_clipboard">Copied to clipboard</string>
+    <string name="toast_otp_expired">OTP code is already expired.</string>
+
+    <string name="toast_vpn_feature_will_be_soon">"VPN toggle" will be supported soon please check the pandobrowser.com site for updates.</string>
+    <string name="toast_ads_mining_feature_will_be_soon">"Ads Mining" will be supported soon please check the pandobrowser.com site for updates.</string>
+    <string name="toast_rewards_feature_will_be_soon">"Rewards Dashboard" will be supported soon please check the pandobrowser.com site for updates.</string>
+    <string name="toast_view_profile_feature_will_be_soon">"View Profile" will be supported soon please check the pandobrowser.com site for updates.</string>
+
+    <string name="progress_dialog_title">Please wait</string>
+    <string name="progress_dialog_logging_in">Logging in...</string>
+    <string name="progress_dialog_signing_up">Signing up...</string>
+    <string name="progress_dialog_sending_otp_code">Sending OTP code...</string>
+    <string name="progress_dialog_verifying_email">Verifying email...</string>
+    <string name="progress_dialog_saving_new_password">Saving new password...</string>
+    <string name="progress_dialog_verifying_referral_code">Verifying referral code...</string>
+    <string name="progress_dialog_verifying_referrer_code">Verifying referrer code...</string>
+    <string name="progress_dialog_loading_users">Loading users under your plan...</string>
+    <string name="progress_dialog_saving_changes">Saving changes...</string>
+
+    <string name="users_nothing_under_plan">No users under your plan yet</string>
+    <string name="users_under_my_plan_label">Users Under My Plan</string>
+
+    <string name="account_settings_save">Save</string>
+    <string name="account_settings_edit_information">Edit Information</string>
+    <string name="account_settings_reminder_title">Reminder</string>
+    <string name="account_settings_reminder_continue">Continue</string>
+    <string name="account_settings_reminder_cancel">Cancel</string>
+    <string name="account_settings_reminder_message_save">You can only input referrer code once. You won't be able to change this once it's successfully saved.</string>
+    <string name="account_settings_reminder_message_edit">You can only input referrer code once. You won't be able to change it now.</string>
+    <string name="account_settings_discard_changes">Discard your changes?</string>
+    <string name="account_settings_already_setup">You already have a referrer code.</string>
+    <string name="account_settings_cannot_use_own_referral_code_as_referrer_code">You cannot use your own referral code as referrer code.</string>
+    <string name="account_settings_cannot_be_empty">Full name cannot be empty.</string>
+
+    <string name="update_available_title">Pando Browser Update</string>
+    <string name="update_available_message">There's an update available. Download the\nnew version for the best Pando Experience.</string>
+    <string name="update_available_confirm">Confirm</string>
+    <string name="update_available_skip">Skip</string>
+    <string name="update_available_install_via_playstore">You can install the latest version via Google Play Store.</string>
+
+    <string name="pando_games_comingsoon">Pando Games Coming Soon</string>
+
+    <string name="fre_pando_page1_title">Browse Faster</string>
+    <string name="fre_pando_page1_message">3-7 times faster than traditional web browsing with its hyper-speed browsing.</string>
+    <string name="fre_pando_page2_title">Block Ads and Trackers</string>
+    <string name="fre_pando_page2_message">Blocks all intrusive ads. Binge watch content for hours without interruptions.</string>
+    <string name="fre_pando_page3_title">Protect your Privacy</string>
+    <string name="fre_pando_page3_message">Secures and protects the users&apos; data and privacy, guaranteeing that it will not be shared with third-parties.</string>
+    <string name="fre_pando_page4_title">Earn Rewards</string>
+    <string name="fre_pando_page4_message">Pando Runtime mining allows you to earn rewards by using Pando ecosystem products. Remember to stay tuned to enjoy maximum benefits.</string>
+
+    <string name="fre_pando_next">Next</string>
+    <string name="fre_pando_get_started">Get Started</string>
+
+    <string name="toolbar_phone_close_all">Close All</string>
+
+    <string name="edit_favorite_label">Edit label</string>
+    <string name="edit_favorite_save">Save</string>
+
+    <string name="under_maintenance_title">Maintenance</string>
+    <string name="under_maintenance_message">We are currently undergoing maintenance on server to improve your experience. This won't take long. We apologize for the inconvenience.</string>
+    <string name="under_maintenance_ok">Ok</string>
+
+    <string name="password_str_1">Too Short</string>
+    <string name="password_str_2">Weak</string>
+    <string name="password_str_3">Fair</string>
+    <string name="password_str_4">Good</string>
+    <string name="password_str_5">Strong</string>
+    <string name="password_str_6">Very Strong</string>
+
+    <string name="search_engine_title">Search Engine</string>
+    <string name="coming_soon_title">Coming Soon</string>
+
+    <string name="prefs_section_basics">Basics</string>
+    <string name="prefs_display_title">Appearance</string>
+    <string name="prefs_autofill_and_payments">Autofill and payments</string>
+    <string name="prefs_saved_passwords_title">Passwords</string>
+    <string name="prefs_notifications">Notifications</string>
+
+    <string name="prefs_section_advanced">Advanced</string>
+    <string name="prefs_privacy">Privacy</string>
+    <string name="prefs_accessibility">Accessibility</string>
+    <string name="prefs_site_settings">Site settings</string>
+    <string name="prefs_languages">Languages</string>
+    <string name="menu_downloads">Downloads</string>
+    <string name="prefs_about_pando">About Pando Browser</string>
+
+    <string name="prefs_display_theme">Theme</string>
+
+    <string name="cookies_title">Cookies</string>
+    <string name="pando_android_settings_permission_off_plural">Turn on permissions for Pando in &lt;link&gt;Android Settings&lt;/link&gt;.</string>
+    <string name="pando_android_settings_permission_off">Turn on permission for Pando in &lt;link&gt;Android Settings&lt;/link&gt;.</string>
+    <string name="pando_legal_information_summary">Copyright %1$d Pando Software Inc. All rights reserved.</string>
+    <string name="terms_of_service_title">Pando Terms of Service</string>
+    <string name="privacy_notice_title">Pando Privacy Notice</string>
+
+    <string name="dialog_negative_title">Oops...</string>
+    <string name="dialog_positive_action">Ok</string>
+
+    <string name="account_settings_title">Account Settings</string>
+    <string name="account_settings_fullname_label">Full Name</string>
+    <string name="account_settings_email">Email</string>
+    <string name="account_settings_referrer_code">Referrer Code</string>
+    <string name="account_settings_password">Password</string>
+    <string name="account_settings_change_password">Change Password</string>
+    <string name="account_settings_country">Country</string>
+    <string name="account_settings_eth_wallet">Ethereum Wallet</string>
+    <string name="account_settings_pando_wallet">Pando Wallet</string>
+    <string name="account_settings_logout">Logout</string>
+
+    <string name="member_dashboard_membership_bonus">Membership Bonus</string>
+    <string name="member_dashboard_referral_bonus">Referral Bonus</string>
+    <string name="member_dashboard_local_mining">Local Mining</string>
+    <string name="member_dashboard_pando_balance">Pando Earnings</string>
+    <string name="member_dashboard_download_link">Referral Download Link</string>
+    <string name="member_dashboard_referral_code">Referral Code</string>
+    <string name="member_dashboard_referral_analytics">Referral Analytics</string>
+    <string name="member_dashboard_total_users">Total User Under My Plan</string>
+    <string name="member_dashboard_view_all_users">View All Users</string>
+    <string name="member_dashboard_view_transaction_history">View Transaction History</string>
+    <string name="member_dashboard_show_qr_code">Show QR Code</string>
+
+    <string name="sw_mining_title">SW Mining</string>
+    <string name="sw_mining_membership_level">Membership Level</string>
+    <string name="sw_mining_total_balance">Total Balance</string>
+
+    <string name="tab_header_ads_blocked">Ads Blocked</string>
+    <string name="tab_header_data_saved">Data Saved</string>
+    <string name="tab_header_time_saved">Time Saved</string>
+
+    <string name="user_loggedin_to_different_device">You are logged in to a different device. You will be logged out here.</string>
+
+    <string name="reset_device_id_title">Reset Device ID</string>
+    <string name="reset_device_id_message">Enter your email address you're using for your account  below and we will send verification code to reset your device id.</string>
+    <string name="reset_device_id_email_label">Email</string>
+    <string name="reset_device_id_email_hint">Enter your email</string>
+    <string name="reset_device_id_continue">Continue</string>
+
+    <string name="pando_edit_label">Edit Label</string>
+
+    <string name="member_dashboard_sun">Sun</string>
+    <string name="member_dashboard_mon">Mon</string>
+    <string name="member_dashboard_tue">Tue</string>
+    <string name="member_dashboard_wed">Wed</string>
+    <string name="member_dashboard_thu">Thu</string>
+    <string name="member_dashboard_fri">Fri</string>
+    <string name="member_dashboard_sat">Sat</string>
+    <string name="member_dashboard_download_link_label">Download Link</string>
+    <string name="member_dashboard_referral_code_label">Referral Code</string>
+
+    <string name="member_dashboard_withdrawable_balance">Withdrawable Balance</string>
+    <string name="member_dashboard_withdraw">Withdraw</string>
+    <string name="member_dashboard_previous_withdrawn">Previous Withdrawn</string>
+    <string name="member_dashboard_transaction_history">Transaction History</string>
+
+    <string name="member_dashboard_max_withdrawal_amount_reached">You have reached the allowed withdrawal amount for the day. Please try again tomorrow.</string>
+    <string name="member_dashboard_max_withdrawal_transaction_count_reached">You have reached the max number of withdrawal transaction for the day. Please try again tomorrow.</string>
+
+    <string name="withdrawal_page_title">Withdraw Pando</string>
+    <string name="withdrawal_page_withdrawable_balance_label">Withdrawable Balance</string>
+    <string name="withdrawal_page_to_label">To</string>
+    <string name="withdrawal_page_amount_label">Amount</string>
+    <string name="withdrawal_page_max_amount">Max Amount</string>
+    <string name="withdrawal_page_to_hint">Enter Pando Wallet Address</string>
+    <string name="withdrawal_page_amount_hint">Enter Amount</string>
+    <string name="withdrawal_page_continue">Continue</string>
+    <string name="withdrawal_page_cancel">Cancel</string>
+    <string name="withdrawal_page_invalid_wallet_address">Invalid Pando Wallet Address</string>
+    <string name="withdrawal_page_invalid_balance">Invalid Pando Balance</string>
+    <string name="withdrawal_page_withdraw_limit_policy">Withdraw Limit per Transaction Policy</string>
+    <string name="withdrawal_page_minimum_amount">Min Amount (PANDO)</string>
+    <string name="withdrawal_page_maximum_amount">Max Amount (PANDO)</string>
+    <string name="withdrawal_page_daily_limit">Daily Limit</string>
+    <string name="withdrawal_page_remaining_withdrawable_amount">Remaining Withdrawable Amount for the day (PANDO)</string>
+    <string name="withdrawal_page_remaining_transaction">Remaining Transaction for the day</string>
+    <string name="withdrawal_page_policy_updated">Policy Update!</string>
+    <string name="withdrawal_page_daily_withdrawal_limit_updated">Daily withdrawal policy was updated. Kindly check and process your withdrawal again.</string>
+    <string name="withdrawal_page_max_number_of_transaction_per_day_updated">Maximum Number of Transaction per Day has been updated. You have now reached the max number of withdrawal transaction for the day. Please try again tomorrow.</string>
+    <string name="withdrawal_page_daily_withdrawable_amount_limit_updated">Daily Withdrawal Amount Limit has been updated. You now have 0 Remaining Withdrawable Amount. Please try again tomorrow.</string>
+
+    <string name="withdrawal_confirmation_page_title">Confirm Transaction</string>
+    <string name="withdrawal_confirmation_page_messages">Please check the transaction details if all are correct. Click confirm button below to process the withdrawal of your PANDO.</string>
+    <string name="withdrawal_confirmation_page_to_label">To</string>
+    <string name="withdrawal_confirmation_page_amount_label">Amount</string>
+    <string name="withdrawal_confirmation_page_transaction_fee_label">Transaction Fee</string>
+    <string name="withdrawal_confirmation_page_receivable_amount_label">Receivable Amount</string>
+    <string name="withdrawal_confirmation_page_confirm">Confirm</string>
+    <string name="withdrawal_confirmation_page_cancel">Back</string>
+
+    <string name="pando_contextual_search_description">
+        Learn about topics on websites without leaving the page. Tap to Search sends a word and its surrounding context to Google Search, returning definitions, pictures, search results, and other details.
+
+        To adjust your search term, long press to select. To refine your search, slide the panel all the way up and tap the search box.
+    </string>
+
+    <string name="progress_dialog_validating_wallet_address">Validating wallet address...</string>
+    <string name="toast_invalid_withdrawable_amount">Invalid amount. Please enter the withdrawal amount within the minimum and maximum allowable amount.</string>
+
+    <string name="withdrawal_page_invalid_range_amount">Invalid amount. Please enter the withdrawal amount within the minimum and maximum allowable amount.</string>
+    <string name="withdrawal_page_withdrawable_amount_exceeded">Invalid amount. Withdrawal amount should not exceed the withdrawable balance.</string>
+    <string name="withdrawal_page_remaining_amount_exceeded">Amount exceeds your daily limit</string>
+    <string name="progress_dialog_processing_withdrawal">Processing withdrawal...</string>
+
+    <string name="no_transaction_history">No transactions yet</string>
+    <string name="transaction_history_label">Transaction History</string>
+    <string name="transaction_failed">Failed</string>
+    <string name="transaction_processing">Pending</string>
+    <string name="transaction_completed">Completed</string>
+    <string name="transaction_withdraw_to_external_account">Withdraw Pando to External Account</string>
+    <string name="transaction_details_date_time">Date &amp; Time</string>
+    <string name="transaction_details_transaction_hash">Transaction Hash</string>
+    <string name="transaction_details_close">Close</string>
+    <string name="transaction_new">New</string>
+
+    <string name="progress_dialog_loading_transactions">Loading transactions...</string>
+    <string name="withdrawal_page_withdrawal_limit_updated">Withdrawal limit amount was updated, kindly check and process your PANDO withdrawal again.</string>
+    <string name="withdrawal_confirmation_page_transaction_fee_updated">Transaction Fee was updated, kindly check and process your PANDO withdrawal again.</string>
+
+    <string name="signup_verify_recaptcha">Verify reCaptcha</string>
+    <string name="signup_protected_by_recaptcha">Protected by reCAPTCHA</string>
+    <string name="toast_recaptcha_error">Failed to verify reCaptcha</string>
+    <string name="toast_verify_recaptcha">Please verify reCaptcha</string>
+    <string name="signup_verification_successful">Verification Successful</string>
+
+    <string name="withdrawal_page_is_not_available">PANDO withdrawal is not available at the moment. Please try again later.</string>
+    <string name="user_has_pending_withdrawal">You have ongoing Pando token withdrawal transaction. Please wait for it to be completed first before performing another withdrawal. Thank you.</string>
+    <string name="reprocess_pando_withdrawal">Error while validating withdraw amount. Please reprocess your PANDO withdrawal.</string>
+
+    <string name="login_please_update_website">Request denied. We've recently improved our security. Please download and install the latest version from our website(https://pandobrowser.com) to continue.</string>
+    <string name="login_please_update_playstore">Request denied. We've recently improved our security. Please download and install the latest version from our website(https://pandobrowser.com) or from Google Play Store to continue.</string>
+
+    <string name="too_much_request_verify_login">Too much request in login</string>
+    <string name="too_much_request_create_account">Signup request has been sent. Please try to login using your email account.</string>
+    <string name="too_much_request_withdraw">Recent withdrawal is still in process. Please retry additional withdrawal later.</string>
+
+    <string name="two_fa_message_resent">An OTP has been resent to you via email. Please enter the code below.</string>
+    <string name="search_or_input_url">Search or Input URL</string>
+    <string name="device_otp_congratulations">Congratulations and welcome to Pando Browser. You successfully login with your new device. Thank you.</string>
+
+    <string name="signup_email_invalid_title">Your email is invalid</string>
+    <string name="signup_email_invalid">Please contact &lt;link&gt;info@pandobrowser.com&lt;/link&gt; for additional support.</string>
+
+
+    <string-array name="countries">
+        <item>South Korea</item>
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>American Samoa</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antarctica</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Bouvet Island</item>
+        <item>Brazil</item>
+        <item>British Indian Ocean Territory</item>
+        <item>British Virgin Islands</item>
+        <item>Brunei</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Cayman Islands</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Christmas Island</item>
+        <item>Cocos [Keeling] Islands</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Congo [DRC]</item>
+        <item>Congo [Republic]</item>
+        <item>Cook Islands</item>
+        <item>Costa Rica</item>
+        <item>Côte d Ivoire</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Falkland Islands [Islas Malvinas]</item>
+        <item>Faroe Islands</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>French Guiana</item>
+        <item>French Polynesia</item>
+        <item>French Southern Territories</item>
+        <item>Gabon</item>
+        <item>Gambia</item>
+        <item>Gaza Strip</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greece</item>
+        <item>Greenland</item>
+        <item>Grenada</item>
+        <item>Guadeloupe</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guernsey</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Heard Island and McDonald Islands</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Isle of Man</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jersey</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kiribati</item>
+        <item>Kosovo</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macau</item>
+        <item>Macedonia [FYROM]</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshall Islands</item>
+        <item>Martinique</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexico</item>
+        <item>Micronesia</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Myanmar [Burma]</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>Netherlands Antilles</item>
+        <item>New Caledonia</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Niue</item>
+        <item>Norfolk Island</item>
+        <item>North Korea</item>
+        <item>Northern Mariana Islands</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Palestinian Territories</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Pitcairn Islands</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Réunion</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Rwanda</item>
+        <item>Saint Helena</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Pierre and Miquelon</item>
+        <item>Saint Vincent and the Grenadines</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>São Tomé and Príncipe</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Georgia and the South Sandwich Islands</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Svalbard and Jan Mayen</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>Timor-Leste</item>
+        <item>Togo</item>
+        <item>Tokelau</item>
+        <item>Tonga</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Turks and Caicos Islands</item>
+        <item>Tuvalu</item>
+        <item>U.S. Minor Outlying Islands</item>
+        <item>U.S. Virgin Islands</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Vatican City</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Wallis and Futuna</item>
+        <item>Western Sahara</item>
+        <item>Yemen</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+</resources>

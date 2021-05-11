@@ -1,0 +1,113 @@
+<resources>
+
+    <string name="brave_settings_title">Impostazioni protezione sito Osiris per</string>
+    <string name="brave_shields_down">Giù</string>
+    <string name="brave_shields_up">Su</string>
+    <string name="brave_shields_ads_trackers">Pubblicità e tracker bloccati</string>
+    <string name="brave_shields_https_upgrades">Aggiornamenti HTTPS</string>
+    <string name="brave_shields_scripts_blocked">Script bloccati</string>
+    <string name="brave_shields_ads_tracking_switch">Blocca pubblicità e tracking</string>
+    <string name="brave_shields_https_everywhere_switch">HTTPS Ovunque</string>
+    <string name="brave_shields_blocks_scripts_switch">Blocca gli script</string>
+    <string name="accessibility_toolbar_btn_brave_shields">Attiva/Disattiva le protezioni Osiris</string>
+    <string name="brave_shields_block_3rd_party_cookies_switch">Blocca i cookie di terze parti</string>
+
+    <string name="httpse_summary">Apre siti supportati utilizzando HTTPS invece di HTTP quando possibile</string>
+    <string name="tracking_protection_title">Modalità di protezione antitracciamento</string>
+    <string name="tracking_protection_summary">Impedisce il caricamento delle risorse che tracciano la tua attività</string>
+    <string name="ad_block_title">Blocco ad</string>
+    <string name="ad_block_summary">Impedisce il caricamento degli ad</string>
+
+    <string name="fingerprinting_protection_title">Proteziona fingerprint</string>
+    <string name="fingerprinting_protection_summary">Impedisce la raccolta illecita delle informazioni dal browser</string>
+    <string name="brave_shields_fingerprints_blocked">Metodi di blocco della raccolta illecita delle informazioni</string>
+    <string name="brave_shields_block_fingerprints_switch">Proteziona fingerprint</string>
+
+    <string name="ad_block_regional_title">Blocco delle pubblicità regionali</string>
+    <string name="ad_block_regional_summary">Impedisce che vengano scaricate le pubblicità regionali</string>
+
+    <string name="ad_block_regional_summary_no_list">Non ci sono liste disponibili per la vostra località</string>
+
+    <string name="menu_exit">Uscita</string>
+
+    <string name="brave_sync">Osiris Sync</string>
+    <string name="brave_sync_description">Sincronizza i dati del browser tra i tuoi dispositivi
+in modo sicuro con Osiris Sync,
+non è necessario creare alcun account.
+Tocca qui sotto per cominciare.</string>
+    <string name="brave_sync_have_existing_code">Possiedo già un codice di sincronizzazione</string>
+    <string name="sync_settings_add_device_name_title">Aggiungi il nome del dispositivo</string>
+    <string name="sync_settings_add_device_name_label">Inserisci un nome opzionale per questo dispositivo</string>
+    <string name="sync_example_device_name">Dispositivo Android</string>
+    <string name="brave_sync_qrcode">Sincronizza con il dispositivo</string>
+    <string name="brave_sync_qrcode_message">Utilizzando il dispositivo già sincronizzato apri
+Impostazioni Osiris e naviga fino a
+"Impostazioni Dispositivo", tocca "+"
+per aggiungere un nuovo dispositivo e far
+apparire il codice di sincronizzazione.</string>
+    <string name="enter_code_words_sync">Inserisci le parole codice</string>
+    <string name="enter_code_words_below_sync">Inserisci le parole codice qui sotto.</string>
+    <string name="sync_device">Sincronizza dispositivo</string>
+    <string name="sync_device_failure">Non è stato impossibile configurare la sincronizzazione</string>
+    <string name="sync_device_success">La configurazione della sincronizzazione è stata completata correttamente</string>
+    <string name="reset_sync">Resetta Sincronizzazione...</string>
+    <string name="resetting_sync">Sei sicuro di voler resettare le impostazioni di sincronizzazione di questo dispositivo?</string>
+
+    <string name="brave_stats_text_trackers">Tracker
+bloccati</string>
+    <string name="brave_stats_text_ads">Pubblicità
+bloccati</string>
+    <string name="brave_stats_text_https">Aggiornamenti
+HTTPS</string>
+    <string name="brave_stats_text_time">Tempo Stimato
+Risparmiato</string>
+
+    <string name="send_metrics_title">Invia metriche</string>
+
+    <string name="desktop_mode_title">Modalità Desktop</string>
+    <string name="website_settings_category_desktop_view_enabled_summary">Preferisco la versione desktop dei siti</string>
+    <string name="website_settings_category_desktop_view_disabled_summary">Preferisco la versione mobile dei siti</string>
+    <string name="website_settings_category_desktop_view_enabled">Attiva Vista Desktop per nuove schede</string>
+    <string name="website_settings_category_desktop_view_disabled">Utilizza versioni mobili dei siti per le nuove schede (consigliato)</string>
+
+    <string name="brave_shields_first_group_title">Blocco del Monitor</string>
+    <string name="brave_shields_second_group_title">Controlli Individuali</string>
+    <string name="brave_shields">Scudi</string>
+    <string name="brave_shields_ads_and_trackers">Pubblicità e Localizzatori</string>
+    <string name="brave_shields_fingerprint_methods">Metodi di Fingerprint</string>
+    <string name="brave_shields_block_phishing_switch">Blocca Phishing</string>
+
+    <string name="play_video_in_background_title">Riproduzione video in background</string>
+    <string name="website_settings_category_play_video_in_background_enabled_summary">Abilitato</string>
+    <string name="website_settings_category_play_video_in_background_disabled_summary">Disabilitato</string>
+    <string name="website_settings_category_play_video_in_background_enabled">Sperimentale. Consente la riproduzione di audio da video in background quando la scheda non è attiva o lo schermo del dispositivo è disattivato. Prova a passare alla modalità desktop se questa funzionalità non funziona.</string>
+    <string name="settings_require_relaunch_notice">Al prossimo riavvio di Osiris le modiche saranno effettive</string>
+    <string name="settings_require_relaunch_now">RIAVVIA ADESSO</string>
+    <string name="settings_require_relaunch_later">DOPO</string>
+
+    <string name="play_yt_video_in_browser_title">Riproduzione con Osiris</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled_summary">Abilitato</string>
+    <string name="website_settings_category_play_yt_video_in_browser_disabled_summary">Disabilitato</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled">Se abilitato, i video saranno riprodotti con Osiris piuttosto che in app corrispondenti</string>
+
+    <string name="close_tabs_on_exit_title">Chiudi le schede all\'uscita</string>
+    <string name="close_tabs_on_exit_summary">Non mantenere le schede tra le sessioni di navigazione</string>
+
+    <string name="open_pages_in_custom_tabs_title">Apri le schede in Schede personalizzate</string>
+    <string name="open_pages_in_custom_tabs_summary">Offri di aprire le schede in Schede personalizzate</string>
+
+    <string name="ddg_offer_title">Ricerca privata con DuckDuckGo?</string>
+    <string name="ddg_offer_text">Con la ricerca privata, Osiris utilizzerà DuckDuckgo per effettuare le tue ricerche mentre sei in questa scheda privata. DuckDuckGo è un motore di ricerca che non traccia la tua cronologia di ricerca, permettendoti di fare ricerche in modo privato.</string>
+    <string name="ddg_offer_positive">Sì</string>
+    <string name="ddg_offer_negative">No</string>
+    <string name="ddg_offer_link">Scopri la ricerca privata con DuckDuckGo</string>
+    <string name="prefs_standard_search_engine">Scheda Standard</string>
+    <string name="prefs_private_search_engine">Scheda Privata</string>
+
+    <string name="brave_open_in_private_tab">Apri in scheda privata</string>
+    <string name="brave_close_all_private_tabs">Chiudi schede private</string>
+    <string name="brave_new_private_tab">Nuova scheda privata</string>
+    <string name="brave_new_tab_private_header">Questa è una Scheda Privata</string>
+    <string name="brave_new_tab_private_message">Anche se i siti visitati in schede private non vengono salvati localmente, ciò non ti rende anonimo o invisibile al tuo ISP, al tuo datore di lavoro o ai siti che stai visitando.</string>
+
+</resources>

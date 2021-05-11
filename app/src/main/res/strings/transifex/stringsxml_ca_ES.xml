@@ -1,0 +1,84 @@
+<resources>
+
+    <string name="brave_settings_title">Configuració d'escuts web de Osiris per a</string>
+    <string name="brave_shields_down">Avall</string>
+    <string name="brave_shields_up">Amunt</string>
+    <string name="brave_shields_ads_trackers">Anuncis i seguiment blocats</string>
+    <string name="brave_shields_https_upgrades">Actualitzacions del HTTPS</string>
+    <string name="brave_shields_scripts_blocked">Scripts blocats</string>
+    <string name="brave_shields_ads_tracking_switch">Bloca anuncis i seguiment</string>
+    <string name="brave_shields_https_everywhere_switch">HTTPS Arreu</string>
+    <string name="brave_shields_blocks_scripts_switch">Bloca scripts</string>
+    <string name="accessibility_toolbar_btn_brave_shields">Activa/desactiva escuts Osiris</string>
+    <string name="brave_shields_block_3rd_party_cookies_switch">Bloca les galetes de 3rs</string>
+
+    <string name="httpse_summary">Obre els llocs compatibles amb HTTPS enlloc de HTTP, si és possible</string>
+    <string name="tracking_protection_title">Mode de protecció contra el seguiment</string>
+    <string name="tracking_protection_summary">Evita que es carreguin els recursos encarregats del seguiment</string>
+    <string name="ad_block_title">Bloqueig d'anuncis</string>
+    <string name="ad_block_summary">Evita que es carreguin anuncis</string>
+
+    <string name="fingerprinting_protection_title">Protecció contra l'empremta digital</string>
+    <string name="fingerprinting_protection_summary">Evita que el navegador deixi empremta digital</string>
+    <string name="brave_shields_fingerprints_blocked">Mètodes d\'empremta digital blocats</string>
+    <string name="brave_shields_block_fingerprints_switch">Protecció contra l'empremta digital</string>
+
+    <string name="ad_block_regional_title">Bloqueig d'anuncis regionals</string>
+    <string name="ad_block_regional_summary">Evita que es carreguin els anuncis regionals</string>
+
+    <string name="ad_block_regional_summary_no_list">No hi ha llistes addicionals per a aquest idioma</string>
+
+    <string name="menu_exit">Sortida</string>
+
+    <string name="brave_sync">Osiris Sync</string>
+    <string name="brave_sync_description">Sincronitzeu les dades dels navegadors dels vostres dispositius
+de forma segura amb Brave Sync; podeu fer-ho
+sense crear-vos un compte.
+Feu clic a sota per començar.</string>
+    <string name="brave_sync_have_existing_code">Tinc un codi de sincronització existent</string>
+    <string name="sync_settings_add_device_name_title">Afegiu el nom del dispositiu</string>
+    <string name="sync_settings_add_device_name_label">Introduïu un nom opcional per a aquest dispositiu</string>
+    <string name="sync_example_device_name">Dispositiu Android</string>
+    <string name="brave_sync_qrcode">Sincronitza al dispositiu</string>
+    <string name="brave_sync_qrcode_message">Des d'un dispositiu sincronitzat existent, obriu l'opció de
+configuració de Osiris, aneu a «Dispositiu &amp;Configuració»
+i feu clic al símbol + per afegir un dispositiu
+nou i revelar el codi de sincronització.</string>
+    <string name="enter_code_words_sync">Introduïu les paraules del codi</string>
+    <string name="enter_code_words_below_sync">Introduïu les paraules del codi a sota.</string>
+    <string name="sync_device">Sincronitza el dispositiu</string>
+    <string name="sync_device_failure">No s'ha pogut configurar la sincronització</string>
+    <string name="sync_device_success">S'ha completat correctament la configuració</string>
+    <string name="reset_sync">Reinicialitza la sincronització...</string>
+    <string name="resetting_sync">Esteu segur/a que voleu restablir la configuració de sincronització d'aquest dispositiu?</string>
+
+    <string name="brave_stats_text_trackers">Seguiments
+blocats</string>
+    <string name="brave_stats_text_ads">Anuncis
+blocats</string>
+    <string name="brave_stats_text_https">Actualitzacions
+del HTTPS</string>
+    <string name="brave_stats_text_time">Est. Temps
+Desat</string>
+
+    <string name="send_metrics_title">Envia analítica</string>
+
+    <string name="desktop_mode_title">Mode escriptori</string>
+    <string name="website_settings_category_desktop_view_enabled_summary">Prefereix la versió d\'escriptori de les pàgines</string>
+    <string name="website_settings_category_desktop_view_disabled_summary">Prefereix la versió mòbil de les pàgines</string>
+    <string name="website_settings_category_desktop_view_enabled">Habilita la vista d\'escriptori a les noves pestanyes</string>
+    <string name="website_settings_category_desktop_view_disabled">Fes servir la versió mòbil a les noves pestanyes (recomanat)</string>
+
+    <string name="brave_shields">Escuts</string>
+    <string name="brave_shields_ads_and_trackers">Anuncis i seguiment</string>
+    <string name="brave_shields_fingerprint_methods">Mètodes d\'empremta digital</string>
+    <string name="brave_shields_block_phishing_switch">Bloca el phishing</string>
+
+    <string name="website_settings_category_play_video_in_background_enabled_summary">Activat</string>
+    <string name="website_settings_category_play_video_in_background_disabled_summary">Desactivat</string>
+    <string name="settings_require_relaunch_now">REEMPRÈN ARA</string>
+    <string name="settings_require_relaunch_later">DESPRÉS</string>
+
+    <string name="website_settings_category_play_yt_video_in_browser_enabled_summary">Activat</string>
+    <string name="website_settings_category_play_yt_video_in_browser_disabled_summary">Desactivat</string>
+    </resources>

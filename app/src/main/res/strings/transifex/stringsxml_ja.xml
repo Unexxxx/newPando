@@ -1,0 +1,515 @@
+<resources>
+
+    <string name="brave_settings_title">パンドの設定</string>
+    <string name="brave_shields_down">ダウン</string>
+    <string name="brave_shields_up">を</string>
+    <string name="brave_shields_ads_trackers">広告とトラッカーがブロックされる</string>
+    <string name="brave_shields_https_upgrades">HTTPS アップグレード</string>
+    <string name="brave_shields_scripts_blocked">ブロックされたスクリプト</string>
+    <string name="brave_shields_ads_tracking_switch">広告とトラッキングをブロックする</string>
+    <string name="brave_shields_https_everywhere_switch">どこでもHTTPS</string>
+    <string name="brave_shields_blocks_scripts_switch">ブロックスクリプト</string>
+    <string name="accessibility_toolbar_btn_brave_shields">パンド シールドの有効化/無効化</string>
+    <string name="brave_shields_block_3rd_party_cookies_switch">サードパーティの Cookie をブロックする</string>
+
+    <string name="httpse_summary">可能な場合、HTTP ではなく HTTPS を使用してサポートされているサイトを開きます。</string>
+    <string name="tracking_protection_title">トラッキング保護モード</string>
+    <string name="tracking_protection_summary">追跡するリソースの読み込みを禁止します。</string>
+    <string name="ad_block_title">広告ブロック</string>
+    <string name="ad_block_summary">広告の読み込みを禁止します</string>
+
+    <string name="fingerprinting_protection_title">フィンガープリント保護</string>
+    <string name="fingerprinting_protection_summary">ブラウザーのフィンガープリントを防止します。</string>
+    <string name="brave_shields_fingerprints_blocked">フィンガープリントの方法がブロックされました</string>
+    <string name="brave_shields_block_fingerprints_switch">フィンガープリント保護</string>
+
+    <string name="ad_block_regional_title">地域広告ブロック</string>
+    <string name="ad_block_regional_summary">地域の広告の読み込みを禁止します</string>
+
+    <string name="ad_block_regional_summary_no_list">ロケールに追加のリストはありません</string>
+
+    <string name="menu_exit">終了</string>
+
+    <string name="brave_sync">パンドシンク</string>
+    <string name="brave_sync_description">デバイス間でブラウザーデータを同期する
+        Pando Sync を安全に使用して、アカウントなし
+        作成が必要です。以下をタップして開始してください。</string>
+    <string name="brave_sync_have_existing_code">既存の同期コードがある</string>
+    <string name="sync_settings_add_device_name_title">デバイス名の追加</string>
+    <string name="sync_settings_add_device_name_label">このデバイスの名前をオプションで入力してください</string>
+    <string name="sync_example_device_name">アンドロイドデバイス</string>
+    <string name="brave_sync_qrcode">デバイスに同期</string>
+    <string name="brave_sync_qrcode_message">既存の同期デバイスを使用してパンドを開く
+        設定と「デバイス &amp; に移動します。
+        設定」をタップし、新しいデバイスを追加するには「+」をタップし、
+        同期コードを明らかにする。</string>
+    <string name="enter_code_words_sync">コード ワードの入力</string>
+    <string name="enter_code_words_below_sync">コードワードを以下に入力してください。</string>
+    <string name="sync_device">同期デバイス</string>
+    <string name="sync_device_failure">同期を設定できませんでした</string>
+    <string name="sync_device_success">同期のセットアップが正常に完了しました</string>
+    <string name="reset_sync">同期をリセットします。</string>
+    <string name="resetting_sync">このデバイスの同期設定をリセットしますか?</string>
+
+    <string name="brave_stats_text_trackers">トラッカー
+        ブロック</string>
+    <string name="brave_stats_text_spyce">スパイス</string>
+    <string name="brave_stats_text_ads">広告
+        ブロック</string>
+    <string name="brave_stats_text_https">HTTPS
+        アップグレード</string>
+    <string name="brave_stats_text_time">エスト・タイム
+        保存</string>
+
+    <string name="send_metrics_title">メトリックの送信</string>
+
+    <string name="desktop_mode_title">デスクトップモード</string>
+    <string name="website_settings_category_desktop_view_enabled_summary">サイトのデスクトップバージョンを優先する</string>
+    <string name="website_settings_category_desktop_view_disabled_summary">モバイル版のサイトを優先する</string>
+    <string name="website_settings_category_desktop_view_enabled">新しいタブのデスクトップ ビューを有効にする</string>
+    <string name="website_settings_category_desktop_view_disabled">新しいタブにモバイルバージョンのサイトを使用する (推奨)</string>
+
+    <string name="brave_shields_first_group_title">ブロッキング モニタ</string>
+    <string name="brave_shields_second_group_title">個々のコントロール</string>
+    <string name="brave_shields">盾</string>
+    <string name="brave_shields_ads_and_trackers">広告とトラッカー</string>
+    <string name="brave_shields_fingerprint_methods">指紋法</string>
+    <string name="brave_shields_block_phishing_switch">フィッシングをブロックする</string>
+
+    <string name="play_video_in_background_title">バックグラウンドビデオ再生</string>
+    <string name="website_settings_category_play_video_in_background_enabled_summary">有効</string>
+    <string name="website_settings_category_play_video_in_background_disabled_summary">無効</string>
+    <string name="website_settings_category_play_video_in_background_enabled">実験。タブがアクティブでない場合やデバイス画面がオフになっている場合に、バックグラウンドでビデオからオーディオを再生できるようにします。この機能が動作していない場合は、デスクトップ モードに切り替えてみてください。</string>
+    <string name="settings_require_relaunch_notice">変更は、次に Pando を再起動するときに有効になります。</string>
+    <string name="settings_require_relaunch_now">今すぐ再起動</string>
+    <string name="settings_require_relaunch_later">あとで</string>
+
+    <string name="play_yt_video_in_browser_title">パンドでのビデオ再生</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled_summary">有効</string>
+    <string name="website_settings_category_play_yt_video_in_browser_disabled_summary">無効</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled">有効にすると、対応するアプリではなくパンドで動画が再生されます。</string>
+
+    <string name="close_tabs_on_exit_title">終了時にタブを閉じる</string>
+    <string name="close_tabs_on_exit_summary">閲覧セッション間でタブを保持しない</string>
+
+    <string name="open_pages_in_custom_tabs_title">カスタム タブでタブを開く</string>
+    <string name="open_pages_in_custom_tabs_summary">カスタムタブでタブを開く</string>
+
+    <string name="ddg_offer_title">ダックダックゴーでプライベート検索?</string>
+    <string name="ddg_offer_text">プライベート検索では、Pandoはダックダックゴを使用して、このプライベートタブにいる間に検索に答えます。DuckDuckGo は、検索履歴を追跡しない検索エンジンで、個人で検索することができます。</string>
+    <string name="ddg_offer_positive">はい</string>
+    <string name="ddg_offer_negative">いいえ</string>
+    <string name="ddg_offer_link">DuckDuckGo でのプライベート検索について</string>
+    <string name="prefs_standard_search_engine">標準タブ</string>
+    <string name="prefs_private_search_engine">プライベートタブ</string>
+
+    <string name="brave_open_in_private_tab">プライベート タブで開く</string>
+    <string name="brave_close_all_private_tabs">プライベート タブを閉じる</string>
+    <string name="brave_new_private_tab">新しいプライベート タブ</string>
+    <string name="brave_new_tab_private_header">これはプライベートタブです</string>
+    <string name="brave_new_tab_private_message">プライベート タブでアクセスしたサイトはローカルに保存されませんが、ISP、雇用主、または訪問しているサイトに匿名または非表示にすることはできません。</string>
+
+    <string name="fre_welcome_title">おめでとう！</string>
+    <string name="fre_welcome_text">パンドの新しいウェブ3.0へようこそ</string>
+    <string name="menu_add_to_bookmarks">追加する</string>
+    <string name="menu_favorites">お気に入り</string>
+    <string name="menu_mode_day">日</string>
+    <string name="menu_mode_night">夜</string>
+    <string name="menu_night_mode">ナイトモード</string>
+    <string name="menu_osiris_statistics">パンド統計</string>
+    <string name="day_theme_on">デイモードオン</string>
+    <string name="day_theme_off">デイモードオフ</string>
+    <string name="add_to_favorites">お気に入りに追加</string>
+    <string name="favorites_placeholder_summary">お気に入りがここに表示されます</string>
+
+    <!--  Pando Strings  -->
+    <string name="dashboard_popup_level">レベル：</string>
+
+    <string name="dashboard_popup_title">パンドウェブブラウザへようこそ</string>
+    <string name="dashboard_popup_message">シームレスで迅速かつ安全な取引を、あなたの指先で楽しむことができます。データはエンドツーエンドの暗号化で保護され、すべてのタイプのトランザクションが常にプライベートで安全な状態で維持されます。</string>
+    <string name="dashboard_popup_view_profile">プロファイルの表示</string>
+    <string name="dashboard_popup_pando_mined">パンド・ミネド</string>
+    <string name="dashboard_popup_referral_earnings">紹介収益</string>
+    <string name="dashboard_popup_mining_runtime">マイニング ランタイム</string>
+    <string name="dashboard_popup_membership_balance">合計残高</string>
+    <string name="dashboard_popup_reward_dashboard">報酬ダッシュボード</string>
+    <string name="dashboard_popup_member_dashboard">メンバー ダッシュボード</string>
+    <string name="dashboard_popup_vpn">VPN</string>
+    <string name="dashboard_popup_ads_mining">広告マイニング</string>
+
+    <string name="login_already_have">すでにアカウントを持っていますか?</string>
+    <string name="login_button">ログイン</string>
+    <string name="login_message">あなた自身のパンドウェブブラウザへようこそ!シームレスで迅速かつ安全な取引を、あなたの指先で楽しむことができます。</string>
+    <string name="login_email_label">電子メール</string>
+    <string name="login_email_hint">メールを入力してください</string>
+    <string name="login_password_label">パスワード</string>
+    <string name="login_password_hint">パスワードを入力してください</string>
+    <string name="login_remember_me">私を思い出してください</string>
+    <string name="login_forgot_password">パスワードを忘れた場合</string>
+    <string name="login_reset_device_id">デバイス ID のリセット</string>
+    <string name="login_needs_device_verification_title">デバイスの検証</string>
+    <string name="login_needs_device_verification_message">新しいデバイスを使用しています。ログインしますか?既存のデバイスから自動的にログアウトされます。</string>
+    <string name="login_needs_device_verification_action_text">続行</string>
+    <string name="login_multiple_device_not_supported_title">サポートされていない機能</string>
+    <string name="login_multiple_device_not_supported_message">複数のデバイスでのログインは、プランを持つユーザーに対してのみサポートされます。</string>
+    <string name="login_multiple_device_not_supported_action_text">わかりました</string>
+
+    <string name="forgot_password_title">パスワードを忘れた場合</string>
+    <string name="forgot_password_message">アカウントに使用しているメールアドレスを入力すると、パスワードをリセットするための確認コードが送信されます。</string>
+    <string name="forgot_password_email_label">電子メール</string>
+    <string name="forgot_password_email_hint">メールを入力してください</string>
+    <string name="forgot_password_continue">続行</string>
+
+    <string name="email_otp_title">電子メールの確認</string>
+    <string name="email_otp_message">メールアドレスで送信した確認コードを入力して、パスワードをリセットします。</string>
+    <string name="email_otp_code_label">確認コード</string>
+    <string name="email_otp_reset_password">パスワードのリセット</string>
+
+    <string name="device_otp_message">お客様のメールアドレスに送信した確認コードを入力して、デバイスを更新します。</string>
+    <string name="device_otp_update_device">デバイスの更新</string>
+    <string name="device_otp_title_dialog">検証完了!</string>
+    <string name="device_otp_message_dialog">新しいデバイスでアカウントを確認しました。</string>
+    <string name="device_otp_action_text">今すぐログイン</string>
+
+    <string name="setup_password_title">新しいパスワードのセットアップ</string>
+    <string name="setup_password_message">新しいパスワードは、このアカウントのパスワード ポリシー要件を満たしている必要があります。</string>
+    <string name="setup_password_req1">8 文字以上の長さである必要があります。</string>
+    <string name="setup_password_req2">大文字を少なくとも 1 つ含める必要があります</string>
+    <string name="setup_password_req3">少なくとも 1 つの小文字を含める必要があります。</string>
+    <string name="setup_password_req4">少なくとも 1 つの数値を含める必要があります</string>
+    <string name="setup_password_req5">英数字以外の文字を少なくとも 1 つ含める必要があります</string>
+    <string name="setup_password_password_label">パスワード</string>
+    <string name="setup_password_password_hint">パスワードを入力してください</string>
+    <string name="setup_password_cpassword_label">パスワードの確認</string>
+    <string name="setup_password_cpassword_hint">パスワードを再入力する</string>
+    <string name="setup_password_password_str">パスワードの強度</string>
+    <string name="setup_password_submit">送信</string>
+
+    <string name="change_password_title">パスワードの変更</string>
+    <string name="change_password_message">新しいパスワードは、このアカウントのパスワード ポリシー要件を満たしている必要があります。</string>
+    <string name="change_password_old_password_label">古いパスワード</string>
+    <string name="change_password_old_password_hint">古いパスワードを入力してください</string>
+    <string name="change_password_password_label">新しいパスワード</string>
+    <string name="change_password_password_hint">パスワードを入力してください</string>
+    <string name="change_password_cpassword_label">パスワードの確認</string>
+    <string name="change_password_cpassword_hint">パスワードを再入力する</string>
+    <string name="change_password_password_str">パスワードの強度</string>
+    <string name="change_password_save">保存</string>
+    <string name="change_password_dialog_title">成功</string>
+    <string name="change_password_dialog_message">パスワードが更新されました!</string>
+
+    <string name="signup_donthaveaccount">アカウントを持っていませんか?</string>
+    <string name="signup_button">サインアップ</string>
+    <string name="signup_title">アカウント情報</string>
+    <string name="signup_fullname_label">フルネーム</string>
+    <string name="signup_fullname_hint">氏名を入力してください</string>
+    <string name="signup_email_label">電子メール</string>
+    <string name="signup_email_hint">メールを入力してください</string>
+    <string name="signup_password_label">パスワード</string>
+    <string name="signup_password_hint">パスワードを入力してください</string>
+    <string name="signup_cpassword_label">パスワードの確認</string>
+    <string name="signup_cpassword_hint">パスワードを再入力する</string>
+    <string name="signup_password_str">パスワードの強度</string>
+    <string name="signup_country_label">国</string>
+
+    <string name="referral_code_title">紹介コード</string>
+    <string name="referral_code_message">このプラットフォームに招待する紹介コードを入力してください。ありがとうございました</string>
+    <string name="referral_code_referral_label">紹介コード</string>
+    <string name="referral_code_referral_hint">紹介コードを入力してください</string>
+    <string name="referral_code_scan_qrcode">QR参照コードをスキャン</string>
+    <string name="referral_code_skip_for_now">今のところスキップ</string>
+    <string name="referral_code_continue">続行</string>
+
+    <string name="mining_popup_title">マイニング</string>
+    <string name="mining_popup_pando_mined">パンド・ミネド</string>
+    <string name="mining_popup_total_balance">合計残高</string>
+
+    <string name="toast_invalid_credentials">無効な資格情報</string>
+    <string name="toast_user_email_not_registered">メール「%s」を持つユーザーが登録されていません</string>
+    <string name="toast_creds_cannot_empty">メールまたはパスワードを空にすることはできません</string>
+    <string name="toast_check_connectivity">インターネット接続を確認してください</string>
+    <string name="toast_account_not_validated">アカウントが検証されていません</string>
+    <string name="toast_user_logged_in">ユーザーがログインしている</string>
+    <string name="toast_minimum_password_level">パスワードの形式が十分に強くない</string>
+    <string name="toast_all_fields_are_required">すべてのフィールドが必須</string>
+    <string name="toast_password_did_not_match">パスワードが一致しませんでした</string>
+    <string name="toast_old_password_incorrect">古いパスワードが正しくありません</string>
+    <string name="toast_invalid_email_format">電子メールの形式が無効です</string>
+    <string name="toast_email_already_exists">電子メールは既に存在します</string>
+    <string name="toast_user_registered">ユーザーが登録されています</string>
+    <string name="toast_email_cannot_be_empty">電子メールを空にすることはできません</string>
+    <string name="toast_email_does_not_exist">電子メールが存在しません</string>
+    <string name="toast_otp_code_should_be_6_digits">OTP コードは 6 桁である必要があります</string>
+    <string name="toast_otp_code_cannot_be_empty">OTP コードを空にすることはできません</string>
+    <string name="toast_invalid_otp_code">無効な OTP コード</string>
+    <string name="toast_password_not_strong_enough">パスワードの形式が十分に強くない</string>
+    <string name="toast_new_password_cannot_be_empty">新しいパスワードを空にすることはできません</string>
+    <string name="toast_password_cannot_be_empty">パスワードを空にすることはできません</string>
+    <string name="toast_cpassword_cannot_be_empty">パスワードの確認は空にできません</string>
+    <string name="toast_old_password_cannot_be_empty">古いパスワードを空にすることはできません</string>
+    <string name="toast_password_is_successfully_updated">パスワードが正常に更新されました</string>
+    <string name="toast_referral_invalid_code">参照コードが無効です。</string>
+    <string name="toast_referral_code_cannot_be_empty">参照コードは必須であり、空にすることはできません。</string>
+    <string name="toast_referrer_invalid_code">参照元コードが無効です。</string>
+    <string name="toast_account_is_deactivated">アカウントが無効になります。</string>
+    <string name="toast_relogin_needed">セッションの有効期限が切れています。あなたの資格情報をログインしてください。</string>
+    <string name="toast_feature_will_be_soon">この機能は、近日利用可能になります。</string>
+    <string name="toast_copied_to_clipboard">クリップボードにコピー</string>
+
+    <string name="toast_vpn_feature_will_be_soon">「VPNトグル」は、すぐに更新のためのpandobrowser.comサイトをチェックしてくださいサポートされます。</string>
+    <string name="toast_ads_mining_feature_will_be_soon">「広告マイニング」は、更新のためのpandobrowser.comサイトをチェックしてくださいすぐにサポートされます。</string>
+    <string name="toast_rewards_feature_will_be_soon">「リワードダッシュボード」は、すぐにサポートされます更新のためのpandobrowser.comサイトを確認してください。</string>
+    <string name="toast_view_profile_feature_will_be_soon">「プロフィールの表示」は、更新のためにpandobrowser.comサイトを確認してくださいすぐにサポートされます。</string>
+
+    <string name="progress_dialog_title">お待ちください</string>
+    <string name="progress_dialog_logging_in">ログインしています。</string>
+    <string name="progress_dialog_signing_up">サインアップ.</string>
+    <string name="progress_dialog_sending_otp_code">OTP コードを送信しています。</string>
+    <string name="progress_dialog_verifying_email">電子メールを確認しています。</string>
+    <string name="progress_dialog_saving_new_password">新しいパスワードを保存しています。</string>
+    <string name="progress_dialog_verifying_referral_code">紹介コードの検証.</string>
+    <string name="progress_dialog_verifying_referrer_code">参照元コードの検証.</string>
+    <string name="progress_dialog_loading_users">あなたの計画の下でユーザーをロードします。</string>
+    <string name="progress_dialog_saving_changes">変更を保存します。</string>
+
+    <string name="users_nothing_under_plan">計画にまだユーザーがいない</string>
+    <string name="users_under_my_plan_label">自分の計画に基づくユーザー</string>
+
+    <string name="account_settings_save">保存</string>
+    <string name="account_settings_edit_information">情報の編集</string>
+    <string name="account_settings_reminder_title">アラーム</string>
+    <string name="account_settings_reminder_continue">続行</string>
+    <string name="account_settings_reminder_cancel">キャンセル</string>
+    <string name="account_settings_reminder_message_save">リファラー コードは 1 回しか入力できません。正常に保存されると、これを変更することはできません。</string>
+    <string name="account_settings_reminder_message_edit">リファラー コードは 1 回しか入力できません。今は変更できません。</string>
+    <string name="account_settings_discard_changes">変更を破棄しますか?</string>
+    <string name="account_settings_already_setup">既に参照元コードがあります。</string>
+    <string name="account_settings_cannot_use_own_referral_code_as_referrer_code">独自の参照コードを参照元コードとして使用することはできません。</string>
+    <string name="account_settings_cannot_be_empty">フル ネームは空にできません。</string>
+
+    <string name="update_available_title">パンド ブラウザの更新</string>
+    <string name="update_available_message">利用可能なアップデートがあります。最高のパンド体験のための\n新しいバージョンをダウンロードしてください。</string>
+    <string name="update_available_confirm">確認</string>
+    <string name="update_available_skip">スキップ</string>
+    <string name="update_available_install_via_playstore">あなたは、Googleのプレイストアを介して最新バージョンをインストールすることができます。</string>
+
+    <string name="pando_games_comingsoon">パンドゲームはまもなく来る</string>
+
+    <string name="fre_pando_page1_title">より速くブラウズする</string>
+    <string name="fre_pando_page1_message">ハイパースピードブラウジングで従来のウェブブラウジングよりも3〜7倍高速。</string>
+    <string name="fre_pando_page2_title">広告とトラッカーをブロックする</string>
+    <string name="fre_pando_page2_message">すべての押し付けがましい広告をブロックします。Binge は、中断することなく何時間もコンテンツを視聴します。</string>
+    <string name="fre_pando_page3_title">プライバシーを保護する</string>
+    <string name="fre_pando_page3_message">ユーザーを保護し、保護するユーザー&apos;データとプライバシー、それが第三者と共有されないことを保証します。</string>
+    <string name="fre_pando_page4_title">報酬を獲得する</string>
+    <string name="fre_pando_page4_message">パンドランタイムマイニングを使用すると、パンドの生態系製品を使用して報酬を獲得することができます。最大の利点を享受するためにお楽しみにしてください。</string>
+
+    <string name="fre_pando_next">次に</string>
+    <string name="fre_pando_get_started">はじめに</string>
+
+    <string name="toolbar_phone_close_all">すべて閉じる</string>
+
+    <string name="edit_favorite_label">ラベルの編集</string>
+    <string name="edit_favorite_save">保存</string>
+
+    <string name="under_maintenance_title">メンテナンス</string>
+    <string name="under_maintenance_message">現在、お客様のエクスペリエンスを向上させるために、サーバーのメンテナンスを行っています。これは時間はかからないでしょう。ご不便をおかけして申し訳ございません。</string>
+    <string name="under_maintenance_ok">わかりました</string>
+
+    <string name="password_str_1">短すぎます</string>
+    <string name="password_str_2">弱い</string>
+    <string name="password_str_3">公正</string>
+    <string name="password_str_4">よし</string>
+    <string name="password_str_5">強い</string>
+    <string name="password_str_6">非常に強い</string>
+
+    <string name="search_engine_title">検索エンジン</string>
+    <string name="coming_soon_title">もうすぐです</string>
+
+    <string name="prefs_section_basics">基本</string>
+    <string name="prefs_display_title">外観</string>
+    <string name="prefs_autofill_and_payments">オートフィルと支払い</string>
+    <string name="prefs_saved_passwords_title">パスワード</string>
+    <string name="prefs_notifications">通知</string>
+
+    <string name="prefs_section_advanced">詳細</string>
+    <string name="prefs_privacy">プライバシー</string>
+    <string name="prefs_accessibility">アクセシビリティ</string>
+    <string name="prefs_site_settings">サイトの設定</string>
+    <string name="prefs_languages">言語</string>
+    <string name="menu_downloads">ダウンロード</string>
+    <string name="prefs_about_pando">パンド ブラウザについて</string>
+
+    <string name="prefs_display_theme">テーマ</string>
+
+    <string name="cookies_title">クッキー</string>
+    <string name="pando_android_settings_permission_off_plural">&lt;link&gt;アンドロイド設定&lt;/link&gt; でパンドの権限をオンにします。</string>
+    <string name="pando_android_settings_permission_off">&lt;link&gt;アンドロイド設定&lt;/link&gt; でパンドの許可をオンにします。</string>
+    <string name="pando_legal_information_summary">著作権 %1$d パンドソフトウェア株式会社すべての権利が予約されています。</string>
+    <string name="terms_of_service_title">パンド利用規約</string>
+    <string name="privacy_notice_title">パンドプライバシー通知</string>
+
+    <string name="dialog_negative_title">Oops...</string>
+    <string name="dialog_positive_action">わかりました</string>
+
+    <string name="account_settings_title">アカウント設定</string>
+    <string name="account_settings_fullname_label">フルネーム</string>
+    <string name="account_settings_email">電子メール</string>
+    <string name="account_settings_referrer_code">参照元コード</string>
+    <string name="account_settings_password">パスワード</string>
+    <string name="account_settings_change_password">パスワードの変更</string>
+    <string name="account_settings_country">国</string>
+    <string name="account_settings_eth_wallet">イーテリアムウォレット</string>
+    <string name="account_settings_pando_wallet">パンドウォレット</string>
+    <string name="account_settings_logout">ログアウト</string>
+
+    <string name="member_dashboard_membership_bonus">会員賞与</string>
+    <string name="member_dashboard_referral_bonus">紹介ボーナス</string>
+    <string name="member_dashboard_local_mining">ローカルマイニング</string>
+    <string name="member_dashboard_pando_balance">パンド収益</string>
+    <string name="member_dashboard_download_link">紹介のダウンロードリンク</string>
+    <string name="member_dashboard_referral_code">紹介コード</string>
+    <string name="member_dashboard_referral_analytics">紹介分析</string>
+    <string name="member_dashboard_total_users">[プラン] に含めたユーザーの合計</string>
+    <string name="member_dashboard_view_all_users">すべてのユーザーを表示</string>
+    <string name="member_dashboard_view_transaction_history">トランザクション履歴の表示</string>
+    <string name="member_dashboard_show_qr_code">QRコードを表示</string>
+
+    <string name="sw_mining_title">SWマイニング</string>
+    <string name="sw_mining_membership_level">メンバーシップ レベル</string>
+    <string name="sw_mining_total_balance">合計残高</string>
+
+    <string name="tab_header_ads_blocked">広告がブロックされました</string>
+    <string name="tab_header_data_saved">保存されたデータ</string>
+    <string name="tab_header_time_saved">保存時間</string>
+
+    <string name="user_loggedin_to_different_device">別のデバイスにログインしている。ここにログアウトされます。</string>
+
+    <string name="reset_device_id_title">デバイス ID のリセット</string>
+    <string name="reset_device_id_message">お客様のアカウントに使用しているメールアドレスを入力すると、確認コードが送信され、デバイスIDがリセットされます。</string>
+    <string name="reset_device_id_email_label">電子メール</string>
+    <string name="reset_device_id_email_hint">メールを入力してください</string>
+    <string name="reset_device_id_continue">続行</string>
+
+    <string name="pando_edit_label">ラベルの編集</string>
+
+    <string name="member_dashboard_sun">日</string>
+    <string name="member_dashboard_mon">月</string>
+    <string name="member_dashboard_tue">火</string>
+    <string name="member_dashboard_wed">水</string>
+    <string name="member_dashboard_thu">木</string>
+    <string name="member_dashboard_fri">金</string>
+    <string name="member_dashboard_sat">土</string>
+    <string name="member_dashboard_download_link_label">ダウンロードリンク</string>
+    <string name="member_dashboard_referral_code_label">紹介コード</string>
+
+    <string name="member_dashboard_withdrawable_balance">引き出し可能残高</string>
+    <string name="member_dashboard_withdraw">を撤回する</string>
+    <string name="member_dashboard_previous_withdrawn">前の引き落とし</string>
+    <string name="member_dashboard_transaction_history">トランザクション履歴</string>
+
+    <string name="withdrawal_page_title">パンドを撤回</string>
+    <string name="withdrawal_page_withdrawable_balance_label">引き出し可能残高</string>
+    <string name="withdrawal_page_to_label">宛先</string>
+    <string name="withdrawal_page_amount_label">量</string>
+    <string name="withdrawal_page_max_amount">最大金額</string>
+    <string name="withdrawal_page_to_hint">パンドウォレットアドレスを入力します</string>
+    <string name="withdrawal_page_amount_hint">金額の入力</string>
+    <string name="withdrawal_page_continue">続行</string>
+    <string name="withdrawal_page_cancel">キャンセル</string>
+    <string name="withdrawal_page_invalid_wallet_address">無効なパンド ウォレット アドレス</string>
+    <string name="withdrawal_page_invalid_balance">無効なパンドバランス</string>
+    <string name="withdrawal_page_withdraw_limit_policy">取引ポリシーごとの制限の撤回</string>
+    <string name="withdrawal_page_minimum_amount">最小量(PANDO)</string>
+    <string name="withdrawal_page_maximum_amount">最大量 (PANDO)</string>
+    <string name="withdrawal_page_daily_limit">1日の制限</string>
+
+    <string name="withdrawal_confirmation_page_title">取引の確認</string>
+    <string name="withdrawal_confirmation_page_messages">すべて正しい場合は、取引の詳細を確認してください。PANDOの引き出しを処理するには、下の確認ボタンをクリックしてください。</string>
+    <string name="withdrawal_confirmation_page_to_label">宛先</string>
+    <string name="withdrawal_confirmation_page_amount_label">量</string>
+    <string name="withdrawal_confirmation_page_transaction_fee_label">取引手数料</string>
+    <string name="withdrawal_confirmation_page_receivable_amount_label">売掛金金額</string>
+    <string name="withdrawal_confirmation_page_confirm">確認</string>
+    <string name="withdrawal_confirmation_page_cancel">戻る</string>
+
+    <string name="pando_contextual_search_description">
+        ページを離れることなく、Web サイトのトピックについて説明します。タップして検索すると、単語とその周囲のコンテキストが Google 検索に送信され、定義、画像、検索結果などの詳細が返されます。
+
+        検索語を調整するには、長押しして選択します。検索を絞り込むには、パネルを上方向にスライドさせて検索ボックスをタップします。
+    </string>
+    <string name="progress_dialog_validating_wallet_address">ウォレットアドレスを検証しています。</string>
+    <string name="toast_invalid_withdrawable_amount">金額が無効です。引き出し金額は、許容額の最小値と上限値以内で入力してください。</string>
+
+    <string name="withdrawal_page_invalid_range_amount">金額が無効です。引き出し金額は、許容額の最小値と上限値以内で入力してください。</string>
+    <string name="withdrawal_page_withdrawable_amount_exceeded">金額が無効です。引出額は引き出し可能残高を超えてはならない。</string>
+    <string name="withdrawal_page_remaining_amount_exceeded">金額が 1 日の制限を超えています</string>
+    <string name="progress_dialog_processing_withdrawal">引き出しの処理.</string>
+
+    <string name="no_transaction_history">トランザクションはまだありません</string>
+    <string name="transaction_history_label">取引履歴</string>
+    <string name="transaction_failed">失敗 しました</string>
+    <string name="transaction_processing">保留 中</string>
+    <string name="transaction_completed">完了</string>
+    <string name="transaction_withdraw_to_external_account">外部アカウントへのパンドの撤回</string>
+    <string name="transaction_details_date_time">日付 &amp; 時間</string>
+    <string name="transaction_details_transaction_hash">トランザクション ハッシュ</string>
+    <string name="transaction_details_close">閉じる</string>
+    <string name="transaction_new">新機能</string>
+
+    <string name="progress_dialog_loading_transactions">トランザクションを読み込んでいます。</string>
+    <string name="withdrawal_page_withdrawal_limit_updated">引き出し限度額が更新され、PANDOの引き出しを再度確認して処理してください。</string>
+    <string name="withdrawal_confirmation_page_transaction_fee_updated">取引手数料が更新されました, 親切に確認し、再びあなたのPANDOの撤退を処理.</string>
+
+    <string name="signup_verify_recaptcha">再キャプチャを確認する</string>
+    <string name="signup_protected_by_recaptcha">レカプチャによって保護される</string>
+    <string name="toast_recaptcha_error">再キャプチャの検証に失敗しました</string>
+    <string name="toast_verify_recaptcha">再キャプチャを確認してください</string>
+
+    <string name="two_fa_title">2 要素認証</string>
+    <string name="two_fa_message">OTPが電子メールで送信されました。下記のコードを入力してください。</string>
+    <string name="two_fa_continue">続行</string>
+    <string name="two_fa_cancel">キャンセル</string>
+    <string name="signup_verification_successful">検証が成功しました</string>
+
+    <string name="withdrawal_page_is_not_available">PANDO撤退は現時点では利用できません。後でもう一度やり直してください。</string>
+
+    <string name="login_please_update_website">要求が拒否されました。最近、セキュリティが強化されました。続行するには、当社のウェブサイト(https://pandobrowser.com)から最新バージョンをダウンロードしてインストールしてください。</string>
+    <string name="login_please_update_playstore">要求が拒否されました。最近、セキュリティが強化されました。当社のウェブサイト(https://pandobrowser.com)またはGoogle Playストアから最新バージョンをダウンロードしてインストールしてください。</string>
+
+    <string name="user_has_pending_withdrawal">Pando トークンの引き出しトランザクションが進行中です。別の引き出しを実行する前に、それが最初に完了するのを待ってください。ありがとうございました。</string>
+    <string name="reprocess_pando_withdrawal">引出金額の検証中にエラーが発生しました。PANDOの撤退を再処理してください。</string>
+
+    <string name="two_fa_resend_message">再送信 OTP は、%d sec</string>
+    <string name="two_fa_did_not_get_the_code">コードを取得しませんでしたか?</string>
+    <string name="two_fa_resend_action">OTP コードの再送信</string>
+    <string name="two_fa_error_sending_otp">電子メールに OTP を送信しようとしてエラーが発生しました。もう一度やり直してください。</string>
+    <string name="two_fa_success_sending_otp">OTP を送信成功!</string>
+    <string name="device_otp_resend_message">メールの再送信は、%d sec</string>
+    <string name="device_otp_did_not_get_the_code">コードを取得しませんでしたか?</string>
+    <string name="device_otp_resend_action">メールを再送信する</string>
+    <string name="device_otp_error_sending_otp">電子メールに OTP を送信しようとしてエラーが発生しました。もう一度やり直してください。</string>
+    <string name="device_otp_success_sending_otp">OTP を送信成功!</string>
+
+    <string name="toast_otp_expired">OTP コードは既に期限切れです。</string>
+
+    <string name="too_much_request_verify_login">ログイン中の要求が多すぎます</string>
+    <string name="too_much_request_create_account">サインアップ要求が送信されました。メールアカウントを使ってログインしてみてください。</string>
+    <string name="too_much_request_withdraw">最近の撤退はまだ処理中です。後で追加の引き出しを再試行してください。</string>
+
+    <string name="two_fa_message_resent">OTPは電子メールで再送されました。下記のコードを入力してください。</string>
+    <string name="search_or_input_url">検索または入力 URL</string>
+    <string name="device_otp_congratulations">おめでとうとパンドブラウザへようこそ。新しいデバイスで正常にログインします。ありがとうございました。</string>
+    <string name="signup_email_invalid_title">メールが無効です</string>
+    <string name="signup_email_invalid">サポートの詳細については、&lt;link&gt;info@pandobrowser.com&lt;/link&gt; にお問い合わせください。</string>
+
+    <string name="member_dashboard_max_withdrawal_amount_reached">その日の許容引き出し金額に達しました。明日もう一度お試しください。</string>
+    <string name="member_dashboard_max_withdrawal_transaction_count_reached">その日の出金トランザクションの最大数に達しました。明日もう一度お試しください。</string>
+
+    <string name="withdrawal_page_remaining_withdrawable_amount">その日の残りの引き出し可能額 (PANDO)</string>
+    <string name="withdrawal_page_remaining_transaction">当日の残存トランザクション</string>
+    <string name="withdrawal_page_policy_updated">ポリシーの更新!</string>
+    <string name="withdrawal_page_daily_withdrawal_limit_updated">毎日の引き出しポリシーが更新されました。ご確認のうえ、再び退会を行ってください。</string>
+    <string name="withdrawal_page_max_number_of_transaction_per_day_updated">1 日あたりのトランザクションの最大数が更新されました。その日の出金トランザクションの最大数に達しました。明日もう一度お試しください。</string>
+    <string name="withdrawal_page_daily_withdrawable_amount_limit_updated">毎日の引き出し金額の制限が更新されました。これで、残りの引き出し可能金額が 0 になります。明日もう一度お試しください。</string>
+</resources>

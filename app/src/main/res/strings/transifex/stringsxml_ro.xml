@@ -1,0 +1,113 @@
+<resources>
+
+    <string name="brave_settings_title">Configurări scut site Osiris pentru</string>
+    <string name="brave_shields_down">Jos</string>
+    <string name="brave_shields_up">Sus</string>
+    <string name="brave_shields_ads_trackers">Reclame și urmărire blocate</string>
+    <string name="brave_shields_https_upgrades">Actualizări HTTPS</string>
+    <string name="brave_shields_scripts_blocked">Scripturi blocate</string>
+    <string name="brave_shields_ads_tracking_switch">Blocare reclame și urmărire</string>
+    <string name="brave_shields_https_everywhere_switch">HTTPS Everywhere</string>
+    <string name="brave_shields_blocks_scripts_switch">Blocare scripturi</string>
+    <string name="accessibility_toolbar_btn_brave_shields">Activare/Dezactivare scuturi Osiris</string>
+    <string name="brave_shields_block_3rd_party_cookies_switch">Blocare fișiere cookie terțe</string>
+
+    <string name="httpse_summary">Deschide site-uri compatibile utilizând HTTPS în loc de HTTP atunci când este posibil</string>
+    <string name="tracking_protection_title">Mod Protecție anti-monitorizare</string>
+    <string name="tracking_protection_summary">Împiedică încărcarea resurselor care vă monitorizează</string>
+    <string name="ad_block_title">Blocare reclame</string>
+    <string name="ad_block_summary">Împiedică încărcarea reclamelor</string>
+
+    <string name="fingerprinting_protection_title">Protecție pentru amprentare digitală</string>
+    <string name="fingerprinting_protection_summary">Împiedică amprentarea digitală a browserului</string>
+    <string name="brave_shields_fingerprints_blocked">Metode de amprentare digitală blocate</string>
+    <string name="brave_shields_block_fingerprints_switch">Protecție pentru amprentare digitală</string>
+
+    <string name="ad_block_regional_title">Ad Block regional</string>
+    <string name="ad_block_regional_summary">Împiedică încărcarea reclamelor regionale</string>
+
+    <string name="ad_block_regional_summary_no_list">Nicio listă suplimentară disponibilă pentru setările dvs. regionale</string>
+
+    <string name="menu_exit">Ieșire</string>
+
+    <string name="brave_sync">Sincronizare Osiris</string>
+    <string name="brave_sync_description">Sincronizarea securizată a datelor de navigare
+între dispozitive, folosind sincronizare Osiris.
+Nu este necesară crearea unui cont.
+Apăsați mai jos pentru pornire.</string>
+    <string name="brave_sync_have_existing_code">Am un cod de sincronizare deja existent</string>
+    <string name="sync_settings_add_device_name_title">Adăugare nume dispozitiv</string>
+    <string name="sync_settings_add_device_name_label">Introduceți un nume opțional pentru acest dispozitiv</string>
+    <string name="sync_example_device_name">Dispozitiv Android</string>
+    <string name="brave_sync_qrcode">Sincronizarea dispozitivului</string>
+    <string name="brave_sync_qrcode_message">Utilizând dispozitivul sincronizat existent,
+deschideți Setările Osiris și navigați la
+„Device &amp;Settings", apăsați pe „+” pentru
+a adăuga un nou dispozitiv și obține
+codul de sincronizare.</string>
+    <string name="enter_code_words_sync">Introducere cuvânt codat</string>
+    <string name="enter_code_words_below_sync">Introduceți cuvântul codat mai jos</string>
+    <string name="sync_device">Dispozitiv de sincronizat</string>
+    <string name="sync_device_failure">Sincronizarea nu poate fi realizată</string>
+    <string name="sync_device_success">Sincronizarea a fost realizată cu succes</string>
+    <string name="reset_sync">Reinițializare sincronizare...</string>
+    <string name="resetting_sync">Sunteți sigur(ă) că doriți să reinițializați parametrii de sincronizare dispozitivului?</string>
+
+    <string name="brave_stats_text_trackers">Urmărire
+blocate</string>
+    <string name="brave_stats_text_ads">Reclame
+blocate</string>
+    <string name="brave_stats_text_https">Actualizări
+HTTPS</string>
+    <string name="brave_stats_text_time">Timp est.
+Salvat</string>
+
+    <string name="send_metrics_title">Trimiteți măsurători</string>
+
+    <string name="desktop_mode_title">Mod calculator</string>
+    <string name="website_settings_category_desktop_view_enabled_summary">Preferință pentru versiunea pentru calculator a site-urilor</string>
+    <string name="website_settings_category_desktop_view_disabled_summary">Preferință pentru versiunea mobilă a site-urilor </string>
+    <string name="website_settings_category_desktop_view_enabled">Autorizare vizionare în mod calculator, pentru noi file</string>
+    <string name="website_settings_category_desktop_view_disabled">Utilizare versiuni mobile ale site-urilor, pentru noi file (recomandat)</string>
+
+    <string name="brave_shields_first_group_title">Monitor Blocare</string>
+    <string name="brave_shields_second_group_title">Controale Individuale</string>
+    <string name="brave_shields">Scuturi</string>
+    <string name="brave_shields_ads_and_trackers">Reclame şi Urmăritori</string>
+    <string name="brave_shields_fingerprint_methods">Metode Amprentă</string>
+    <string name="brave_shields_block_phishing_switch">Blocare Phishing</string>
+
+    <string name="play_video_in_background_title">Redare video în fundal</string>
+    <string name="website_settings_category_play_video_in_background_enabled_summary">Activat</string>
+    <string name="website_settings_category_play_video_in_background_disabled_summary">Dezactivat</string>
+    <string name="website_settings_category_play_video_in_background_enabled">Funcție experimentală. Permite redarea în fundal a pistei audio a videoclipurilor atunci când fila nu este activă sau când ecranul dispozitivului este închis. Dacă funcția nu rulează, încercați să comutați în modul desktop.</string>
+    <string name="settings_require_relaunch_notice">Modificările efectuate vor fi activate la următoarea lansare a Osiris</string>
+    <string name="settings_require_relaunch_now">RELANSEAZĂ ACUM</string>
+    <string name="settings_require_relaunch_later">MAI TÂRZIU</string>
+
+    <string name="play_yt_video_in_browser_title">Redare video în Osiris</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled_summary">Activat</string>
+    <string name="website_settings_category_play_yt_video_in_browser_disabled_summary">Dezactivat</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled">Dacă este activat, fișierele video vor fi redate în Osiris în loc de altă aplicație corespondentă</string>
+
+    <string name="close_tabs_on_exit_title">Închidere file la ieșire</string>
+    <string name="close_tabs_on_exit_summary">Taburile nu sunt persistente de la o sesiune de browsing la alta</string>
+
+    <string name="open_pages_in_custom_tabs_title">Deschidere file în File particularizate</string>
+    <string name="open_pages_in_custom_tabs_summary">Oferiți opțiunea de deschidere a filelor în File particularizate</string>
+
+    <string name="ddg_offer_title">Căutare privată cu DuckDuckGo?</string>
+    <string name="ddg_offer_text">În cazul căutării private, Osiris va folosi DuckDuckGo pentru a răspunde la căutările dvs. în timp ce vă aflați pe această filă privată. DuckDuckGo este un motor de căutare care nu vă monitorizează istoricul căutărilor, permițându-vă să căutați în mod privat.</string>
+    <string name="ddg_offer_positive">Da</string>
+    <string name="ddg_offer_negative">Nu</string>
+    <string name="ddg_offer_link">Aflați despre căutarea privată cu DuckDuckGo</string>
+    <string name="prefs_standard_search_engine">Filă standard</string>
+    <string name="prefs_private_search_engine">Filă privată</string>
+
+    <string name="brave_open_in_private_tab">Deschideți în filă privată</string>
+    <string name="brave_close_all_private_tabs">Închideți filele private</string>
+    <string name="brave_new_private_tab">Filă privată nouă</string>
+    <string name="brave_new_tab_private_header">Aceasta este o filă privată</string>
+    <string name="brave_new_tab_private_message">Cu toate că site-urile pe care le vizitați în file private nu sunt salvate local, acestea nu vă fac anonim sau invizibil pentru furnizorul dvs. de internet, angajatorul dvs. sau site-urile pe care le vizitați.</string>
+
+</resources>

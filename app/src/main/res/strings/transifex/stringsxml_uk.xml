@@ -1,0 +1,113 @@
+<resources>
+
+    <string name="brave_settings_title">Налаштування щитів Osiris для</string>
+    <string name="brave_shields_down">Вимк</string>
+    <string name="brave_shields_up">Увімк</string>
+    <string name="brave_shields_ads_trackers">Реклами і стеження</string>
+    <string name="brave_shields_https_upgrades">HTTPS перенаправлень</string>
+    <string name="brave_shields_scripts_blocked">Скриптів</string>
+    <string name="brave_shields_ads_tracking_switch">Реклама і стеження</string>
+    <string name="brave_shields_https_everywhere_switch">HTTPS Everywhere</string>
+    <string name="brave_shields_blocks_scripts_switch">Скрипти</string>
+    <string name="accessibility_toolbar_btn_brave_shields">Увімк/Вимк щити Osiris</string>
+    <string name="brave_shields_block_3rd_party_cookies_switch">Сторонні куки</string>
+
+    <string name="httpse_summary">Відкривати підтримувані сайти з використанням протоколу HTTPS замість HTTP</string>
+    <string name="tracking_protection_title">Режим захисту від стеження</string>
+    <string name="tracking_protection_summary">Блокувати завантаження елементів стеження</string>
+    <string name="ad_block_title">Блокувати рекламу</string>
+    <string name="ad_block_summary">Блокувати завантаження реклами</string>
+
+    <string name="fingerprinting_protection_title">Захист відбитку браузера</string>
+    <string name="fingerprinting_protection_summary">Захист відстеження відбитку браузера</string>
+    <string name="brave_shields_fingerprints_blocked">Відбитків браузера</string>
+    <string name="brave_shields_block_fingerprints_switch">Відбиток браузера</string>
+
+    <string name="ad_block_regional_title">Блокувати регіональну рекламу</string>
+    <string name="ad_block_regional_summary">Блокувати завантаження регіональної реклами</string>
+
+    <string name="ad_block_regional_summary_no_list">Для вашої локалі не знайдено додаткових списків</string>
+
+    <string name="menu_exit">Вихід</string>
+
+    <string name="brave_sync">Синхронізація Osiris</string>
+    <string name="brave_sync_description">Безпечно синхронізуйте дані браузера
+між Вашими пристроями,
+використовуя синхронізацію Osiris,
+без створення облікового запису.
+Натисніть знизу для початку.</string>
+    <string name="brave_sync_have_existing_code">У мене є код синхронізації</string>
+    <string name="sync_settings_add_device_name_title">Додавання імені пристрою</string>
+    <string name="sync_settings_add_device_name_label">Введіть ім'я для даного пристрою</string>
+    <string name="sync_example_device_name">Android пристрій</string>
+    <string name="brave_sync_qrcode">Синхронізація до пристрою</string>
+    <string name="brave_sync_qrcode_message">Використовуючи існуючий синхронізований пристрій,
+відкрийте налаштування Osiris і перейдіть в розділ Синхронізація,
+натисніть синхронізувати новий пристрій
+та отримайте код синхронізації.</string>
+    <string name="enter_code_words_sync">Введення кодових слів</string>
+    <string name="enter_code_words_below_sync">Введіть кодові слова.</string>
+    <string name="sync_device">Синхронізація пристрою</string>
+    <string name="sync_device_failure">Синхронізація не може бути встановлена</string>
+    <string name="sync_device_success">Синхронізація встановлена успішно</string>
+    <string name="reset_sync">Скидання синхронізації...</string>
+    <string name="resetting_sync">Ви впевнені що хочете скинути синхронізацію для цього пристрою?</string>
+
+    <string name="brave_stats_text_trackers">Заблоковано
+стеження</string>
+    <string name="brave_stats_text_ads">Заблоковано
+реклами</string>
+    <string name="brave_stats_text_https">HTTPS
+перенаправлень</string>
+    <string name="brave_stats_text_time">Заощаджено
+часу</string>
+
+    <string name="send_metrics_title">Надсилати метрики</string>
+
+    <string name="desktop_mode_title">Режим повних версій сайтів</string>
+    <string name="website_settings_category_desktop_view_enabled_summary">Перевага для повних версій сайтів</string>
+    <string name="website_settings_category_desktop_view_disabled_summary">Перевага для мобільних версій сайтів</string>
+    <string name="website_settings_category_desktop_view_enabled">Повні версії сайтів для нових вкладок</string>
+    <string name="website_settings_category_desktop_view_disabled">Використовувати мобільні версії сайтів для нових вкладок (рекомендовано)</string>
+
+    <string name="brave_shields_first_group_title">Монітор блокування</string>
+    <string name="brave_shields_second_group_title">Керування блокуванням</string>
+    <string name="brave_shields">Щити</string>
+    <string name="brave_shields_ads_and_trackers">Реклами і стеження</string>
+    <string name="brave_shields_fingerprint_methods">Відбитків браузера</string>
+    <string name="brave_shields_block_phishing_switch">Шахрайство</string>
+
+    <string name="play_video_in_background_title">Відео на задньому плані</string>
+    <string name="website_settings_category_play_video_in_background_enabled_summary">Увімкнено</string>
+    <string name="website_settings_category_play_video_in_background_disabled_summary">Вимкнено</string>
+    <string name="website_settings_category_play_video_in_background_enabled">Експериментальна функція. Вмикає відтворення аудіо для відео на задньому плані, коли вкладка неактивна, або екран вимкнений. Якщо ця функція не працює, спробуйте перемкнутися на повну версію сайту.</string>
+    <string name="settings_require_relaunch_notice">Зміни набудуть чинності після перезапуску Osiris</string>
+    <string name="settings_require_relaunch_now">ПЕРЕЗАПУСТИТИ ЗАРАЗ</string>
+    <string name="settings_require_relaunch_later">ПІЗНІШЕ</string>
+
+    <string name="play_yt_video_in_browser_title">Відтворення відео в Osiris</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled_summary">Увімкнено</string>
+    <string name="website_settings_category_play_yt_video_in_browser_disabled_summary">Вимкнено</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled">Якщо увімкнено, відео буде відтворюватись в Osiris замість відповідного додатку</string>
+
+    <string name="close_tabs_on_exit_title">Закривати вкладки при виході</string>
+    <string name="close_tabs_on_exit_summary">Не зберігати вкладки між сеансами перегляду</string>
+
+    <string name="open_pages_in_custom_tabs_title">Відкривати вкладки у Custom Tabs</string>
+    <string name="open_pages_in_custom_tabs_summary">Запропонувати відкривати вкладки у Custom Tabs </string>
+
+    <string name="ddg_offer_title">Приватний пошук з </string>
+    <string name="ddg_offer_text">Під час приватного пошуку Osiris використовує DuckDuckGo, аби знайти те, що ви шукаєте, поки ви у приватній вкладці. DuckDuckGo — це пошукова система, що не збирає вашу історію пошуку, таким чином даючи вам змогу зберігати приватність.</string>
+    <string name="ddg_offer_positive">Так</string>
+    <string name="ddg_offer_negative">Ні</string>
+    <string name="ddg_offer_link">Дізнайтеся про приватний пошук з DuckDuckGo</string>
+    <string name="prefs_standard_search_engine">Звичайна вкладка</string>
+    <string name="prefs_private_search_engine">Приватна вкладка</string>
+
+    <string name="brave_open_in_private_tab">Відкрити у приватній вкладці</string>
+    <string name="brave_close_all_private_tabs">Закрити приватні вкладки</string>
+    <string name="brave_new_private_tab">Нова приватна вкладка</string>
+    <string name="brave_new_tab_private_header">Це приватна вкладка</string>
+    <string name="brave_new_tab_private_message">Хоча сайти, на які ви заходите у приватних вкладках, не зберігаються, ви не є анонімними чи невидимими для свого Інтернет-провайдера, начальника чи сайтів, на які ви заходите.</string>
+
+</resources>

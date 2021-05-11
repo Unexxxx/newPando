@@ -1,0 +1,97 @@
+<resources>
+
+    <string name="brave_settings_title">„Osiris“ svetainės skydo nustatymai, skirti</string>
+    <string name="brave_shields_down">Išjungta</string>
+    <string name="brave_shields_up">Įjungta</string>
+    <string name="brave_shields_ads_trackers">Užblokuota reklamų ir seklių</string>
+    <string name="brave_shields_https_upgrades">HTTPS naujinimų</string>
+    <string name="brave_shields_scripts_blocked">Užblokuota scenarijų</string>
+    <string name="brave_shields_ads_tracking_switch">Blokuoti reklamas ir seklius</string>
+    <string name="brave_shields_https_everywhere_switch">HTTPS Everywhere</string>
+    <string name="brave_shields_blocks_scripts_switch">Blokuoti scenarijus</string>
+    <string name="accessibility_toolbar_btn_brave_shields">Įjungti / išjungti „Osiris“ skydus</string>
+    <string name="brave_shields_block_3rd_party_cookies_switch">Blokuoti trečiųjų šalių slapukus</string>
+
+    <string name="httpse_summary">Kai įmanoma, atveria palaikomas svetaines naudojant HTTPS, o ne HTTP</string>
+    <string name="tracking_protection_title">Apsaugos nuo sekimo veiksena</string>
+    <string name="tracking_protection_summary">Neleidžia paleisti išteklių, kurie seka jūsų veiksmus</string>
+    <string name="ad_block_title">Reklamos blokavimas</string>
+    <string name="ad_block_summary">Neleidžia įkelti reklamų</string>
+
+    <string name="fingerprinting_protection_title">Apsauga nuo būdingų bruožų atpažinimo</string>
+    <string name="fingerprinting_protection_summary">Neleidžia naršyklei atpažinti jums būdingus bruožus</string>
+    <string name="brave_shields_block_fingerprints_switch">Apsauga nuo būdingų bruožų atpažinimo</string>
+
+    <string name="ad_block_regional_title">Regioninės reklamos blokavimas</string>
+    <string name="ad_block_regional_summary">Neleidžia įkelti regioninių reklamų</string>
+
+    <string name="ad_block_regional_summary_no_list">Jūsų lokalei nėra jokių papildomų sąrašų</string>
+
+    <string name="menu_exit">Išeiti</string>
+
+    <string name="brave_sync">„Osiris Sync“</string>
+    <string name="brave_sync_description">Saugiai sinchronizuokite duomenis tarp savo
+įrenginių naudodami „Brave Sync“ – tam nereikia
+kurti paskyros. Jei norite pradėti,
+bakstelėkite apačioje.</string>
+    <string name="brave_sync_have_existing_code">Turiu sinchronizavimo kodą</string>
+    <string name="sync_settings_add_device_name_title">Įrašykite įrenginio pavadinimą</string>
+    <string name="sync_settings_add_device_name_label">Įveskite pasirinktinį šio įrenginio pavadinimą</string>
+    <string name="sync_example_device_name">„Android“ įrenginys</string>
+    <string name="brave_sync_qrcode">Sinchronizuoti įrenginį</string>
+    <string name="brave_sync_qrcode_message">Sinchronizuotame įrenginyje pereikite į „Osiris Settings“ (nustatymai),
+ten eikite į „Device &amp;Settings“ (prietaisas ir nustatymai),
+kur palieskite „+“, kad įrašytumėte naują prietaisą
+ir pamatytumėte sinchronizavo kodą.</string>
+    <string name="enter_code_words_sync">Įveskite žodinį kodą</string>
+    <string name="enter_code_words_below_sync">Apačioje įveskite žodinį kodą.</string>
+    <string name="sync_device">Sinchronizuoti įrenginį</string>
+    <string name="sync_device_failure">Nepavyko nustatyti sinchronizavimo</string>
+    <string name="sync_device_success">Sinchronizavimas atliktas sėkmingai</string>
+    <string name="reset_sync">Atstatyti sinchronizavimą...</string>
+    <string name="resetting_sync">Ar tikrai norite atstatyti šio įrenginio sinchronizavo nustatymus?</string>
+
+    <string name="brave_stats_text_trackers">Blokuota
+sekimo failų</string>
+    <string name="brave_stats_text_ads">Blokuota
+reklamų</string>
+    <string name="brave_stats_text_https">HTTPS
+atnaujinimų</string>
+    <string name="brave_stats_text_time">Sutaupyta
+maždaug laiko</string>
+
+    <string name="send_metrics_title">Siųsti metriką</string>
+
+    <string name="desktop_mode_title">Darbalaukio veiksena</string>
+    <string name="website_settings_category_desktop_view_enabled_summary">Teikti pirmenybę svetainių darbalaukio versijai</string>
+    <string name="website_settings_category_desktop_view_disabled_summary">Teikti pirmenybę svetainių mobiliajai versijai</string>
+    <string name="website_settings_category_desktop_view_enabled">Naujoms kortelėms įjungti darbalaukio rodinį</string>
+    <string name="website_settings_category_desktop_view_disabled">Naujoms kortelėms naudoti mobiliąsias svetainių versijas (rekomenduojama)</string>
+
+    <string name="brave_shields_second_group_title">Atskiri valdikliai</string>
+    <string name="brave_shields">Skydai</string>
+    <string name="brave_shields_ads_and_trackers">Reklamos ir sekliai</string>
+    <string name="brave_shields_block_phishing_switch">Blokuoti sukčiavimą</string>
+
+    <string name="play_video_in_background_title">Foninis vaizdo atkūrimas</string>
+    <string name="website_settings_category_play_video_in_background_enabled_summary">Įjungta</string>
+    <string name="website_settings_category_play_video_in_background_disabled_summary">Išjungta</string>
+    <string name="settings_require_relaunch_notice">Pakeitimai įsigalios, kai kitą kartą paleisite Osiris</string>
+    <string name="settings_require_relaunch_now">PALEISTI IŠ NAUJO DABAR</string>
+    <string name="settings_require_relaunch_later">VĖLIAU</string>
+
+    <string name="website_settings_category_play_yt_video_in_browser_enabled_summary">Įjungta</string>
+    <string name="website_settings_category_play_yt_video_in_browser_disabled_summary">Išjungta</string>
+    <string name="close_tabs_on_exit_title">Išeinant, užverti korteles</string>
+    <string name="ddg_offer_title">Privati paieška, naudojant DuckDuckGo?</string>
+    <string name="ddg_offer_positive">Taip</string>
+    <string name="ddg_offer_negative">Ne</string>
+    <string name="ddg_offer_link">Sužinokite apie privačią paiešką, naudojant DuckDuckGo</string>
+    <string name="prefs_standard_search_engine">Standartinė kortelė</string>
+    <string name="prefs_private_search_engine">Privati kortelė</string>
+
+    <string name="brave_open_in_private_tab">Atverti privačioje kortelėje</string>
+    <string name="brave_close_all_private_tabs">Užverti privačias korteles</string>
+    <string name="brave_new_private_tab">Nauja privati kortelė</string>
+    <string name="brave_new_tab_private_header">Tai yra privati kortelė</string>
+    </resources>

@@ -1,0 +1,521 @@
+<resources>
+
+    <string name="brave_settings_title">Thiết đặt Pando cho</string>
+    <string name="brave_shields_down">Xuống</string>
+    <string name="brave_shields_up">Lên</string>
+    <string name="brave_shields_ads_trackers">Quảng cáo và trình theo dõi bị chặn</string>
+    <string name="brave_shields_https_upgrades">Nâng cấp HTTPS</string>
+    <string name="brave_shields_scripts_blocked">Tập lệnh Bị chặn</string>
+    <string name="brave_shields_ads_tracking_switch">Chặn quảng cáo và theo dõi</string>
+    <string name="brave_shields_https_everywhere_switch">HTTPS ở mọi nơi</string>
+    <string name="brave_shields_blocks_scripts_switch">Chặn Tập lệnh</string>
+    <string name="accessibility_toolbar_btn_brave_shields">Bật/Tắt Lá chắn Pando</string>
+    <string name="brave_shields_block_3rd_party_cookies_switch">Chặn cookie của bên thứ 3</string>
+
+    <string name="httpse_summary">Mở các trang được hỗ trợ bằng HTTPS thay vì HTTP khi có thể</string>
+    <string name="tracking_protection_title">Chế độ Chống Theo dõi</string>
+    <string name="tracking_protection_summary">Ngăn tài nguyên theo dõi bạn tải</string>
+    <string name="ad_block_title">Khối quảng cáo</string>
+    <string name="ad_block_summary">Ngăn quảng cáo tải</string>
+
+    <string name="fingerprinting_protection_title">Bảo vệ vân tay</string>
+    <string name="fingerprinting_protection_summary">Ngăn trình duyệt lấy dấu vân tay</string>
+    <string name="brave_shields_fingerprints_blocked">Phương pháp lấy dấu vân tay bị chặn</string>
+    <string name="brave_shields_block_fingerprints_switch">Bảo vệ vân tay</string>
+
+    <string name="ad_block_regional_title">Khối quảng cáo khu vực</string>
+    <string name="ad_block_regional_summary">Ngăn quảng cáo khu vực tải</string>
+
+    <string name="ad_block_regional_summary_no_list">Không có danh sách bổ sung nào sẵn dùng cho địa phương của bạn</string>
+
+    <string name="menu_exit">Thoát</string>
+
+    <string name="brave_sync">Đồng bộ Pando</string>
+    <string name="brave_sync_description">Đồng bộ hóa dữ liệu trình duyệt giữa các thiết bị của bạn
+        an toàn bằng cách sử dụng Pando Sync, không có tài khoản
+        sáng tạo cần thiết. Nhấn vào bên dưới để bắt đầu.</string>
+    <string name="brave_sync_have_existing_code">Tôi có mã đồng bộ hiện có</string>
+    <string name="sync_settings_add_device_name_title">Thêm tên thiết bị</string>
+    <string name="sync_settings_add_device_name_label">Nhập tên tùy chọn cho thiết bị này</string>
+    <string name="sync_example_device_name">Thiết bị Android</string>
+    <string name="brave_sync_qrcode">Đồng bộ với thiết bị</string>
+    <string name="brave_sync_qrcode_message">Sử dụng thiết bị đã đồng bộ hiện có đang mở Pando
+        Cài đặt và điều hướng đến \"Thiết bị &amp;
+        Cài đặt\", nhấn vào \'+\' để thêm thiết bị mới và
+        tiết lộ mã đồng bộ hóa.</string>
+    <string name="enter_code_words_sync">Nhập từ mã</string>
+    <string name="enter_code_words_below_sync">Nhập mã từ dưới đây.</string>
+    <string name="sync_device">Đồng bộ thiết bị</string>
+    <string name="sync_device_failure">Không thể thiết lập đồng bộ</string>
+    <string name="sync_device_success">Thiết lập đồng bộ đã hoàn tất thành công</string>
+    <string name="reset_sync">Đặt lại Đồng bộ...</string>
+    <string name="resetting_sync">Bạn có chắc bạn muốn đặt lại thiết đặt Đồng bộ thiết bị này không?</string>
+
+    <string name="brave_stats_text_trackers">Trackers
+        Bị chặn</string>
+    <string name="brave_stats_text_spyce">Gián điệp</string>
+    <string name="brave_stats_text_ads">Quảng cáo
+        Bị chặn</string>
+    <string name="brave_stats_text_https">HTTPS (bằng https)
+        Nâng cấp</string>
+    <string name="brave_stats_text_time">Est. Thời gian
+        Lưu</string>
+
+    <string name="send_metrics_title">Gửi số liệu</string>
+
+    <string name="desktop_mode_title">Chế độ Bàn làm việc</string>
+    <string name="website_settings_category_desktop_view_enabled_summary">Thích phiên bản trang trên máy tính để bàn</string>
+    <string name="website_settings_category_desktop_view_disabled_summary">Thích phiên bản di động của trang web</string>
+    <string name="website_settings_category_desktop_view_enabled">Bật Dạng xem Màn hình nền cho các tab mới</string>
+    <string name="website_settings_category_desktop_view_disabled">Sử dụng phiên bản trang web dành cho thiết bị di động cho các tab mới (khuyến nghị)</string>
+
+    <string name="brave_shields_first_group_title">Chặn Màn hình</string>
+    <string name="brave_shields_second_group_title">Điều khiển Cá nhân</string>
+    <string name="brave_shields">Shields</string>
+    <string name="brave_shields_ads_and_trackers">Quảng cáo và trình theo dõi</string>
+    <string name="brave_shields_fingerprint_methods">Phương pháp vân tay</string>
+    <string name="brave_shields_block_phishing_switch">Chặn Lừa đảo qua mạng</string>
+
+    <string name="play_video_in_background_title">Phát lại video nền</string>
+    <string name="website_settings_category_play_video_in_background_enabled_summary">Kích hoạt</string>
+    <string name="website_settings_category_play_video_in_background_disabled_summary">Bị vô hiệu hoá</string>
+    <string name="website_settings_category_play_video_in_background_enabled">Thử nghiệm. Cho phép phát âm thanh từ video trong nền khi tab không hoạt động hoặc màn hình thiết bị bị tắt. Cố gắng chuyển sang chế độ máy tính để bàn nếu tính năng này không hoạt động.</string>
+    <string name="settings_require_relaunch_notice">Thay đổi của bạn sẽ có hiệu lực vào lần tiếp theo bạn khởi chạy lại Pando</string>
+    <string name="settings_require_relaunch_now">KHỞI ĐỘNG LẠI NGAY</string>
+    <string name="settings_require_relaunch_later">Sau đó</string>
+
+    <string name="play_yt_video_in_browser_title">Phát lại video trong Pando</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled_summary">Kích hoạt</string>
+    <string name="website_settings_category_play_yt_video_in_browser_disabled_summary">Bị vô hiệu hoá</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled">Nếu được bật, video sẽ được phát trong Pando thay vì ứng dụng tương ứng</string>
+
+    <string name="close_tabs_on_exit_title">Đóng tab khi thoát</string>
+    <string name="close_tabs_on_exit_summary">Không duy trì các tab giữa các phiên duyệt web</string>
+
+    <string name="open_pages_in_custom_tabs_title">Mở tab trong Tab Tùy chỉnh</string>
+    <string name="open_pages_in_custom_tabs_summary">Đề nghị mở tab trong Tab Tùy chỉnh</string>
+
+    <string name="ddg_offer_title">Tìm kiếm riêng tư với DuckDuckGo?</string>
+    <string name="ddg_offer_text">Với tìm kiếm riêng tư, Pando sẽ sử dụng DuckDuckGo để trả lời các tìm kiếm của bạn trong khi bạn đang ở trong tab riêng tư này. DuckDuckGo là một công cụ tìm kiếm không theo dõi lịch sử tìm kiếm của bạn, cho phép bạn tìm kiếm riêng tư.</string>
+    <string name="ddg_offer_positive">Có</string>
+    <string name="ddg_offer_negative">Không</string>
+    <string name="ddg_offer_link">Tìm hiểu về tìm kiếm riêng tư với DuckDuckGo</string>
+    <string name="prefs_standard_search_engine">Tab Chuẩn</string>
+    <string name="prefs_private_search_engine">Tab Riêng tư</string>
+
+    <string name="brave_open_in_private_tab">Mở trong tab riêng tư</string>
+    <string name="brave_close_all_private_tabs">Đóng các tab riêng tư</string>
+    <string name="brave_new_private_tab">Tab riêng tư mới</string>
+    <string name="brave_new_tab_private_header">Đây là tab riêng tư</string>
+    <string name="brave_new_tab_private_message">Mặc dù các trang web bạn truy cập trong các tab riêng tư không được lưu cục bộ, chúng không làm cho bạn ẩn danh hoặc vô hình đối với ISP, chủ lao động của bạn hoặc các trang web bạn đang truy cập.</string>
+
+    <string name="fre_welcome_title">Chúc mừng!</string>
+    <string name="fre_welcome_text">Chào mừng bạn đến với Pando\'s New Web 3.0</string>
+    <string name="menu_add_to_bookmarks">Thêm vào</string>
+    <string name="menu_favorites">Yêu thích</string>
+    <string name="menu_mode_day">Ngày</string>
+    <string name="menu_mode_night">Đêm</string>
+    <string name="menu_night_mode">Chế độ ban đêm</string>
+    <string name="menu_osiris_statistics">Pando Thống kê</string>
+    <string name="day_theme_on">Chế độ Ban ngày Bật</string>
+    <string name="day_theme_off">Chế độ ban ngày Tắt</string>
+    <string name="add_to_favorites">Thêm vào Ưa chuộng</string>
+    <string name="favorites_placeholder_summary">Ưa chuộng của bạn sẽ xuất hiện ở đây</string>
+
+    <!--  Pando Strings  -->
+    <string name="dashboard_popup_level">Cấp:</string>
+
+    <string name="dashboard_popup_title">Chào mừng bạn đến với Trình duyệt Web Pando</string>
+    <string name="dashboard_popup_message">Tận hưởng các giao dịch liền mạch, nhanh chóng và an toàn trong tầm tay bạn. Dữ liệu của bạn được bảo vệ bằng mã hóa đầu cuối để đảm bảo rằng tất cả các loại giao dịch sẽ luôn được bảo mật và riêng tư.</string>
+    <string name="dashboard_popup_view_profile">Xem hồ sơ</string>
+    <string name="dashboard_popup_pando_mined">PANDO khai thác</string>
+    <string name="dashboard_popup_referral_earnings">Thu nhập giới thiệu</string>
+    <string name="dashboard_popup_mining_runtime">Thời gian chạy khai thác mỏ</string>
+    <string name="dashboard_popup_membership_balance">Tổng số dư</string>
+    <string name="dashboard_popup_reward_dashboard">Bảng điều khiển phần thưởng</string>
+    <string name="dashboard_popup_member_dashboard">Bảng điều khiển thành viên</string>
+    <string name="dashboard_popup_vpn">VPN</string>
+    <string name="dashboard_popup_ads_mining">Khai thác quảng cáo</string>
+
+    <string name="login_already_have">Bạn đã có tài khoản?</string>
+    <string name="login_button">Đăng nhập</string>
+    <string name="login_message">Chào mừng bạn đến với trình duyệt web Pando của riêng bạn! Giờ đây, bạn có thể tận hưởng các giao dịch liền mạch, nhanh chóng và an toàn trong tầm tay.</string>
+    <string name="login_email_label">E-mail</string>
+    <string name="login_email_hint">Nhập e-mail của bạn</string>
+    <string name="login_password_label">Mật khẩu</string>
+    <string name="login_password_hint">Nhập mật khẩu của bạn</string>
+    <string name="login_remember_me">Hãy nhớ đến tôi</string>
+    <string name="login_forgot_password">Bạn quên Mật khẩu?</string>
+    <string name="login_reset_device_id">Đặt lại ID Thiết bị</string>
+    <string name="login_needs_device_verification_title">Xác minh Thiết bị</string>
+    <string name="login_needs_device_verification_message">Bạn đang sử dụng thiết bị mới. Bạn có chắc bạn muốn đăng nhập không? Bạn sẽ được tự động đăng xuất khỏi thiết bị hiện có.</string>
+    <string name="login_needs_device_verification_action_text">Tiếp tục</string>
+    <string name="login_multiple_device_not_supported_title">Tính năng Không Được hỗ trợ</string>
+    <string name="login_multiple_device_not_supported_message">Đăng nhập trên nhiều thiết bị chỉ được hỗ trợ cho người dùng có gói.</string>
+    <string name="login_multiple_device_not_supported_action_text">Ok</string>
+
+    <string name="forgot_password_title">Bạn quên Mật khẩu?</string>
+    <string name="forgot_password_message">Nhập địa chỉ e-mail bạn đang sử dụng cho tài khoản của mình bên dưới và chúng tôi sẽ gửi mã xác minh để đặt lại mật khẩu của bạn.</string>
+    <string name="forgot_password_email_label">E-mail</string>
+    <string name="forgot_password_email_hint">Nhập e-mail của bạn</string>
+    <string name="forgot_password_continue">Tiếp tục</string>
+
+    <string name="email_otp_title">Xác nhận E-mail</string>
+    <string name="email_otp_message">Nhập mã xác minh mà chúng tôi vừa gửi cho bạn trên địa chỉ e-mail của bạn để đặt lại mật khẩu.</string>
+    <string name="email_otp_code_label">Mã xác minh</string>
+    <string name="email_otp_reset_password">Đặt lại Mật khẩu</string>
+
+    <string name="device_otp_message">Nhập mã xác minh mà chúng tôi vừa gửi cho bạn trên địa chỉ e-mail của bạn để cập nhật thiết bị.</string>
+    <string name="device_otp_update_device">Cập nhật Thiết bị</string>
+    <string name="device_otp_title_dialog">Xác minh hoàn tất!</string>
+    <string name="device_otp_message_dialog">Bạn đã xác minh thành công tài khoản của mình bằng thiết bị mới.</string>
+    <string name="device_otp_action_text">Đăng nhập Ngay</string>
+
+    <string name="setup_password_title">Thiết lập Mật khẩu Mới</string>
+    <string name="setup_password_message">Mật khẩu mới của bạn phải đáp ứng các yêu cầu chính sách mật khẩu cho trương mục này.</string>
+    <string name="setup_password_req1">Phải dài ít nhất 8 ký tự</string>
+    <string name="setup_password_req2">Phải bao gồm ít nhất một chữ hoa</string>
+    <string name="setup_password_req3">Phải bao gồm ít nhất một chữ thường</string>
+    <string name="setup_password_req4">Phải bao gồm ít nhất một số</string>
+    <string name="setup_password_req5">Phải bao gồm ít nhất một ký tự không phải chữ và số</string>
+    <string name="setup_password_password_label">Mật khẩu</string>
+    <string name="setup_password_password_hint">Nhập mật khẩu của bạn</string>
+    <string name="setup_password_cpassword_label">Xác nhận Mật khẩu</string>
+    <string name="setup_password_cpassword_hint">Nhập lại mật khẩu của bạn</string>
+    <string name="setup_password_password_str">Cường độ mật khẩu</string>
+    <string name="setup_password_submit">Gửi</string>
+
+    <string name="change_password_title">Thay đổi Mật khẩu</string>
+    <string name="change_password_message">Mật khẩu mới của bạn phải đáp ứng các yêu cầu chính sách mật khẩu cho trương mục này.</string>
+    <string name="change_password_old_password_label">Mật khẩu Cũ</string>
+    <string name="change_password_old_password_hint">Nhập mật khẩu cũ của bạn</string>
+    <string name="change_password_password_label">Mật khẩu Mới</string>
+    <string name="change_password_password_hint">Nhập mật khẩu của bạn</string>
+    <string name="change_password_cpassword_label">Xác nhận Mật khẩu</string>
+    <string name="change_password_cpassword_hint">Nhập lại mật khẩu của bạn</string>
+    <string name="change_password_password_str">Cường độ mật khẩu</string>
+    <string name="change_password_save">Lưu</string>
+    <string name="change_password_dialog_title">Success</string>
+    <string name="change_password_dialog_message">Mật khẩu Cập nhật!</string>
+
+    <string name="signup_donthaveaccount">Bạn chưa có tài khoản?</string>
+    <string name="signup_button">Đăng ký</string>
+    <string name="signup_title">Thông tin Trương mục</string>
+    <string name="signup_fullname_label">Tên Đầy đủ</string>
+    <string name="signup_fullname_hint">Nhập tên đầy đủ của bạn</string>
+    <string name="signup_email_label">E-mail</string>
+    <string name="signup_email_hint">Nhập e-mail của bạn</string>
+    <string name="signup_password_label">Mật khẩu</string>
+    <string name="signup_password_hint">Nhập mật khẩu của bạn</string>
+    <string name="signup_cpassword_label">Xác nhận Mật khẩu</string>
+    <string name="signup_cpassword_hint">Nhập lại mật khẩu của bạn</string>
+    <string name="signup_password_str">Cường độ mật khẩu</string>
+    <string name="signup_country_label">Quốc gia</string>
+
+    <string name="referral_code_title">Mã giới thiệu</string>
+    <string name="referral_code_message">Vui lòng cung cấp mã giới thiệu, người mời bạn đến nền tảng này. Cảm ơn bạn</string>
+    <string name="referral_code_referral_label">Mã giới thiệu</string>
+    <string name="referral_code_referral_hint">Nhập mã giới thiệu</string>
+    <string name="referral_code_scan_qrcode">Quét mã QR giới thiệu</string>
+    <string name="referral_code_skip_for_now">Bỏ qua ngay bây giờ</string>
+    <string name="referral_code_continue">Tiếp tục</string>
+
+    <string name="mining_popup_title">Khai thác mỏ</string>
+    <string name="mining_popup_pando_mined">PANDO khai thác</string>
+    <string name="mining_popup_total_balance">Tổng số dư</string>
+
+    <string name="toast_invalid_credentials">Chứng danh không hợp lệ</string>
+    <string name="toast_user_email_not_registered">Người dùng có e-mail `%s` không được đăng ký</string>
+    <string name="toast_creds_cannot_empty">E-mail hoặc mật khẩu không thể trống</string>
+    <string name="toast_check_connectivity">Vui lòng kiểm tra kết nối internet của bạn</string>
+    <string name="toast_account_not_validated">Tài khoản của bạn không được xác thực</string>
+    <string name="toast_user_logged_in">Người dùng đã đăng nhập</string>
+    <string name="toast_minimum_password_level">Mật khẩu không đủ mạnh cho định dạng của nó</string>
+    <string name="toast_all_fields_are_required">Tất cả các trường được yêu cầu</string>
+    <string name="toast_password_did_not_match">Mật khẩu không khớp</string>
+    <string name="toast_old_password_incorrect">Mật khẩu cũ không chính xác</string>
+    <string name="toast_invalid_email_format">Định dạng e-mail không hợp lệ</string>
+    <string name="toast_email_already_exists">E-mail đã tồn tại</string>
+    <string name="toast_user_registered">Người dùng đã đăng ký</string>
+    <string name="toast_email_cannot_be_empty">E-mail không thể trống</string>
+    <string name="toast_email_does_not_exist">E-mail không tồn tại</string>
+    <string name="toast_otp_code_should_be_6_digits">Mã OTP phải có 6 chữ số</string>
+    <string name="toast_otp_code_cannot_be_empty">Mã OTP không thể rỗng</string>
+    <string name="toast_invalid_otp_code">Mã OTP không hợp lệ</string>
+    <string name="toast_password_not_strong_enough">Mật khẩu không đủ mạnh cho định dạng của nó</string>
+    <string name="toast_new_password_cannot_be_empty">Mật khẩu mới không thể rỗng</string>
+    <string name="toast_password_cannot_be_empty">Mật khẩu không thể rỗng</string>
+    <string name="toast_cpassword_cannot_be_empty">Xác nhận mật khẩu không thể rỗng</string>
+    <string name="toast_old_password_cannot_be_empty">Mật khẩu cũ không thể rỗng</string>
+    <string name="toast_password_is_successfully_updated">Bạn đã cập nhật thành công mật khẩu của mình</string>
+    <string name="toast_referral_invalid_code">Mã giới thiệu không hợp lệ.</string>
+    <string name="toast_referral_code_cannot_be_empty">Mã giới thiệu là bắt buộc và không thể rỗng.</string>
+    <string name="toast_referrer_invalid_code">Mã giới thiệu không hợp lệ.</string>
+    <string name="toast_account_is_deactivated">Tài khoản bị vô hiệu hóa.</string>
+    <string name="toast_relogin_needed">Phiên làm việc của bạn đã hết hạn. Vui lòng đăng nhập thông tin đăng nhập của bạn.</string>
+    <string name="toast_feature_will_be_soon">Tính năng này sẽ sớm khả dụng.</string>
+    <string name="toast_copied_to_clipboard">Đã sao vào bảng tạm</string>
+
+    <string name="toast_vpn_feature_will_be_soon">"Chuyển đổi VPN" sẽ sớm được hỗ trợ, vui lòng kiểm tra pandobrowser.com web để cập nhật.</string>
+    <string name="toast_ads_mining_feature_will_be_soon">"Khai thác quảng cáo" sẽ sớm được hỗ trợ vui lòng kiểm tra pandobrowser.com web để cập nhật.</string>
+    <string name="toast_rewards_feature_will_be_soon">"Bảng điều khiển phần thưởng" sẽ sớm được hỗ trợ, vui lòng kiểm tra pandobrowser.com web để cập nhật.</string>
+    <string name="toast_view_profile_feature_will_be_soon">"Xem hồ sơ" sẽ được hỗ trợ sớm xin vui lòng kiểm tra pandobrowser.com web để cập nhật.</string>
+
+    <string name="progress_dialog_title">Hãy chờ</string>
+    <string name="progress_dialog_logging_in">Đang đăng nhập...</string>
+    <string name="progress_dialog_signing_up">Đang đăng ký...</string>
+    <string name="progress_dialog_sending_otp_code">Đang gửi mã OTP...</string>
+    <string name="progress_dialog_verifying_email">Đang kiểm chứng e-mail...</string>
+    <string name="progress_dialog_saving_new_password">Đang lưu mật khẩu mới...</string>
+    <string name="progress_dialog_verifying_referral_code">Đang xác minh mã giới thiệu...</string>
+    <string name="progress_dialog_verifying_referrer_code">Đang xác minh mã liên kết giới thiệu...</string>
+    <string name="progress_dialog_loading_users">Đang nạp người dùng theo gói của bạn...</string>
+    <string name="progress_dialog_saving_changes">Đang lưu thay đổi...</string>
+
+    <string name="users_nothing_under_plan">Chưa có người dùng nào trong gói của bạn</string>
+    <string name="users_under_my_plan_label">Người dùng theo kế hoạch của tôi</string>
+
+    <string name="account_settings_save">Lưu</string>
+    <string name="account_settings_edit_information">Sửa Thông tin</string>
+    <string name="account_settings_reminder_title">Nhắc nhở</string>
+    <string name="account_settings_reminder_continue">Tiếp tục</string>
+    <string name="account_settings_reminder_cancel">Hủy bỏ</string>
+    <string name="account_settings_reminder_message_save">Bạn chỉ có thể nhập mã liên kết giới thiệu một lần. Bạn sẽ không thể thay đổi điều này sau khi được lưu thành công.</string>
+    <string name="account_settings_reminder_message_edit">Bạn chỉ có thể nhập mã liên kết giới thiệu một lần. Bạn sẽ không thể thay đổi nó ngay bây giờ.</string>
+    <string name="account_settings_discard_changes">Loại bỏ các thay đổi của bạn?</string>
+    <string name="account_settings_already_setup">Bạn đã có mã giới thiệu.</string>
+    <string name="account_settings_cannot_use_own_referral_code_as_referrer_code">Bạn không thể sử dụng mã giới thiệu của riêng mình làm mã giới thiệu.</string>
+    <string name="account_settings_cannot_be_empty">Tên đầy đủ không thể trống.</string>
+
+    <string name="update_available_title">Cập nhật trình duyệt Pando</string>
+    <string name="update_available_message">Có bản cập nhật có sẵn. Tải xuống phiên bản mới để có Trải nghiệm Pando tốt nhất.</string>
+    <string name="update_available_confirm">Xác nhận</string>
+    <string name="update_available_skip">Chuyển</string>
+    <string name="update_available_install_via_playstore">Bạn có thể cài đặt phiên bản mới nhất thông qua Cửa hàng Google Play.</string>
+
+    <string name="pando_games_comingsoon">Pando Trò chơi Đến sớm</string>
+
+    <string name="fre_pando_page1_title">Duyệt nhanh hơn</string>
+    <string name="fre_pando_page1_message">Nhanh hơn 3-7 lần so với duyệt web truyền thống với tính năng duyệt web siêu tốc.</string>
+    <string name="fre_pando_page2_title">Chặn quảng cáo và trình theo dõi</string>
+    <string name="fre_pando_page2_message">Chặn tất cả quảng cáo xâm nhập. Binge xem nội dung trong nhiều giờ mà không bị gián đoạn.</string>
+    <string name="fre_pando_page3_title">Bảo vệ quyền riêng tư của bạn</string>
+    <string name="fre_pando_page3_message">Bảo mật và bảo vệ dữ liệu và quyền riêng tư của người dùng&apos;, đảm bảo rằng nó sẽ không được chia sẻ với bên thứ ba.</string>
+    <string name="fre_pando_page4_title">Kiếm phần thưởng</string>
+    <string name="fre_pando_page4_message">Khai thác Pando Runtime cho phép bạn kiếm phần thưởng bằng cách sử dụng các sản phẩm hệ sinh thái Pando. Hãy nhớ theo dõi để tận hưởng lợi ích tối đa.</string>
+
+    <string name="fre_pando_next">Tiếp theo</string>
+    <string name="fre_pando_get_started">Bắt đầu</string>
+
+    <string name="toolbar_phone_close_all">Đóng Tất cả</string>
+
+    <string name="edit_favorite_label">Sửa nhãn</string>
+    <string name="edit_favorite_save">Lưu</string>
+
+    <string name="under_maintenance_title">Bảo trì</string>
+    <string name="under_maintenance_message">Chúng tôi hiện đang tiến hành bảo trì trên máy chủ để cải thiện trải nghiệm của bạn. Sẽ không lâu đâu. Chúng tôi xin lỗi vì sự bất tiện này.</string>
+    <string name="under_maintenance_ok">Ok</string>
+
+    <string name="password_str_1">Quá ngắn</string>
+    <string name="password_str_2">Yếu</string>
+    <string name="password_str_3">Hội chợ</string>
+    <string name="password_str_4">Tốt</string>
+    <string name="password_str_5">Mạnh mẽ</string>
+    <string name="password_str_6">Rất mạnh mẽ</string>
+
+    <string name="search_engine_title">Công cụ tìm kiếm</string>
+    <string name="coming_soon_title">Đến sớm</string>
+
+    <string name="prefs_section_basics">Các câu cơ bản</string>
+    <string name="prefs_display_title">Xuất hiện</string>
+    <string name="prefs_autofill_and_payments">Tự động điền và thanh toán</string>
+    <string name="prefs_saved_passwords_title">Mật khẩu</string>
+    <string name="prefs_notifications">Thông báo</string>
+
+    <string name="prefs_section_advanced">Nâng cao</string>
+    <string name="prefs_privacy">Bảo mật</string>
+    <string name="prefs_accessibility">Tiếp cận</string>
+    <string name="prefs_site_settings">Thiết đặt trang</string>
+    <string name="prefs_languages">Ngôn ngữ</string>
+    <string name="menu_downloads">Tải</string>
+    <string name="prefs_about_pando">Thông tin về Pando Browser</string>
+
+    <string name="prefs_display_theme">Chủ đề</string>
+
+    <string name="cookies_title">Cookie</string>
+    <string name="pando_android_settings_permission_off_plural">Bật quyền cho Pando trong &lt;link&gt;Cài đặt Android&lt;/link&gt;.</string>
+    <string name="pando_android_settings_permission_off">Bật quyền cho Pando trong &lt;link&gt;Cài đặt Android&lt;/link&gt;.</string>
+    <string name="pando_legal_information_summary">Bản quyền %1$d Pando Software Inc. Tất cả các quyền được bảo lưu.</string>
+    <string name="terms_of_service_title">Điều khoản dịch vụ Pando</string>
+    <string name="privacy_notice_title">Thông báo về quyền riêng tư của Pando</string>
+
+    <string name="dialog_negative_title">Oops...</string>
+    <string name="dialog_positive_action">Ok</string>
+
+    <string name="account_settings_title">Thiết đặt Trương mục</string>
+    <string name="account_settings_fullname_label">Tên Đầy đủ</string>
+    <string name="account_settings_email">E-mail</string>
+    <string name="account_settings_referrer_code">Mã giới thiệu</string>
+    <string name="account_settings_password">Mật khẩu</string>
+    <string name="account_settings_change_password">Thay đổi Mật khẩu</string>
+    <string name="account_settings_country">Quốc gia</string>
+    <string name="account_settings_eth_wallet">Ví Ethereum</string>
+    <string name="account_settings_pando_wallet">Ví Pando</string>
+    <string name="account_settings_logout">Đăng xuất</string>
+
+    <string name="member_dashboard_membership_bonus">Tiền thưởng thành viên</string>
+    <string name="member_dashboard_referral_bonus">Tiền thưởng giới thiệu</string>
+    <string name="member_dashboard_local_mining">Khai thác mỏ địa phương</string>
+    <string name="member_dashboard_pando_balance">Pando thu nhập</string>
+    <string name="member_dashboard_download_link">Liên kết Tải xuống Giới thiệu</string>
+    <string name="member_dashboard_referral_code">Mã giới thiệu</string>
+    <string name="member_dashboard_referral_analytics">Phân tích giới thiệu</string>
+    <string name="member_dashboard_total_users">Tổng số người dùng theo kế hoạch của tôi</string>
+    <string name="member_dashboard_view_all_users">Xem tất cả người dùng</string>
+    <string name="member_dashboard_view_transaction_history">Xem lịch sử giao dịch</string>
+    <string name="member_dashboard_show_qr_code">Hiện Mã QR</string>
+
+    <string name="sw_mining_title">Khai thác SW</string>
+    <string name="sw_mining_membership_level">Cấp độ thành viên</string>
+    <string name="sw_mining_total_balance">Tổng số dư</string>
+
+    <string name="tab_header_ads_blocked">Quảng cáo bị chặn</string>
+    <string name="tab_header_data_saved">Dữ liệu đã lưu</string>
+    <string name="tab_header_time_saved">Thời gian đã lưu</string>
+
+    <string name="user_loggedin_to_different_device">Bạn đã đăng nhập vào một thiết bị khác. Bạn sẽ được đăng xuất ở đây.</string>
+
+    <string name="reset_device_id_title">Đặt lại ID Thiết bị</string>
+    <string name="reset_device_id_message">Nhập địa chỉ email bạn đang sử dụng cho tài khoản của mình bên dưới và chúng tôi sẽ gửi mã xác minh để đặt lại id thiết bị của bạn.</string>
+    <string name="reset_device_id_email_label">E-mail</string>
+    <string name="reset_device_id_email_hint">Nhập e-mail của bạn</string>
+    <string name="reset_device_id_continue">Tiếp tục</string>
+
+    <string name="pando_edit_label">Sửa Nhãn</string>
+
+    <string name="member_dashboard_sun">Chủ nhật</string>
+    <string name="member_dashboard_mon">Thứ hai</string>
+    <string name="member_dashboard_tue">Thứ ba</string>
+    <string name="member_dashboard_wed">Thứ tư</string>
+    <string name="member_dashboard_thu">Thứ Năm</string>
+    <string name="member_dashboard_fri">Thứ sáu</string>
+    <string name="member_dashboard_sat">Thứ bảy</string>
+    <string name="member_dashboard_download_link_label">Tải xuống Liên kết</string>
+    <string name="member_dashboard_referral_code_label">Mã giới thiệu</string>
+
+    <string name="member_dashboard_withdrawable_balance">Số dư có thể rút ra</string>
+    <string name="member_dashboard_withdraw">Rút</string>
+    <string name="member_dashboard_previous_withdrawn">Đã rút trước đó</string>
+    <string name="member_dashboard_transaction_history">Lịch sử giao dịch</string>
+
+    <string name="withdrawal_page_title">Rút Pando</string>
+    <string name="withdrawal_page_withdrawable_balance_label">Số dư có thể rút ra</string>
+    <string name="withdrawal_page_to_label">Để</string>
+    <string name="withdrawal_page_amount_label">Lượng</string>
+    <string name="withdrawal_page_max_amount">Số tiền tối đa</string>
+    <string name="withdrawal_page_to_hint">Nhập Địa chỉ Ví Pando</string>
+    <string name="withdrawal_page_amount_hint">Nhập Số tiền</string>
+    <string name="withdrawal_page_continue">Tiếp tục</string>
+    <string name="withdrawal_page_cancel">Hủy bỏ</string>
+    <string name="withdrawal_page_invalid_wallet_address">Địa chỉ Ví Pando không hợp lệ</string>
+    <string name="withdrawal_page_invalid_balance">Số dư Pando không hợp lệ</string>
+    <string name="withdrawal_page_withdraw_limit_policy">Rút giới hạn cho mỗi chính sách giao dịch</string>
+    <string name="withdrawal_page_minimum_amount">Số tiền tối thiểu (PANDO)</string>
+    <string name="withdrawal_page_maximum_amount">Số tiền tối đa (PANDO)</string>
+    <string name="withdrawal_page_daily_limit">Giới hạn hàng ngày</string>
+
+    <string name="withdrawal_confirmation_page_title">Xác nhận giao dịch</string>
+    <string name="withdrawal_confirmation_page_messages">Vui lòng kiểm tra chi tiết giao dịch nếu tất cả đều chính xác. Nhấp vào nút xác nhận bên dưới để xử lý việc rút PANDO của bạn.</string>
+    <string name="withdrawal_confirmation_page_to_label">Để</string>
+    <string name="withdrawal_confirmation_page_amount_label">Lượng</string>
+    <string name="withdrawal_confirmation_page_transaction_fee_label">Phí giao dịch</string>
+    <string name="withdrawal_confirmation_page_receivable_amount_label">Số tiền phải thu</string>
+    <string name="withdrawal_confirmation_page_confirm">Xác nhận</string>
+    <string name="withdrawal_confirmation_page_cancel">Trở lại</string>
+
+    <string name="pando_contextual_search_description">
+        Tìm hiểu về các chủ đề trên trang web mà không cần rời khỏi trang. Nhấn để Tìm kiếm gửi một từ và ngữ cảnh xung quanh đến Google Tìm kiếm, trả về định nghĩa, hình ảnh, kết quả tìm kiếm và các chi tiết khác.
+
+        Để điều chỉnh cụm từ tìm kiếm của bạn, hãy nhấn lâu để chọn. Để tinh chỉnh tìm kiếm của bạn, hãy trượt bảng điều khiển lên trên và gõ nhẹ vào hộp tìm kiếm.
+    </string>
+
+    <string name="progress_dialog_validating_wallet_address">Đang xác thực địa chỉ ví...</string>
+    <string name="toast_invalid_withdrawable_amount">Số tiền không hợp lệ. Vui lòng nhập số tiền rút trong số tiền tối thiểu và tối đa cho phép.</string>
+
+    <string name="withdrawal_page_invalid_range_amount">Số tiền không hợp lệ. Vui lòng nhập số tiền rút trong số tiền tối thiểu và tối đa cho phép.</string>
+
+    <string name="withdrawal_page_withdrawable_amount_exceeded">Số tiền vượt quá giới hạn hàng ngày của bạn</string>
+    <string name="withdrawal_page_remaining_amount_exceeded">Amount exceeds your daily limit</string>
+
+    <string name="withdrawal_page_withdrawable_amount_exceeded">Số tiền không hợp lệ. Số tiền rút không được vượt quá số dư có thể rút.</string>
+    <string name="withdrawal_page_remaining_amount_exceeded">Số tiền vượt quá giới hạn hàng ngày của bạn</string>
+
+    <string name="progress_dialog_processing_withdrawal">Đang xử lý rút tiền...</string>
+
+    <string name="no_transaction_history">Chưa có giao dịch</string>
+    <string name="transaction_history_label">Lịch sử giao dịch</string>
+    <string name="transaction_failed">Thất bại</string>
+    <string name="transaction_processing">Chờ</string>
+    <string name="transaction_completed">Hoàn thành</string>
+    <string name="transaction_withdraw_to_external_account">Rút Pando vào tài khoản bên ngoài</string>
+    <string name="transaction_details_date_time">Ngày &amp; Thời gian</string>
+    <string name="transaction_details_transaction_hash">Giao dịch băm</string>
+    <string name="transaction_details_close">Đóng</string>
+    <string name="transaction_new">Mới</string>
+
+    <string name="progress_dialog_loading_transactions">Đang nạp giao dịch...</string>
+    <string name="withdrawal_page_withdrawal_limit_updated">Số tiền giới hạn rút tiền đã được cập nhật, vui lòng kiểm tra và xử lý lại việc rút tiền PANDO của bạn.</string>
+    <string name="withdrawal_confirmation_page_transaction_fee_updated">Phí giao dịch đã được cập nhật, vui lòng kiểm tra và xử lý lại việc rút tiền PANDO của bạn.</string>
+
+    <string name="signup_verify_recaptcha">Xác nhận reCaptcha</string>
+    <string name="signup_protected_by_recaptcha">Được bảo vệ bởi reCAPTCHA</string>
+    <string name="toast_recaptcha_error">Thất bại khi xác minh reCaptcha</string>
+    <string name="toast_verify_recaptcha">Vui lòng kiểm chứng reCaptcha</string>
+
+    <string name="two_fa_title">Xác thực hai yếu tố</string>
+    <string name="two_fa_message">Một otp đã được gửi đến cho bạn qua email. Vui lòng nhập mã bên dưới.</string>
+    <string name="two_fa_continue">Tiếp tục</string>
+    <string name="two_fa_cancel">Hủy bỏ</string>
+    <string name="signup_verification_successful">Xác minh thành công</string>
+
+    <string name="withdrawal_page_is_not_available">Pando rút tiền không có sẵn tại thời điểm này. Vui lòng thử lại sau.</string>
+
+    <string name="login_please_update_website">Yêu cầu bị từ chối. Gần đây chúng tôi đã cải thiện bảo mật của chúng tôi. Vui lòng tải xuống và cài đặt phiên bản mới nhất từ trang web của chúng tôi (https://pandobrowser.com) để tiếp tục.</string>
+    <string name="login_please_update_playstore">Yêu cầu bị từ chối. Gần đây chúng tôi đã cải thiện bảo mật của chúng tôi. Vui lòng tải xuống và cài đặt phiên bản mới nhất từ trang web của chúng tôi (https://pandobrowser.com) hoặc từ Cửa hàng Google Play để tiếp tục.</string>
+
+    <string name="user_has_pending_withdrawal">Bạn có giao dịch rút tiền bằng token Pando đang diễn ra. Vui lòng đợi cho nó được hoàn thành đầu tiên trước khi thực hiện rút tiền khác. Cảm ơn bạn.</string>
+    <string name="reprocess_pando_withdrawal">Lỗi trong khi xác nhận số tiền rút. Vui lòng xử lý lại việc rút tiền PANDO của bạn.</string>
+
+    <string name="two_fa_resend_message">Gửi lại OTP sẽ có sẵn trong %d sec</string>
+    <string name="two_fa_did_not_get_the_code">Không nhận được mã?</string>
+    <string name="two_fa_resend_action">Gửi lại mã OTP</string>
+    <string name="two_fa_error_sending_otp">Lỗi trong khi cố gắng gửi OTP đến email của bạn. Vui lòng thử lại.</string>
+    <string name="two_fa_success_sending_otp">Gửi OTP thành công!</string>
+    <string name="device_otp_resend_message">Gửi lại Email sẽ có sẵn trong %d sec</string>
+    <string name="device_otp_did_not_get_the_code">Không nhận được mã?</string>
+    <string name="device_otp_resend_action">Gửi lại Email</string>
+    <string name="device_otp_error_sending_otp">Lỗi trong khi cố gắng gửi OTP đến email của bạn. Vui lòng thử lại.</string>
+    <string name="device_otp_success_sending_otp">Gửi OTP thành công!</string>
+
+    <string name="toast_otp_expired">Mã OTP đã hết hạn.</string>
+
+    <string name="too_much_request_verify_login">Quá nhiều yêu cầu trong đăng nhập</string>
+    <string name="too_much_request_create_account">Yêu cầu đăng ký đã được gửi. Vui lòng thử đăng nhập bằng tài khoản email của bạn.</string>
+    <string name="too_much_request_withdraw">Việc rút tiền gần đây vẫn đang trong quá trình. Vui lòng thử rút tiền bổ sung sau.</string>
+
+    <string name="two_fa_message_resent">Một OTP đã được resent cho bạn qua email. Vui lòng nhập mã bên dưới.</string>
+    <string name="search_or_input_url">URL Tìm kiếm hoặc Nhập</string>
+    <string name="device_otp_congratulations">Xin chúc mừng và chào mừng bạn đến với Pando Browser. Bạn đã đăng nhập thành công bằng thiết bị mới của mình. Cảm ơn bạn.</string>
+    <string name="signup_email_invalid_title">Email của bạn không hợp lệ</string>
+    <string name="signup_email_invalid">Vui lòng liên hệ &lt;link&gt;info@pandobrowser.com&lt;/link&gt; để được hỗ trợ thêm.</string>
+
+    <string name="member_dashboard_max_withdrawal_amount_reached">Bạn đã đạt đến số tiền rút được phép trong ngày. Hãy thử lại vào ngày mai.</string>
+    <string name="member_dashboard_max_withdrawal_transaction_count_reached">Bạn đã đạt đến số lượng giao dịch rút tiền tối đa trong ngày. Hãy thử lại vào ngày mai.</string>
+
+    <string name="withdrawal_page_remaining_withdrawable_amount">Số tiền có thể rút còn lại trong ngày (PANDO)</string>
+    <string name="withdrawal_page_remaining_transaction">Giao dịch còn lại trong ngày</string>
+    <string name="withdrawal_page_policy_updated">Cập nhật chính sách!</string>
+    <string name="withdrawal_page_daily_withdrawal_limit_updated">Chính sách rút tiền hàng ngày đã được cập nhật. Vui lòng kiểm tra và xử lý rút tiền của bạn một lần nữa.</string>
+    <string name="withdrawal_page_max_number_of_transaction_per_day_updated">Số lượng giao dịch tối đa mỗi ngày đã được cập nhật. Bạn đã đạt đến số lượng giao dịch rút tiền tối đa trong ngày. Hãy thử lại vào ngày mai.</string>
+    <string name="withdrawal_page_daily_withdrawable_amount_limit_updated">Giới hạn số tiền rút hàng ngày đã được cập nhật. Bây giờ bạn có 0 số tiền có thể rút còn lại. Hãy thử lại vào ngày mai.</string>
+</resources>

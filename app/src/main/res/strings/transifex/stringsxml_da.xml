@@ -1,0 +1,112 @@
+<resources>
+
+    <string name="brave_settings_title">Pando skjoldsindstillinger for</string>
+    <string name="brave_shields_down">Ned</string>
+    <string name="brave_shields_up">Op</string>
+    <string name="brave_shields_ads_trackers">Reklamer og sporing er blokeret</string>
+    <string name="brave_shields_https_upgrades">HTTPS Opgraderinger</string>
+    <string name="brave_shields_scripts_blocked">Scripts er blokeret</string>
+    <string name="brave_shields_ads_tracking_switch">Blokér Reklamer og Sporing</string>
+    <string name="brave_shields_https_everywhere_switch">HTTPS Everywhere</string>
+    <string name="brave_shields_blocks_scripts_switch">Blokér Scripts</string>
+    <string name="accessibility_toolbar_btn_brave_shields">Aktivér/Desaktivér Pando Skjolde</string>
+    <string name="brave_shields_block_3rd_party_cookies_switch">Bloker 3. parts cookies</string>
+
+    <string name="httpse_summary">Åbner understøttede sider ved at bruge HTTPS i stedet for HTTP når det er muligt</string>
+    <string name="tracking_protection_title">Sporingsbeskyttelse</string>
+    <string name="tracking_protection_summary">Forhindrer indlæsning af ressourcer der sporer dig</string>
+    <string name="ad_block_title">Reklameblokering</string>
+    <string name="ad_block_summary">Forhindrer indlæsning af reklamer</string>
+
+    <string name="fingerprinting_protection_title">Fingeraftryksbeskyttelse</string>
+    <string name="fingerprinting_protection_summary">Forhindrer browseren i at anvende fingeraftryk</string>
+    <string name="brave_shields_fingerprints_blocked">Fingeraftryksmetoder er blokeret</string>
+    <string name="brave_shields_block_fingerprints_switch">Fingeraftryksbeskyttelse</string>
+
+    <string name="ad_block_regional_title">Regional reklameblokering</string>
+    <string name="ad_block_regional_summary">Forhindrer indlæsning af regionale reklamer</string>
+
+    <string name="ad_block_regional_summary_no_list">Ingen yderligere lister er tilgængelige for din lokalitet</string>
+
+    <string name="menu_exit">Afslut</string>
+
+    <string name="brave_sync">Pando Sync</string>
+    <string name="brave_sync_description">Synkroniser browserdata mellem dine enheder
+sikkert ved hjælp af Brave Sync, ingen konto-
+oprettelse kræves. Tryk nedenfor for at komme i gang.</string>
+    <string name="brave_sync_have_existing_code">Jeg har en eksisterende synkroniseringskode</string>
+    <string name="sync_settings_add_device_name_title">Tilføj enhedens navn</string>
+    <string name="sync_settings_add_device_name_label">Indtast et valgfrit navn til denne enhed</string>
+    <string name="sync_example_device_name">Android enhed</string>
+    <string name="brave_sync_qrcode">Synkroniser til enhed</string>
+    <string name="brave_sync_qrcode_message">Bruger den eksisterende synkroniserede enhed
+åbn Pando Indstillinger og navigere til "Enhed &amp;
+Indstillinger", tryk på `+` for at tilføje en ny enhed og
+afslør synkroniseringskode.</string>
+    <string name="enter_code_words_sync">Indtast kodeord</string>
+    <string name="enter_code_words_below_sync">Indtast kodeord nedenfor.</string>
+    <string name="sync_device">Synkroniser enhed</string>
+    <string name="sync_device_failure">Synkronisering kunne ikke opsættes</string>
+    <string name="sync_device_success">Opsætning af synkronisering er udført med succes</string>
+    <string name="reset_sync">Nulstil Synkronisering...</string>
+    <string name="resetting_sync">Er du sikker på, at du vil nulstille denne enhedssynkroniseringsindstillinger?</string>
+
+    <string name="brave_stats_text_trackers">Sporere er
+blokeret</string>
+    <string name="brave_stats_text_ads">Reklamer er
+blokeret</string>
+    <string name="brave_stats_text_https">HTTPS
+Opgraderinger</string>
+    <string name="brave_stats_text_time">Anslået tids-
+besparelse</string>
+
+    <string name="send_metrics_title">Send målinger</string>
+
+    <string name="desktop_mode_title">Skrivebordstilstand</string>
+    <string name="website_settings_category_desktop_view_enabled_summary">Foretræk skrivebordsversion</string>
+    <string name="website_settings_category_desktop_view_disabled_summary">Foretræk mobilversion</string>
+    <string name="website_settings_category_desktop_view_enabled">Aktivér skrivebordsvisning for nye faner</string>
+    <string name="website_settings_category_desktop_view_disabled">Brug mobilversioner til nye faner (anbefalet)</string>
+
+    <string name="brave_shields_first_group_title">Blokeringsmonitor</string>
+    <string name="brave_shields_second_group_title">Individuel styring</string>
+    <string name="brave_shields">Skjolde</string>
+    <string name="brave_shields_ads_and_trackers">Reklamer og sporing</string>
+    <string name="brave_shields_fingerprint_methods">Fingeraftrykmetoder</string>
+    <string name="brave_shields_block_phishing_switch">Bloker phishing</string>
+
+    <string name="play_video_in_background_title">Baggrundsvideoafspilning</string>
+    <string name="website_settings_category_play_video_in_background_enabled_summary">Aktiveret</string>
+    <string name="website_settings_category_play_video_in_background_disabled_summary">Deaktiveret</string>
+    <string name="website_settings_category_play_video_in_background_enabled">Eksperimentel. Muliggør afspilning af lyd fra video i baggrunden, når fanen ikke er aktiv eller enhedens skærm er slukket. Prøv at skifte til skrivebordstilstand, hvis denne funktion ikke virker.</string>
+    <string name="settings_require_relaunch_notice">Dine ændringer træder i kraft, næste gang du genstarter Pando</string>
+    <string name="settings_require_relaunch_now">GENSTART NU</string>
+    <string name="settings_require_relaunch_later">SENERE</string>
+
+    <string name="play_yt_video_in_browser_title">Videoafspilning i Pando</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled_summary">Aktiveret</string>
+    <string name="website_settings_category_play_yt_video_in_browser_disabled_summary">Deaktiveret</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled">Hvis aktiveret, vil videoer blive afspillet i Pando i stedet for den tilsvarende app</string>
+
+    <string name="close_tabs_on_exit_title">Luk faner ved udgang</string>
+    <string name="close_tabs_on_exit_summary">Forlad ikke faner mellem browsersessioner</string>
+
+    <string name="open_pages_in_custom_tabs_title">Åben tabs i tilpassede tabs</string>
+    <string name="open_pages_in_custom_tabs_summary">Tilbyder at åbne tabs i tilpassede tabs</string>
+
+    <string name="ddg_offer_title">Privat søgning med DuckDuckGo?</string>
+    <string name="ddg_offer_text">Med privat søgning vil Pando bruge DuckDuckGo til at besvare dine søgninger mens du er i dette private faneblad. DuckDuckGo er en søgemaskine der ikke holder rede med din søgehistorie, hvilket lader dig søge privat.</string>
+    <string name="ddg_offer_positive">Ja</string>
+    <string name="ddg_offer_negative">Nej</string>
+    <string name="ddg_offer_link">Lær mere om privat søgning med DuckDuckGo</string>
+    <string name="prefs_standard_search_engine">Standard Faneblad
+</string>
+    <string name="prefs_private_search_engine">Privat Faneblad</string>
+
+    <string name="brave_open_in_private_tab">Åben i privat faneblad</string>
+    <string name="brave_close_all_private_tabs">Luk Private Faneblade</string>
+    <string name="brave_new_private_tab">Nyt privat faneblad</string>
+    <string name="brave_new_tab_private_header">Dette er et Privat Faneblad</string>
+    <string name="brave_new_tab_private_message">Selvom hjemmesider du besøger i private faneblade ikke bliver gemt lokalt, gør de dig ikke anonym eller usynlig over for din ISP, chef eller for hjemmesiderne du bsøger.</string>
+
+</resources>

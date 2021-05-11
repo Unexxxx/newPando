@@ -1,0 +1,517 @@
+<resources>
+
+    <string name="brave_settings_title">इसके लिए पांडो सेटिंग</string>
+    <string name="brave_shields_down">नीचे</string>
+    <string name="brave_shields_up">ऊपर</string>
+    <string name="brave_shields_ads_trackers">विज्ञापन और ट्रैकर्स ब्लॉक</string>
+    <string name="brave_shields_https_upgrades">एचटीटीपीएस अपग्रेड</string>
+    <string name="brave_shields_scripts_blocked">स्क्रिप्ट ब्लॉक</string>
+    <string name="brave_shields_ads_tracking_switch">विज्ञापन और ट्रैकिंग को ब्लॉक करें</string>
+    <string name="brave_shields_https_everywhere_switch">हर जगह HTTPS</string>
+    <string name="brave_shields_blocks_scripts_switch">ब्लॉक स्क्रिप्ट</string>
+    <string name="accessibility_toolbar_btn_brave_shields">सक्षम/अक्षम Pando ढाल</string>
+    <string name="brave_shields_block_3rd_party_cookies_switch">ब्लॉक तीसरी पार्टी कुकीज़</string>
+
+    <string name="httpse_summary">संभव होने पर HTTP के बजाय HTTPS का उपयोग करके समर्थित साइटें खोलता है</string>
+    <string name="tracking_protection_title">ट्रैकिंग प्रोटेक्शन मोड</string>
+    <string name="tracking_protection_summary">उन संसाधनों को रोकता है जो आपको लोड होने से ट्रैक करते हैं</string>
+    <string name="ad_block_title">विज्ञापन ब्लॉक</string>
+    <string name="ad_block_summary">विज्ञापनों को लोड होने से रोकता है</string>
+
+    <string name="fingerprinting_protection_title">फिंगरप्रिंटिंग प्रोटेक्शन</string>
+    <string name="fingerprinting_protection_summary">ब्राउज़र को फिंगरप्रिंटिंग से रोकता है</string>
+    <string name="brave_shields_fingerprints_blocked">फिंगरप्रिंटिंग के तरीके अवरुद्ध</string>
+    <string name="brave_shields_block_fingerprints_switch">फिंगरप्रिंटिंग प्रोटेक्शन</string>
+
+    <string name="ad_block_regional_title">क्षेत्रीय विज्ञापन ब्लॉक</string>
+    <string name="ad_block_regional_summary">क्षेत्रीय विज्ञापनों को लोड होने से रोकता है</string>
+
+    <string name="ad_block_regional_summary_no_list">आपके स्थान के लिए कोई अतिरिक्त सूची उपलब्ध नहीं है</string>
+
+    <string name="menu_exit">निकासी</string>
+
+    <string name="brave_sync">पांडो सिंक</string>
+    <string name="brave_sync_description">अपने डिवाइस के बीच ब्राउज़र डेटा सिंक करें
+        पांडो सिंक का उपयोग कर सुरक्षित रूप से, कोई खाता नहीं
+        सृजन की आवश्यकता है। शुरू करने के लिए नीचे टैप करें।</string>
+    <string name="brave_sync_have_existing_code">मेरे पास एक मौजूदा सिंक कोड है</string>
+    <string name="sync_settings_add_device_name_title">डिवाइस का नाम जोड़ें</string>
+    <string name="sync_settings_add_device_name_label">इस डिवाइस के लिए एक वैकल्पिक नाम दर्ज करें</string>
+    <string name="sync_example_device_name">एंड्रॉयड डिवाइस</string>
+    <string name="brave_sync_qrcode">डिवाइस में सिंक करें</string>
+    <string name="brave_sync_qrcode_message">मौजूदा सिंक किए गए डिवाइस ओपन पैंडो का उपयोग करना
+        सेटिंग्स और नेविगेट करने के लिए \"डिवाइस &amp;
+        सेटिंग्स \", एक नया डिवाइस जोड़ने के लिए \'+\' पर टैप करें और
+        सिंक कोड प्रकट करें।</string>
+    <string name="enter_code_words_sync">कोड शब्द दर्ज करें</string>
+    <string name="enter_code_words_below_sync">नीचे कोड शब्द दर्ज करें।</string>
+    <string name="sync_device">सिंक डिवाइस</string>
+    <string name="sync_device_failure">सिंक सेटअप नहीं किया जा सकता है</string>
+    <string name="sync_device_success">सिंक सेटअप सफलतापूर्वक पूरा हो गया है</string>
+    <string name="reset_sync">रीसेट सिंक...</string>
+    <string name="resetting_sync">क्या आप सुनिश्चित हैं कि आप इस डिवाइस सिंक सेटिंग्स को रीसेट करना चाहते हैं?</string>
+
+    <string name="brave_stats_text_trackers">ट्रैकर्स
+        अवरुद्ध</string>
+    <string name="brave_stats_text_spyce">जासूसी</string>
+    <string name="brave_stats_text_ads">विज्ञापन
+        अवरुद्ध</string>
+    <string name="brave_stats_text_https">एचटीटीपीएस
+        उन्नयन</string>
+    <string name="brave_stats_text_time">Est. समय
+        सहेजा</string>
+
+    <string name="send_metrics_title">मीट्रिक भेजें</string>
+
+    <string name="desktop_mode_title">डेस्कटॉप मोड</string>
+    <string name="website_settings_category_desktop_view_enabled_summary">साइटों के डेस्कटॉप संस्करण पसंद करते हैं</string>
+    <string name="website_settings_category_desktop_view_disabled_summary">साइटों के मोबाइल संस्करण पसंद करते हैं</string>
+    <string name="website_settings_category_desktop_view_enabled">नए टैब के लिए डेस्कटॉप व्यू को सक्षम करें</string>
+    <string name="website_settings_category_desktop_view_disabled">नए टैब के लिए साइटों के मोबाइल संस्करणों का उपयोग करें (अनुशंसित)</string>
+
+    <string name="brave_shields_first_group_title">ब्लॉकिंग मॉनिटर</string>
+    <string name="brave_shields_second_group_title">व्यक्तिगत नियंत्रण</string>
+    <string name="brave_shields">ढाल</string>
+    <string name="brave_shields_ads_and_trackers">विज्ञापन और ट्रैकर्स</string>
+    <string name="brave_shields_fingerprint_methods">फिंगरप्रिंट विधियां</string>
+    <string name="brave_shields_block_phishing_switch">ब्लॉक फिशिंग</string>
+
+    <string name="play_video_in_background_title">बैकग्राउंड वीडियो प्लेबैक</string>
+    <string name="website_settings_category_play_video_in_background_enabled_summary">सक्षम</string>
+    <string name="website_settings_category_play_video_in_background_disabled_summary">अक्षम</string>
+    <string name="website_settings_category_play_video_in_background_enabled">प्रयोगात्मक. टैब सक्रिय नहीं होने या डिवाइस स्क्रीन बंद होने पर पृष्ठभूमि में वीडियो से ऑडियो प्ले करने में सक्षम बनाता है। यदि यह सुविधा काम नहीं कर रही है तो डेस्कटॉप मोड पर स्विच करने का प्रयास करें।</string>
+    <string name="settings_require_relaunch_notice">अगली बार जब आप पांडो को फिर से लॉन्च करेंगे तो आपके परिवर्तन प्रभावी होंगे</string>
+    <string name="settings_require_relaunch_now">अब रीलॉन्च</string>
+    <string name="settings_require_relaunch_later">बाद में</string>
+
+    <string name="play_yt_video_in_browser_title">पंडो में वीडियो प्लेबैक</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled_summary">सक्षम</string>
+    <string name="website_settings_category_play_yt_video_in_browser_disabled_summary">अक्षम</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled">सक्षम होने पर, वीडियो इसी ऐप के बजाय पांडो में खेले जाएंगे</string>
+
+    <string name="close_tabs_on_exit_title">बाहर निकलने पर बंद टैब</string>
+    <string name="close_tabs_on_exit_summary">ब्राउज़िंग सत्रों के बीच टैब न बने रहें</string>
+
+    <string name="open_pages_in_custom_tabs_title">कस्टम टैब में खुले टैब</string>
+    <string name="open_pages_in_custom_tabs_summary">कस्टम टैब में टैब खोलने की पेशकश</string>
+
+    <string name="ddg_offer_title">DuckDuckGo के साथ निजी खोज?</string>
+    <string name="ddg_offer_text">निजी खोज के साथ, पांडो इस निजी टैब में रहते हुए आपकी खोजों का जवाब देने के लिए डकडकगो का उपयोग करेगा। डकडकगो एक खोज इंजन है जो आपके खोज इतिहास को ट्रैक नहीं करता है, जिससे आप निजी तौर पर खोज कर सकते हैं।</string>
+    <string name="ddg_offer_positive">हाँ</string>
+    <string name="ddg_offer_negative">नहीं</string>
+    <string name="ddg_offer_link">DuckDuckGo के साथ निजी खोज के बारे में जानें</string>
+    <string name="prefs_standard_search_engine">स्टैंडर्ड टैब</string>
+    <string name="prefs_private_search_engine">निजी टैब</string>
+
+    <string name="brave_open_in_private_tab">निजी टैब में खुला</string>
+    <string name="brave_close_all_private_tabs">निजी टैब बंद करें</string>
+    <string name="brave_new_private_tab">नया निजी टैब</string>
+    <string name="brave_new_tab_private_header">यह एक निजी टैब है</string>
+    <string name="brave_new_tab_private_message">भले ही आप निजी टैब में आने वाली साइटों को स्थानीय रूप से सहेजा नहीं जाता है, लेकिन वे आपको अपने आईएसपी, आपके नियोक्ता या उन साइटों पर गुमनाम या अदृश्य नहीं बनाते हैं जो आप देख रहे हैं।</string>
+
+    <string name="fre_welcome_title">बधाइयाँ!</string>
+    <string name="fre_welcome_text">पांडो के नए वेब 3.0 में आपका स्वागत है</string>
+    <string name="menu_add_to_bookmarks">इसमें जोड़ें</string>
+    <string name="menu_favorites">पसंद</string>
+    <string name="menu_mode_day">दिन</string>
+    <string name="menu_mode_night">रात</string>
+    <string name="menu_night_mode">नाइट मोड</string>
+    <string name="menu_osiris_statistics">पांडो सांख्यिकी</string>
+    <string name="day_theme_on">दिन मोड पर</string>
+    <string name="day_theme_off">डे मोड ऑफ</string>
+    <string name="add_to_favorites">पसंदीदा में जोड़ें</string>
+    <string name="favorites_placeholder_summary">आपके पसंदीदा यहां दिखाई देंगे</string>
+
+    <!--  Pando Strings  -->
+    <string name="dashboard_popup_level">स्तर:</string>
+
+    <string name="dashboard_popup_title">पांडो वेब ब्राउज़र में आपका स्वागत है</string>
+    <string name="dashboard_popup_message">अपनी उंगलियों पर निर्बाध, तेज और सुरक्षित लेनदेन का आनंद लें। आपका डेटा अंत से अंत तक एन्क्रिप्शन के साथ संरक्षित है ताकि यह गारंटी दी जा सके कि सभी प्रकार के लेनदेन हमेशा निजी और सुरक्षित रहेंगे।</string>
+    <string name="dashboard_popup_view_profile">देखें प्रोफाइल</string>
+    <string name="dashboard_popup_pando_mined">पांडो खनन</string>
+    <string name="dashboard_popup_referral_earnings">रेफरल आय</string>
+    <string name="dashboard_popup_mining_runtime">माइनिंग रनटाइम</string>
+    <string name="dashboard_popup_membership_balance">कुल शेष राशि</string>
+    <string name="dashboard_popup_reward_dashboard">इनाम डैशबोर्ड</string>
+    <string name="dashboard_popup_member_dashboard">सदस्य डैशबोर्ड</string>
+    <string name="dashboard_popup_vpn">वीपीएन</string>
+    <string name="dashboard_popup_ads_mining">विज्ञापन खनन</string>
+
+    <string name="login_already_have">पहले से ही खाता है?</string>
+    <string name="login_button">लॉगिन</string>
+    <string name="login_message">अपने बहुत ही Pando वेब ब्राउज़र में आपका स्वागत है! अब आप अपनी उंगलियों पर निर्बाध, तेज और सुरक्षित लेनदेन का आनंद ले सकते हैं।</string>
+    <string name="login_email_label">ईमेल</string>
+    <string name="login_email_hint">अपना ईमेल दर्ज करें</string>
+    <string name="login_password_label">पासवर्ड</string>
+    <string name="login_password_hint">अपना पासवर्ड डालें</string>
+    <string name="login_remember_me">मुझे याद रखें</string>
+    <string name="login_forgot_password">पासवर्ड भूल गया?</string>
+    <string name="login_reset_device_id">डिवाइस आईडी रीसेट करें</string>
+    <string name="login_needs_device_verification_title">डिवाइस सत्यापन</string>
+    <string name="login_needs_device_verification_message">आप नए डिवाइस का उपयोग कर रहे हैं। क्या आप सुनिश्चित हैं कि आप लॉगिन करना चाहते हैं? आप अपने आप मौजूदा डिवाइस से लॉग आउट हो जाएंगे।</string>
+    <string name="login_needs_device_verification_action_text">जारी रखना</string>
+    <string name="login_multiple_device_not_supported_title">फ़ीचर समर्थित नहीं</string>
+    <string name="login_multiple_device_not_supported_message">एक से अधिक उपकरणों पर लॉग इन करना केवल योजना वाले उपयोगकर्ताओं के लिए समर्थित है।</string>
+    <string name="login_multiple_device_not_supported_action_text">ठीक है</string>
+
+    <string name="forgot_password_title">पासवर्ड भूल गया?</string>
+    <string name="forgot_password_message">नीचे अपने खाते के लिए अपना ईमेल पता दर्ज करें और हम आपका पासवर्ड रीसेट करने के लिए सत्यापन कोड भेजेंगे।</string>
+    <string name="forgot_password_email_label">ईमेल</string>
+    <string name="forgot_password_email_hint">अपना ईमेल दर्ज करें</string>
+    <string name="forgot_password_continue">जारी रखना</string>
+
+    <string name="email_otp_title">ईमेल सत्यापित करें</string>
+    <string name="email_otp_message">सत्यापन कोड दर्ज करें हमने पासवर्ड रीसेट करने के लिए आपको अपने ईमेल पते पर भेजा है।</string>
+    <string name="email_otp_code_label">सत्यापन कोड</string>
+    <string name="email_otp_reset_password">रीसेट पासवर्ड</string>
+
+    <string name="device_otp_message">सत्यापन कोड दर्ज करें हमने आपको डिवाइस अपडेट करने के लिए आपके ईमेल पते पर भेजा है।</string>
+    <string name="device_otp_update_device">अपडेट डिवाइस</string>
+    <string name="device_otp_title_dialog">सत्यापन पूरा!</string>
+    <string name="device_otp_message_dialog">आपने अपने नए डिवाइस के साथ अपने खाते की सफलतापूर्वक पुष्टि की है.</string>
+    <string name="device_otp_action_text">अब लॉगइन करें</string>
+
+    <string name="setup_password_title">सेटअप नया पासवर्ड</string>
+    <string name="setup_password_message">आपका नया पासवर्ड इस खाते के लिए पासवर्ड पॉलिसी आवश्यकताओं को पूरा करना होगा।</string>
+    <string name="setup_password_req1">कम से कम 8 वर्ण लंबे होने चाहिए</string>
+    <string name="setup_password_req2">कम से कम एक अपरकेस पत्र शामिल करना होगा</string>
+    <string name="setup_password_req3">कम से कम एक लोअरकेस लेटर शामिल करना होगा</string>
+    <string name="setup_password_req4">कम से कम एक नंबर शामिल करना होगा</string>
+    <string name="setup_password_req5">कम से कम एक गैर-अल्फान्यूमरिक चरित्र शामिल होना चाहिए</string>
+    <string name="setup_password_password_label">पासवर्ड</string>
+    <string name="setup_password_password_hint">अपना पासवर्ड डालें</string>
+    <string name="setup_password_cpassword_label">पासवर्ड की पुष्टि करें</string>
+    <string name="setup_password_cpassword_hint">अपना पासवर्ड फिर से दर्ज करें</string>
+    <string name="setup_password_password_str">पासवर्ड स्ट्रेंथ</string>
+    <string name="setup_password_submit">जमा करें</string>
+
+    <string name="change_password_title">पासवर्ड बदलें</string>
+    <string name="change_password_message">आपका नया पासवर्ड इस खाते के लिए पासवर्ड पॉलिसी आवश्यकताओं को पूरा करना होगा।</string>
+    <string name="change_password_old_password_label">पुराना पासवर्ड</string>
+    <string name="change_password_old_password_hint">अपना पुराना पासवर्ड डालें</string>
+    <string name="change_password_password_label">नया पासवर्ड</string>
+    <string name="change_password_password_hint">अपना पासवर्ड डालें</string>
+    <string name="change_password_cpassword_label">पासवर्ड की पुष्टि करें</string>
+    <string name="change_password_cpassword_hint">अपना पासवर्ड फिर से दर्ज करें</string>
+    <string name="change_password_password_str">पासवर्ड स्ट्रेंथ</string>
+    <string name="change_password_save">सहेजें</string>
+    <string name="change_password_dialog_title">सफलता</string>
+    <string name="change_password_dialog_message">पासवर्ड अपडेट!</string>
+
+    <string name="signup_donthaveaccount">खाता नहीं है?</string>
+    <string name="signup_button">पंजीकरण</string>
+    <string name="signup_title">खाते की जानकारी</string>
+    <string name="signup_fullname_label">पूरा नाम</string>
+    <string name="signup_fullname_hint">अपना पूरा नाम दर्ज करें</string>
+    <string name="signup_email_label">ईमेल</string>
+    <string name="signup_email_hint">अपना ईमेल दर्ज करें</string>
+    <string name="signup_password_label">पासवर्ड</string>
+    <string name="signup_password_hint">अपना पासवर्ड डालें</string>
+    <string name="signup_cpassword_label">पासवर्ड की पुष्टि करें</string>
+    <string name="signup_cpassword_hint">अपना पासवर्ड फिर से दर्ज करें</string>
+    <string name="signup_password_str">पासवर्ड स्ट्रेंथ</string>
+    <string name="signup_country_label">देश</string>
+
+    <string name="referral_code_title">रेफरल कोड</string>
+    <string name="referral_code_message">कृपया रेफरल कोड प्रदान करें, जो आपको इस मंच पर आमंत्रित करते हैं। धन्यवाद</string>
+    <string name="referral_code_referral_label">रेफरल कोड</string>
+    <string name="referral_code_referral_hint">रेफरल कोड दर्ज करें</string>
+    <string name="referral_code_scan_qrcode">रेफरल के क्यूआर कोड को स्कैन करें</string>
+    <string name="referral_code_skip_for_now">अभी के लिए छोड़ें</string>
+    <string name="referral_code_continue">जारी रखना</string>
+
+    <string name="mining_popup_title">खनन</string>
+    <string name="mining_popup_pando_mined">पांडो खनन</string>
+    <string name="mining_popup_total_balance">कुल शेष राशि</string>
+
+    <string name="toast_invalid_credentials">अमान्य साख</string>
+    <string name="toast_user_email_not_registered">ईमेल `%s` के साथ उपयोगकर्ता पंजीकृत नहीं है</string>
+    <string name="toast_creds_cannot_empty">ईमेल या पासवर्ड खाली नहीं हो सकता</string>
+    <string name="toast_check_connectivity">कृपया अपनी इंटरनेट कनेक्टिविटी की जांच करें</string>
+    <string name="toast_account_not_validated">आपका खाता मान्य नहीं है</string>
+    <string name="toast_user_logged_in">उपयोगकर्ता लॉग इन किया गया है</string>
+    <string name="toast_minimum_password_level">पासवर्ड अपने प्रारूप के लिए पर्याप्त मजबूत नहीं है</string>
+    <string name="toast_all_fields_are_required">सभी फ़ील्ड की आवश्यकता है</string>
+    <string name="toast_password_did_not_match">पासवर्ड मेल नहीं खाते थे</string>
+    <string name="toast_old_password_incorrect">गलत पुराना पासवर्ड</string>
+    <string name="toast_invalid_email_format">ईमेल का अमान्य प्रारूप</string>
+    <string name="toast_email_already_exists">ईमेल पहले से मौजूद है</string>
+    <string name="toast_user_registered">उपयोगकर्ता पंजीकृत है</string>
+    <string name="toast_email_cannot_be_empty">ईमेल खाली नहीं हो सकता</string>
+    <string name="toast_email_does_not_exist">ईमेल मौजूद नहीं है</string>
+    <string name="toast_otp_code_should_be_6_digits">ओटीपी कोड 6 अंकों का होना चाहिए</string>
+    <string name="toast_otp_code_cannot_be_empty">ओटीपी कोड खाली नहीं हो सकता</string>
+    <string name="toast_invalid_otp_code">अमान्य ओटीपी कोड</string>
+    <string name="toast_password_not_strong_enough">पासवर्ड अपने प्रारूप के लिए पर्याप्त मजबूत नहीं है</string>
+    <string name="toast_new_password_cannot_be_empty">नया पासवर्ड खाली नहीं हो सकता</string>
+    <string name="toast_password_cannot_be_empty">पासवर्ड खाली नहीं हो सकता</string>
+    <string name="toast_cpassword_cannot_be_empty">पुष्टि पासवर्ड खाली नहीं हो सकता</string>
+    <string name="toast_old_password_cannot_be_empty">पुराना पासवर्ड खाली नहीं हो सकता</string>
+    <string name="toast_password_is_successfully_updated">आपने अपना पासवर्ड सफलतापूर्वक अपडेट किया</string>
+    <string name="toast_referral_invalid_code">अमान्य रेफरल कोड।</string>
+    <string name="toast_referral_code_cannot_be_empty">रेफरल कोड की आवश्यकता है और खाली नहीं हो सकता है।</string>
+    <string name="toast_referrer_invalid_code">अमान्य रेफरर कोड।</string>
+    <string name="toast_account_is_deactivated">खाता निष्क्रिय कर दिया जाता है।</string>
+    <string name="toast_relogin_needed">आपका सत्र समाप्त हो गया है. कृपया अपनी साख लॉगिन करें।</string>
+    <string name="toast_feature_will_be_soon">यह सुविधा जल्द ही उपलब्ध होगी।</string>
+    <string name="toast_copied_to_clipboard">क्लिपबोर्ड पर कॉपी किया गया</string>
+
+    <string name="toast_vpn_feature_will_be_soon">"वीपीएन टॉगल" को जल्द ही समर्थन दिया जाएगा कृपया अपडेट के लिए pandobrowser.com साइट की जांच करें।</string>
+    <string name="toast_ads_mining_feature_will_be_soon">"विज्ञापन खनन" जल्द ही समर्थित किया जाएगा कृपया अद्यतन के लिए pandobrowser.com साइट की जांच करें ।</string>
+    <string name="toast_rewards_feature_will_be_soon">"पुरस्कार डैशबोर्ड" जल्द ही समर्थित किया जाएगा कृपया अद्यतन के लिए pandobrowser.com साइट की जांच करें ।</string>
+    <string name="toast_view_profile_feature_will_be_soon">"देखें प्रोफ़ाइल" जल्द ही समर्थित किया जाएगा कृपया अद्यतन के लिए pandobrowser.com साइट की जांच करें ।</string>
+
+    <string name="progress_dialog_title">कृपया प्रतीक्षा करो</string>
+    <string name="progress_dialog_logging_in">लॉग इन...</string>
+    <string name="progress_dialog_signing_up">साइन अप...</string>
+    <string name="progress_dialog_sending_otp_code">ओटीपी कोड भेज रहा है...</string>
+    <string name="progress_dialog_verifying_email">ईमेल की पुष्टि...</string>
+    <string name="progress_dialog_saving_new_password">नया पासवर्ड सहेजना...</string>
+    <string name="progress_dialog_verifying_referral_code">रेफरल कोड की पुष्टि...</string>
+    <string name="progress_dialog_verifying_referrer_code">रेफरर कोड की पुष्टि...</string>
+    <string name="progress_dialog_loading_users">अपनी योजना के तहत उपयोगकर्ताओं को लोड करना...</string>
+    <string name="progress_dialog_saving_changes">परिवर्तनों की बचत...</string>
+
+    <string name="users_nothing_under_plan">अभी तक आपकी योजना के तहत कोई उपयोगकर्ता नहीं</string>
+    <string name="users_under_my_plan_label">मेरी योजना के तहत उपयोगकर्ता</string>
+
+    <string name="account_settings_save">सहेजें</string>
+    <string name="account_settings_edit_information">जानकारी संपादित करें</string>
+    <string name="account_settings_reminder_title">अनुस्मारक</string>
+    <string name="account_settings_reminder_continue">जारी रखना</string>
+    <string name="account_settings_reminder_cancel">रद्द करना</string>
+    <string name="account_settings_reminder_message_save">आप केवल एक बार इनपुट रेफरर कोड कर सकते हैं। सफलतापूर्वक सहेजे जाने के बाद आप इसे बदल नहीं पाएंगे।</string>
+    <string name="account_settings_reminder_message_edit">आप केवल एक बार इनपुट रेफरर कोड कर सकते हैं। अब आप इसे बदल नहीं पाएंगे।</string>
+    <string name="account_settings_discard_changes">अपने परिवर्तनों को त्यागें?</string>
+    <string name="account_settings_already_setup">आपके पास पहले से ही एक रेफरर कोड है।</string>
+    <string name="account_settings_cannot_use_own_referral_code_as_referrer_code">आप अपने स्वयं के रेफरल कोड का उपयोग रेफरर कोड के रूप में नहीं कर सकते हैं।</string>
+    <string name="account_settings_cannot_be_empty">पूरा नाम खाली नहीं हो सकता।</string>
+
+    <string name="update_available_title">पांडो ब्राउज़र अपडेट</string>
+    <string name="update_available_message">एक अपडेट उपलब्ध है। सर्वश्रेष्ठ पैंडो अनुभव के लिए \nnew संस्करण डाउनलोड करें।</string>
+    <string name="update_available_confirm">पुष्टि</string>
+    <string name="update_available_skip">छोड़</string>
+    <string name="update_available_install_via_playstore">आप गूगल प्ले स्टोर के माध्यम से नवीनतम संस्करण स्थापित कर सकते हैं।</string>
+
+    <string name="pando_games_comingsoon">पांडो खेल जल्द ही आ रहा है</string>
+
+    <string name="fre_pando_page1_title">तेजी से ब्राउज़ करें</string>
+    <string name="fre_pando_page1_message">इसकी हाइपर-स्पीड ब्राउजिंग के साथ पारंपरिक वेब ब्राउजिंग की तुलना में 3-7 गुना तेज।</string>
+    <string name="fre_pando_page2_title">विज्ञापन और ट्रैकर्स को ब्लॉक करें</string>
+    <string name="fre_pando_page2_message">सभी घुसपैठ वाले विज्ञापनों को ब्लॉक करें। द्वि तुंग बिना किसी रुकावट के घंटों तक सामग्री देखते हैं।</string>
+    <string name="fre_pando_page3_title">अपनी गोपनीयता की रक्षा करें</string>
+    <string name="fre_pando_page3_message">उपयोगकर्ताओं को सुरक्षित करता है और सुरक्षित करता है&apos; डेटा और गोपनीयता, गारंटी है कि यह तीसरे पक्ष के साथ साझा नहीं किया जाएगा ।</string>
+    <string name="fre_pando_page4_title">पुरस्कार अर्जित करें</string>
+    <string name="fre_pando_page4_message">पांडो रनटाइम माइनिंग आपको पांडो इकोसिस्टम उत्पादों का उपयोग करके पुरस्कार अर्जित करने की अनुमति देती है। अधिकतम लाभ का आनंद लेने के लिए देखते रहने के लिए याद रखें ।</string>
+
+    <string name="fre_pando_next">अगला</string>
+    <string name="fre_pando_get_started">आरंभ</string>
+
+    <string name="toolbar_phone_close_all">सभी बंद करो</string>
+
+    <string name="edit_favorite_label">लेबल संपादित करें</string>
+    <string name="edit_favorite_save">सहेजें</string>
+
+    <string name="under_maintenance_title">रखरखाव</string>
+    <string name="under_maintenance_message">हम वर्तमान में अपने अनुभव में सुधार करने के लिए सर्वर पर रखरखाव के दौर से गुजर रहे हैं। इसमें लंबा समय नहीं लगेगा । असुविधा के लिए हम माफी मांगते हैं।</string>
+    <string name="under_maintenance_ok">ठीक है</string>
+
+    <string name="password_str_1">बहुत कम</string>
+    <string name="password_str_2">कमजोर</string>
+    <string name="password_str_3">उचित</string>
+    <string name="password_str_4">अच्छा</string>
+    <string name="password_str_5">मजबूत</string>
+    <string name="password_str_6">बहुत मजबूत</string>
+
+    <string name="search_engine_title">सर्च इंजन</string>
+    <string name="coming_soon_title">जल्दी ही आगमन</string>
+
+    <string name="prefs_section_basics">बेसिक्स</string>
+    <string name="prefs_display_title">उपस्थिति</string>
+    <string name="prefs_autofill_and_payments">ऑटोफिल और भुगतान</string>
+    <string name="prefs_saved_passwords_title">पासवर्ड</string>
+    <string name="prefs_notifications">सूचनाएँ</string>
+
+    <string name="prefs_section_advanced">उन्नत</string>
+    <string name="prefs_privacy">गोपनीयता</string>
+    <string name="prefs_accessibility">पहुँच</string>
+    <string name="prefs_site_settings">साइट सेटिंग</string>
+    <string name="prefs_languages">भाषाओं</string>
+    <string name="menu_downloads">डाउनलोड</string>
+    <string name="prefs_about_pando">पांडो ब्राउज़र के बारे में</string>
+
+    <string name="prefs_display_theme">थीम</string>
+
+    <string name="cookies_title">कुकीज़</string>
+    <string name="pando_android_settings_permission_off_plural">&lt;link&gt;एंड्रॉइड सेटिंग्स&lt;/link&gt; में पांडो के लिए अनुमतियों को चालू करें।</string>
+    <string name="pando_android_settings_permission_off">&lt;link&gt;एंड्रॉइड सेटिंग्स&lt;/link&gt; में पांडो के लिए अनुमति चालू करें।</string>
+    <string name="pando_legal_information_summary">कॉपीराइट %1$d Pando सॉफ्टवेयर इंक सभी अधिकार सुरक्षित।</string>
+    <string name="terms_of_service_title">पांडो सेवा की शर्तें</string>
+    <string name="privacy_notice_title">पांडो गोपनीयता नोटिस</string>
+
+    <string name="dialog_negative_title">Oops...</string>
+    <string name="dialog_positive_action">ठीक ह</string>
+
+    <string name="account_settings_title">खाता सेटिंग</string>
+    <string name="account_settings_fullname_label">पूरा नाम</string>
+    <string name="account_settings_email">ईमेल</string>
+    <string name="account_settings_referrer_code">रेफरर कोड</string>
+    <string name="account_settings_password">पासवर्ड</string>
+    <string name="account_settings_change_password">पासवर्ड बदलें</string>
+    <string name="account_settings_country">देश</string>
+    <string name="account_settings_eth_wallet">एथोरम वॉलेट</string>
+    <string name="account_settings_pando_wallet">पांडो वॉलेट</string>
+    <string name="account_settings_logout">लॉगआउट</string>
+
+    <string name="member_dashboard_membership_bonus">सदस्यता बोनस</string>
+    <string name="member_dashboard_referral_bonus">रेफरल बोनस</string>
+    <string name="member_dashboard_local_mining">स्थानीय खनन</string>
+    <string name="member_dashboard_pando_balance">पांडो आय</string>
+    <string name="member_dashboard_download_link">रेफरल डाउनलोड लिंक</string>
+    <string name="member_dashboard_referral_code">रेफरल कोड</string>
+    <string name="member_dashboard_referral_analytics">रेफरल एनालिटिक्स</string>
+    <string name="member_dashboard_total_users">मेरी योजना के तहत कुल उपयोगकर्ता</string>
+    <string name="member_dashboard_view_all_users">सभी उपयोगकर्ताओं को देखें</string>
+    <string name="member_dashboard_view_transaction_history">देखें लेन-देन का इतिहास</string>
+    <string name="member_dashboard_show_qr_code">QR कोड दिखाएं</string>
+
+    <string name="sw_mining_title">एसडब्ल्यू माइनिंग</string>
+    <string name="sw_mining_membership_level">सदस्यता स्तर</string>
+    <string name="sw_mining_total_balance">कुल शेष राशि</string>
+
+    <string name="tab_header_ads_blocked">विज्ञापन ब्लॉक किए गए</string>
+    <string name="tab_header_data_saved">डेटा सहेजा गया</string>
+    <string name="tab_header_time_saved">समय बचाया</string>
+
+    <string name="user_loggedin_to_different_device">आप एक अलग डिवाइस में लॉग इन कर रहे हैं। आप यहां लॉग आउट हो जाएंगे ।</string>
+
+    <string name="reset_device_id_title">डिवाइस आईडी रीसेट करें</string>
+    <string name="reset_device_id_message">नीचे अपने खाते के लिए अपना ईमेल पता दर्ज करें और हम आपकी डिवाइस आईडी को रीसेट करने के लिए सत्यापन कोड भेजेंगे।</string>
+    <string name="reset_device_id_email_label">ईमेल</string>
+    <string name="reset_device_id_email_hint">अपना ईमेल दर्ज करें</string>
+    <string name="reset_device_id_continue">जारी रखना</string>
+
+    <string name="pando_edit_label">लेबल संपादित करें</string>
+
+    <string name="member_dashboard_sun">सूर्य</string>
+    <string name="member_dashboard_mon">सोम</string>
+    <string name="member_dashboard_tue">मंगल</string>
+    <string name="member_dashboard_wed">बुध</string>
+    <string name="member_dashboard_thu">गुरू</string>
+    <string name="member_dashboard_fri">शुक्र</string>
+    <string name="member_dashboard_sat">शनि</string>
+    <string name="member_dashboard_download_link_label">लिंक डाउनलोड करें</string>
+    <string name="member_dashboard_referral_code_label">रेफरल कोड</string>
+
+    <string name="member_dashboard_withdrawable_balance">वापस लेने योग्य शेष</string>
+    <string name="member_dashboard_withdraw">वापस लें</string>
+    <string name="member_dashboard_previous_withdrawn">पिछला वापस लिया गया</string>
+    <string name="member_dashboard_transaction_history">लेन-देन इतिहास</string>
+
+    <string name="withdrawal_page_title">पांडो को वापस लें</string>
+    <string name="withdrawal_page_withdrawable_balance_label">वापस लेने योग्य शेष</string>
+    <string name="withdrawal_page_to_label">करने के लिए</string>
+    <string name="withdrawal_page_amount_label">कुल धनराशि</string>
+    <string name="withdrawal_page_max_amount">अधिकतम राशि</string>
+    <string name="withdrawal_page_to_hint">पांडो वॉलेट पता दर्ज करें</string>
+    <string name="withdrawal_page_amount_hint">राशि दर्ज करें</string>
+    <string name="withdrawal_page_continue">जारी रखना</string>
+    <string name="withdrawal_page_cancel">रद्द करना</string>
+    <string name="withdrawal_page_invalid_wallet_address">अमान्य पांडो वॉलेट पता</string>
+    <string name="withdrawal_page_invalid_balance">अमान्य पैंडो बैलेंस</string>
+    <string name="withdrawal_page_withdraw_limit_policy">प्रति लेन-देन नीति सीमा वापस लें</string>
+    <string name="withdrawal_page_minimum_amount">नन्यूनतम राशि (PANDO)</string>
+    <string name="withdrawal_page_maximum_amount">अधिकतम राशि (PANDO)</string>
+    <string name="withdrawal_page_daily_limit">दैनिक सीमा</string>
+
+    <string name="withdrawal_confirmation_page_title">लेन-देन की पुष्टि करें</string>
+    <string name="withdrawal_confirmation_page_messages">यदि सभी सही हैं तो लेन-देन के विवरण की जांच करें। अपने PANDO की वापसी को संसाधित करने के लिए नीचे कन्फर्म बटन पर क्लिक करें।</string>
+    <string name="withdrawal_confirmation_page_to_label">करने के लिए</string>
+    <string name="withdrawal_confirmation_page_amount_label">कुल धनराशि</string>
+    <string name="withdrawal_confirmation_page_transaction_fee_label">लेन-देन शुल्क</string>
+    <string name="withdrawal_confirmation_page_receivable_amount_label">प्राप्य राशि</string>
+    <string name="withdrawal_confirmation_page_confirm">सुदृढ़ करना</string>
+    <string name="withdrawal_confirmation_page_cancel">शर्त लगाना</string>
+
+    <string name="pando_contextual_search_description">
+        पृष्ठ छोड़ने के बिना वेबसाइटों पर विषयों के बारे में जानें। खोज के लिए टैप करें Google खोज के लिए एक शब्द और उसके आस-पास के संदर्भ भेजता है, परिभाषाएं, चित्र, खोज परिणाम और अन्य विवरण लौटाते हैं।
+
+        अपने खोज शब्द को समायोजित करने के लिए, चयन करने के लिए लंबी प्रेस। अपनी खोज को परिष्कृत करने के लिए, पैनल को सभी तरह से स्लाइड करें और खोज बॉक्स पर टैप करें।
+    </string>
+    <string name="progress_dialog_validating_wallet_address">वॉलेट पते को मान्य कर रहा है ...</string>
+    <string name="toast_invalid_withdrawable_amount">अमान्य राशि। न्यूनतम और अधिकतम स्वीकार्य राशि के भीतर निकासी राशि दर्ज करें।</string>
+
+    <string name="withdrawal_page_invalid_range_amount">अमान्य राशि। न्यूनतम और अधिकतम स्वीकार्य राशि के भीतर निकासी राशि दर्ज करें।</string>
+    <string name="withdrawal_page_withdrawable_amount_exceeded">अमान्य राशि। निकासी राशि निकासी योग्य शेष राशि से अधिक नहीं होनी चाहिए।</string>
+    <string name="withdrawal_page_remaining_amount_exceeded">राशि आपकी दैनिक सीमा से अधिक है</string>
+    <string name="progress_dialog_processing_withdrawal">प्रोसेसिंग निकासी...</string>
+
+    <string name="no_transaction_history">अभी तक कोई लेनदेन नहीं</string>
+    <string name="transaction_history_label">लेन-देन का इतिहास</string>
+    <string name="transaction_failed">विफल</string>
+    <string name="transaction_processing">लंबित</string>
+    <string name="transaction_completed">पूरा किया</string>
+    <string name="transaction_withdraw_to_external_account">बाहरी खाते में पांडो निकालें</string>
+    <string name="transaction_details_date_time">दिनांक &amp; समय</string>
+    <string name="transaction_details_transaction_hash">लेन-देन हैश</string>
+    <string name="transaction_details_close">बंद करना</string>
+    <string name="transaction_new">नया</string>
+
+    <string name="progress_dialog_loading_transactions">लोडिंग ट्रांजेक्शन...</string>
+    <string name="withdrawal_page_withdrawal_limit_updated">निकासी सीमा राशि को अपडेट किया गया था, कृपया अपने PANDO निकासी को फिर से जांचें और संसाधित करें।</string>
+    <string name="withdrawal_confirmation_page_transaction_fee_updated">लेन-देन शुल्क को अपडेट किया गया था, कृपया अपने PANDO निकासी को फिर से जांचें और संसाधित करें।</string>
+
+    <string name="signup_verify_recaptcha">पुनः सत्यापित करें</string>
+    <string name="signup_protected_by_recaptcha">रिकैप्टचा द्वारा संरक्षित</string>
+    <string name="toast_recaptcha_error">पुनर्कैप्चा को सत्यापित करने में विफल</string>
+    <string name="toast_verify_recaptcha">कृपया पुनर्कैप्चा को सत्यापित करें</string>
+
+    <string name="two_fa_title">दो कारक प्रमाणीकरण</string>
+    <string name="two_fa_message">ईमेल के जरिए आपको एक ओटीपी भेजा गया है। कृपया नीचे कोड डालें।</string>
+    <string name="two_fa_continue">जारी रखना</string>
+    <string name="two_fa_cancel">रद्द करना</string>
+    <string name="signup_verification_successful">सत्यापन सफल</string>
+
+    <string name="withdrawal_page_is_not_available">PANDO वापसी फिलहाल उपलब्ध नहीं है। कृपया बाद में फिर से प्रयास करें।</string>
+
+    <string name="login_please_update_website">अनुरोध अस्वीकार कर दिया । हमने हाल ही में अपनी सुरक्षा में सुधार किया है । कृपया डाउनलोड करें और जारी रखने के लिए हमारी वेबसाइट (https://pandobrowser.com) से नवीनतम संस्करण स्थापित करें ।</string>
+    <string name="login_please_update_playstore">अनुरोध अस्वीकार कर दिया । हमने हाल ही में अपनी सुरक्षा में सुधार किया है । कृपया हमारी वेबसाइट (https://pandobrowser.com) या गूगल प्ले स्टोर से जारी रखने के लिए नवीनतम संस्करण डाउनलोड करें और स्थापित करें ।</string>
+
+    <string name="user_has_pending_withdrawal">आपके पास चल रहे पांडो टोकन निकासी लेनदेन है। कृपया एक और वापसी करने से पहले इसे पूरा होने का इंतजार करें । धन्यवाद।</string>
+    <string name="reprocess_pando_withdrawal">निकाली गई राशि को मान्य करते समय त्रुटि। कृपया अपने PANDO वापसी का पुनर्प्रसंस्करण करें।</string>
+
+    <string name="two_fa_resend_message">रीसेंड ओटीपी में उपलब्ध होगा %d sec</string>
+    <string name="two_fa_did_not_get_the_code">कोड नहीं मिला?</string>
+    <string name="two_fa_resend_action">ओटीपी कोड को फिर से भेजना</string>
+    <string name="two_fa_error_sending_otp">अपने ईमेल पर ओटीपी भेजने की कोशिश करते समय त्रुटि। कृपया फिर से प्रयास करें।</string>
+    <string name="two_fa_success_sending_otp">ओटीपी सफल भेजना!</string>
+    <string name="device_otp_resend_message">रीसेंड ईमेल में उपलब्ध होगा %d sec</string>
+    <string name="device_otp_did_not_get_the_code">कोड नहीं मिला?</string>
+    <string name="device_otp_resend_action">ईमेल को फिर से भेजें</string>
+    <string name="device_otp_error_sending_otp">अपने ईमेल पर ओटीपी भेजने की कोशिश करते समय त्रुटि। कृपया फिर से प्रयास करें।</string>
+    <string name="device_otp_success_sending_otp">ओटीपी सफल भेजना!</string>
+
+    <string name="toast_otp_expired">ओटीपी कोड पहले ही समाप्त हो चुका है।</string>
+
+    <string name="too_much_request_verify_login">लॉगिन में बहुत अधिक अनुरोध</string>
+    <string name="too_much_request_create_account">साइनअप अनुरोध भेजा गया है। कृपया अपने ईमेल खाते का उपयोग करके लॉगिन करने का प्रयास करें।</string>
+    <string name="too_much_request_withdraw">हाल ही में वापसी अभी भी प्रक्रिया में है । बाद में अतिरिक्त निकासी की कोशिश करें।</string>
+
+    <string name="two_fa_message_resent">एक ओटीपी ईमेल के माध्यम से आपको फिर से भेजा गया है। कृपया नीचे कोड डालें।</string>
+    <string name="search_or_input_url">खोज या इनपुट यूआरएल</string>
+    <string name="device_otp_congratulations">बधाई हो और Pando ब्राउज़र में आपका स्वागत है। आप सफलतापूर्वक अपने नए डिवाइस के साथ लॉगिन करते हैं। धन्यवाद।</string>
+    <string name="signup_email_invalid_title">आपका ईमेल अमान्य है।</string>
+    <string name="signup_email_invalid">अतिरिक्त सहायता के लिए &lt;link&gt;info@pandobrowser.com&lt;/link&gt; से संपर्क करें।</string>
+
+    <string name="member_dashboard_max_withdrawal_amount_reached">आप दिन के लिए अनुन:: प्राप्त निकासी राशि तक पहुंच गए हैं। कृपया कल फिर प्रयास करें।</string>
+    <string name="member_dashboard_max_withdrawal_transaction_count_reached">आप दिन के लिए निकासी लेनदेन की अधिकतम संख्या तक पहुंच गए हैं। कृपया कल फिर प्रयास करें।</string>
+
+    <string name="withdrawal_page_remaining_withdrawable_amount">दिन के लिए शेष वापस लेने योग्य राशि (PANDO)</string>
+    <string name="withdrawal_page_remaining_transaction">दिन के लिए शेष लेनदेन</string>
+    <string name="withdrawal_page_policy_updated">नीति अद्यतन!</string>
+    <string name="withdrawal_page_daily_withdrawal_limit_updated">दैनिक निकासी नीति को अपडेट किया गया था। कृपया अपनी वापसी को फिर से जांचें और संसाधित करें।</string>
+    <string name="withdrawal_page_max_number_of_transaction_per_day_updated">प्रति दिन लेनदेन की अधिकतम संख्या अपडेट की गई है। आप दिन के लिए निकासी लेनदेन की अधिकतम संख्या तक पहुंच गए हैं। कृपया कल फिर प्रयास करें।</string>
+    <string name="withdrawal_page_daily_withdrawable_amount_limit_updated">दैनिक निकासी राशि सीमा को अपडेट किया गया है। अब आपके पास 0 शेष वापसी योग्य राशि है। कृपया कल फिर प्रयास करें।</string>
+
+
+</resources>

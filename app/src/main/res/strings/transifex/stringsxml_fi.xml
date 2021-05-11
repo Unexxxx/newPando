@@ -1,0 +1,111 @@
+<resources>
+
+    <string name="brave_settings_title">Osiris -sivustosuoja-asetukset kohteelle</string>
+    <string name="brave_shields_down">Alas</string>
+    <string name="brave_shields_up">Ylös</string>
+    <string name="brave_shields_ads_trackers">Mainokset ja Seuraimet Estetty</string>
+    <string name="brave_shields_https_upgrades">HTTPS Päivitykset</string>
+    <string name="brave_shields_scripts_blocked">Komentosarjat Estetty</string>
+    <string name="brave_shields_ads_tracking_switch">Estä Mainokset ja Seuranta</string>
+    <string name="brave_shields_https_everywhere_switch">HTTPS Kaikkialla</string>
+    <string name="brave_shields_blocks_scripts_switch">Estä Komentosarjat</string>
+    <string name="accessibility_toolbar_btn_brave_shields">Ota käyttöön/Poista käytöstä Osiris -suojat</string>
+    <string name="brave_shields_block_3rd_party_cookies_switch">Estä kolmannen osapuolen evästeet</string>
+
+    <string name="httpse_summary">Avaa tuetut sivustot käyttämällä HTTPS:ää HTTP:n sijasta, kun mahdollista</string>
+    <string name="tracking_protection_title">Seurauksen estämismoodi</string>
+    <string name="tracking_protection_summary">Estää sinua seuraavien kohteiden latautumisen</string>
+    <string name="ad_block_title">Ad Block</string>
+    <string name="ad_block_summary">Estää mainoksia latautumasta</string>
+
+    <string name="fingerprinting_protection_title">Sormenjälkisuojaus</string>
+    <string name="fingerprinting_protection_summary">Ehkäisee selaimen sormenjäljiltä</string>
+    <string name="brave_shields_fingerprints_blocked">Sormenjälkimenetelmät estetty</string>
+    <string name="brave_shields_block_fingerprints_switch">Sormenjälkisuojaus</string>
+
+    <string name="ad_block_regional_title">Alueellisen mainoksen esto</string>
+    <string name="ad_block_regional_summary">Estää paikallisten mainosten latautumisen</string>
+
+    <string name="ad_block_regional_summary_no_list">Ei ylimääräisiä listoja saatavilla tapahtumapaikallasi</string>
+
+    <string name="menu_exit">Poistua</string>
+
+    <string name="brave_sync">Osiris Sync</string>
+    <string name="brave_sync_description">Osiris Sync synkronoi selaimen tiedot laitteiden
+välillä turvallisesti ilman tilin luontia.
+Aloita napauttamalla alla.</string>
+    <string name="brave_sync_have_existing_code">Minulla on jo synkronointikoodi</string>
+    <string name="sync_settings_add_device_name_title">Lisää laitteen nimi</string>
+    <string name="sync_settings_add_device_name_label">Anna laitteelle vaihtoehtoinen nimi</string>
+    <string name="sync_example_device_name">Android-laite</string>
+    <string name="brave_sync_qrcode">Synkronoi laitteelle</string>
+    <string name="brave_sync_qrcode_message">Kun käytät olemassa olevaa synkronoitua laitetta,
+avaa Osirisn asetukset ja siirry Laite ja asetukset -kohtaan,
+niin voit lisätä uuden laitteen
+ja näyttää synkronointikoodin.</string>
+    <string name="enter_code_words_sync">Anna koodisanat</string>
+    <string name="enter_code_words_below_sync">Anna koodisanat alla.</string>
+    <string name="sync_device">Synkronoi laite</string>
+    <string name="sync_device_failure">Synkronoinnin määritys ei onnistunut</string>
+    <string name="sync_device_success">Synkronoinnin määritys suoritettiin onnistuneesti</string>
+    <string name="reset_sync">Palauta synkronointi...</string>
+    <string name="resetting_sync">Haluatko varmasti palauttaa tämän laitteen synkronointiasetukset?</string>
+
+    <string name="brave_stats_text_trackers">Seuraimet
+Estetty</string>
+    <string name="brave_stats_text_ads">Mainokset
+Estetty</string>
+    <string name="brave_stats_text_https">HTTPS
+Päivitykset</string>
+    <string name="brave_stats_text_time">Arvioitu aika
+Tallennettu</string>
+
+    <string name="send_metrics_title">Lähetä mittaustulokset</string>
+
+    <string name="desktop_mode_title">Työpöytätila</string>
+    <string name="website_settings_category_desktop_view_enabled_summary">Suosi sivustojen työpöytäversioita</string>
+    <string name="website_settings_category_desktop_view_disabled_summary">Suosi sivustojen mobiiliversioita</string>
+    <string name="website_settings_category_desktop_view_enabled">Käytä työpöytänäkymää uusissa välilehdissä</string>
+    <string name="website_settings_category_desktop_view_disabled">Käytä sivustojen mobiiliversioita uusissa välilehdissä (suositellaan)</string>
+
+    <string name="brave_shields_first_group_title">Estojen valvonta</string>
+    <string name="brave_shields_second_group_title">Yksittäiset valvontaohjaimet</string>
+    <string name="brave_shields">Suojaukset</string>
+    <string name="brave_shields_ads_and_trackers">Mainokset ja seurantaohjelmat</string>
+    <string name="brave_shields_fingerprint_methods">Sormenjälkimenetelmät</string>
+    <string name="brave_shields_block_phishing_switch">Estä tiedonkalastelu</string>
+
+    <string name="play_video_in_background_title">Toista videot taustalla</string>
+    <string name="website_settings_category_play_video_in_background_enabled_summary">Käytössä</string>
+    <string name="website_settings_category_play_video_in_background_disabled_summary">Pois käytöstä</string>
+    <string name="website_settings_category_play_video_in_background_enabled">Kokeiluversio. Mahdollistaa äänentoiston taustalla olevasta videosta kun välilehti ei ole auki tai laitteen näyttö ei ole päällä. Kokeile työpöytätilaan siirtymistä, jos tämä ominaisuus ei toimi.</string>
+    <string name="settings_require_relaunch_notice">Tekemäsi muutokset astuvat voimaan käynnistäessäsi Osirisn seuraavan kerran</string>
+    <string name="settings_require_relaunch_now">KÄYNNISTÄ UUDELLEEN NYT</string>
+    <string name="settings_require_relaunch_later">MYÖHEMMIN</string>
+
+    <string name="play_yt_video_in_browser_title">Toista videot Osiris-sovelluksessa</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled_summary">Käytössä</string>
+    <string name="website_settings_category_play_yt_video_in_browser_disabled_summary">Pois käytöstä</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled">Jos asetus on käytössä, videot toistetaan Osiris-sovelluksessa niille määritellyn oletussovelluksen sijaan</string>
+
+    <string name="close_tabs_on_exit_title">Sulje välilehdet lopetettaessa</string>
+    <string name="close_tabs_on_exit_summary">Älä muista välilehtiä selausistuntojen välillä</string>
+
+    <string name="open_pages_in_custom_tabs_title">Avoimet välilehdet Mukautetuissa Välilehdissä</string>
+    <string name="open_pages_in_custom_tabs_summary">Tarjoudu avaamaan välilehtiä Mukautetuissa Väilehdissä</string>
+
+    <string name="ddg_offer_title">Tehdäänkö yksityinen haku DuckDuckGolla?</string>
+    <string name="ddg_offer_text">Yksityishaussa Osiris käyttää DuckDuckGota vastaamaan hakuihisi, kun olet tällä yksityisellä välilehdellä. DuckDuckGo on hakukone, joka ei seuraa hakuhistoriaasi, joten voit tehdä hakuja yksityisesti.</string>
+    <string name="ddg_offer_positive">Kyllä</string>
+    <string name="ddg_offer_negative">Ei</string>
+    <string name="ddg_offer_link">Lue lisää DuckDuckGon yksityisestä hausta</string>
+    <string name="prefs_standard_search_engine">Normaali välilehti</string>
+    <string name="prefs_private_search_engine">Yksityinen välilehti</string>
+
+    <string name="brave_open_in_private_tab">Avaa yksityisessä välilehdessä</string>
+    <string name="brave_close_all_private_tabs">Sulje yksityiset välilehdet</string>
+    <string name="brave_new_private_tab">Uusi yksityinen välilehti</string>
+    <string name="brave_new_tab_private_header">Tämä on yksityinen välilehti</string>
+    <string name="brave_new_tab_private_message">Vaikka sivustoja, joilla vierailemiseen käytät yksityisiä välilehtiä, ei tallennetakaan paikallisesti, et kuitenkaan ole anonyymi tai näkymätön Internet-palveluntarjoajallesi, työnantajallesi tai vierailemillesi sivustoille.</string>
+
+</resources>

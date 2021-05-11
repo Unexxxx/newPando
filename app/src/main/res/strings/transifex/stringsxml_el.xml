@@ -1,0 +1,112 @@
+<resources>
+
+    <string name="brave_settings_title">Ρυθμίσεις ασπίδων [προστασίας] ιστοτόπου Osiris για</string>
+    <string name="brave_shields_down">Κάτω-</string>
+    <string name="brave_shields_up">Πάνω</string>
+    <string name="brave_shields_ads_trackers">Ta Πρόσθετα [ads] και oi Ιχνηλάτες [trackers] έχουν Μπλοκαριστεί</string>
+    <string name="brave_shields_https_upgrades">Αναβαθμίσεις HTTPS</string>
+    <string name="brave_shields_scripts_blocked">Τα αρχεία Σκριπτ [script) έχουν Μπλοκαριστεί</string>
+    <string name="brave_shields_ads_tracking_switch">Μπλοκάρισμα Προσθέτων [ads] και Ιχνηλασιμότητα [tracking]</string>
+    <string name="brave_shields_https_everywhere_switch">HTTPS Παντού</string>
+    <string name="brave_shields_blocks_scripts_switch">Μπλοκάρισμα Σκριπτ [scripts]</string>
+    <string name="accessibility_toolbar_btn_brave_shields">Ενεργοποίηση/Απενεργοποίηση Ασπίδων [προστασίας] Osiris</string>
+    <string name="brave_shields_block_3rd_party_cookies_switch">Αποκλεισμός στα cookies τρίτων</string>
+
+    <string name="httpse_summary">Ανοίγει υποστηριζόμενες ιστοσελίδες που χρησιμοποιούν HTTPS αντί για HTTP όταν είναι δυνατόν</string>
+    <string name="tracking_protection_title">Λειτουργία προστασίας από εντοπισμό</string>
+    <string name="tracking_protection_summary">Αποτρέπει τη φόρτωση πόρων που σας παρακολουθούν</string>
+    <string name="ad_block_title">Παρεμπόδιση διαφημίσεων</string>
+    <string name="ad_block_summary">Αποτρέπει τη φόρτωση διαφημίσεων</string>
+
+    <string name="fingerprinting_protection_title">Προστασία "δακτυλικού αποτυπώματος"</string>
+    <string name="fingerprinting_protection_summary">Προστατεύει το πρόγραμμα περιήγησης απο "δακτυλικά αποτυπώματα"</string>
+    <string name="brave_shields_fingerprints_blocked">Μεθοδοι "δακτυλικού αποτυπωματος" κλειδωμένοι</string>
+    <string name="brave_shields_block_fingerprints_switch">Προστασία "δακτυλικού αποτυπώματος"</string>
+
+    <string name="ad_block_regional_title">Τοπικό Αd Block</string>
+    <string name="ad_block_regional_summary">Εμποδίζει την εμφάνιση τοπικών διαφημίσεων [ads]</string>
+
+    <string name="ad_block_regional_summary_no_list">Καμία επιπλέον λίστα διαθέσιμη για το λογισμικό σας</string>
+
+    <string name="menu_exit">Εξοδος</string>
+
+    <string name="brave_sync">Συγχρονισμός Osiris</string>
+    <string name="brave_sync_description">Τα δεδομένα συγχρονισμού περιήγησης μεταξύ των συσκευών
+σας χρησιμοποιούν με ασφάλεια τον Συγχρονισμό Osiris,
+δεν απαιτείται δημιουργία λογαριασμού.
+Πατήστε παρακάτω για να ξεκινήσετε.</string>
+    <string name="brave_sync_have_existing_code">Έχω ήδη έναν κωδικό συγχρονισμού</string>
+    <string name="sync_settings_add_device_name_title">Προσθήκη ονόματος συσκευής</string>
+    <string name="sync_settings_add_device_name_label">Εισαγάγετε ένα προαιρετικό όνομα για αυτή τη συσκευή</string>
+    <string name="sync_example_device_name">Συσκευή Android</string>
+    <string name="brave_sync_qrcode">Συγχρονισμός στη συσκευή</string>
+    <string name="brave_sync_qrcode_message">Χρησιμοποιήστε την τρέχουσα συσκευή συγχρονισμού ανοίξτε
+τις Ρυθμίσεις Βrave και κάντε περιήγηση στο "Συσκευή &amp;Ρυθμίσεις",
+πατήστε `+` για να προσθέσετε μια νέα συσκευή και
+να αποκαλύψετε τον κωδικό συγχρονισμού.</string>
+    <string name="enter_code_words_sync">Εισαγωγή κωδικών λέξεων </string>
+    <string name="enter_code_words_below_sync">Εισαγάγετε λέξεις κωδικούς παρακάτω.</string>
+    <string name="sync_device">Συσκευή συγχρονισμού</string>
+    <string name="sync_device_failure">Δεν ήταν δυνατή η ρύθμιση του συγχρονισμού</string>
+    <string name="sync_device_success">Η εγκατάσταση του συγχρονισμού ολοκληρώθηκε με επιτυχία</string>
+    <string name="reset_sync">Επαναφορά συγχρονισμού...</string>
+    <string name="resetting_sync">Θέλετε σίγουρα να επαναφέρετε τις ρυθμίσεις συγχρονισμού αυτής της συσκευής;</string>
+
+    <string name="brave_stats_text_trackers">Ιχνηλάτες που
+Αποκλείστηκαν</string>
+    <string name="brave_stats_text_ads">Διαφημίσεις που
+Αποκλείστηκαν</string>
+    <string name="brave_stats_text_https">Αναβαθμίσεις
+HTTPS</string>
+    <string name="brave_stats_text_time">Υπολογιζόμενος Χρόνος
+που Εξοικονομήθηκε</string>
+
+    <string name="send_metrics_title">Αποστολή μετρήσεων</string>
+
+    <string name="desktop_mode_title">Λειτουργία επιτραπέζιου υπολογιστή</string>
+    <string name="website_settings_category_desktop_view_enabled_summary">Προτίμηση των εκδόσεων των ιστοτόπων για επιτραπέζιους υπολογιστές</string>
+    <string name="website_settings_category_desktop_view_disabled_summary">Προτίμηση των εκδόσεων των ιστοτόπων για κινητά τηλέφωνα</string>
+    <string name="website_settings_category_desktop_view_enabled">Ενεργοποίηση προβολής για επιτραπέζιους υπολογιστές για νέες καρτέλες</string>
+    <string name="website_settings_category_desktop_view_disabled">Χρήση των ιστοτόπων σε έκδοση για κινητά για νέες καρτέλες (συνιστάται)</string>
+
+    <string name="brave_shields_first_group_title">Παρακολούθηση Μπλοκαρίσματος</string>
+    <string name="brave_shields_second_group_title">Ξεχωριστό Σύστημα Ελέγχου</string>
+    <string name="brave_shields">Ασπίδες</string>
+    <string name="brave_shields_ads_and_trackers">Διαφημίσεις και Ανιχνευτές</string>
+    <string name="brave_shields_fingerprint_methods">Μέθοδοι Δαχτυλικών Αποτυπωμάτων</string>
+    <string name="brave_shields_block_phishing_switch">Μπλόκαρε το Ηλεκτρονικό Ψάρεμα</string>
+
+    <string name="play_video_in_background_title">Αναπαραγωγή βίντεο φόντου</string>
+    <string name="website_settings_category_play_video_in_background_enabled_summary">Ενεργοποιημένο</string>
+    <string name="website_settings_category_play_video_in_background_disabled_summary">Απενεργοποιημένο</string>
+    <string name="website_settings_category_play_video_in_background_enabled">Πειραματικό. Σας επιτρέπει να παίζετε ήχο από βίντεο στο παρασκήνιο όταν η καρτέλα δεν είναι ενεργή ή η οθόνη της συσκευής είναι κλειστή. Δοκιμάστε τη μετάβαση σε λειτουργία σταθερού υπολογιστή αν αυτό το χαρακτηριστικό δε λειτουργεί.</string>
+    <string name="settings_require_relaunch_notice">Οι αλλαγές σας θα εφαρμοστούν την επόμενη φορά που θα κάνετε επανεκκίνηση στο Osiris</string>
+    <string name="settings_require_relaunch_now">ΕΠΑΝΕΚΚΙΝΗΣΗ ΤΩΡΑ</string>
+    <string name="settings_require_relaunch_later">ΑΡΓΟΤΕΡΑ</string>
+
+    <string name="play_yt_video_in_browser_title">Αναπαραγωγή βίντεο στο Osiris</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled_summary">Ενεργοποιημένο</string>
+    <string name="website_settings_category_play_yt_video_in_browser_disabled_summary">Απενεργοποιημένο</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled">Αν ενεργοποιηθεί, τα βίντεο θα αναπαράγονται στο Osiris, αντί για την αντίστοιχη εφαρμογή</string>
+
+    <string name="close_tabs_on_exit_title">Κλείσιμο καρτελών κατά την έξοδο</string>
+    <string name="close_tabs_on_exit_summary">Να μην διατηρούνται καρτέλες μεταξύ συνεδριών περιήγησης</string>
+
+    <string name="open_pages_in_custom_tabs_title">Άνοιξε καρτέλες στις Προσαρμοσμένες Καρτέλες</string>
+    <string name="open_pages_in_custom_tabs_summary">Προσφερθείτε να ανοίγετε καρτέλες στις Προσαρμοσμένες Καρτέλες</string>
+
+    <string name="ddg_offer_title">Ιδιωτική αναζήτηση με το DuckDuckGo;</string>
+    <string name="ddg_offer_text">Με την ιδιωτική αναζήτηση, το Osiris θα χρησιμοποιήσει το DuckDuckGo για να απαντήσει στις αναζητήσεις σας όσο βρίσκεστε σ\' αυτήν την ιδιωτική καρτέλα. Το DuckDuckGo είναι μια μηχανή αναζήτησης που δεν παρακολουθεί το ιστορικό αναζήτησής σας, δίνοντάς σας τη δυνατότητα να κάνετε ιδιωτική αναζήτηση.</string>
+    <string name="ddg_offer_positive">Ναι</string>
+    <string name="ddg_offer_negative">Όχι</string>
+    <string name="ddg_offer_link">Μάθετε σχετικά με την ιδιωτική αναζήτηση με το DuckDuckGo</string>
+    <string name="prefs_standard_search_engine">Κανονική Καρτέλα</string>
+    <string name="prefs_private_search_engine">Ιδιωτική Καρτέλα</string>
+
+    <string name="brave_open_in_private_tab">Ανοίξτε σε ιδιωτική καρτέλα</string>
+    <string name="brave_close_all_private_tabs">Κλείστε ιδιωτικές καρτέλες</string>
+    <string name="brave_new_private_tab">Νέα ιδιωτική καρτέλα</string>
+    <string name="brave_new_tab_private_header">Αυτή είναι μια Ιδιωτική Καρτέλα</string>
+    <string name="brave_new_tab_private_message">Αν και οι ιστότοποι που επισκέπτεστε σε ιδιωτικές καρτέλες δεν αποθηκεύονται τοπικά, δεν σας κάνουν ανώνυμους ή αόρατους στον ISP σας, στον εργοδότη σας ή στους ιστότοπους που επισκέπτεστε.</string>
+
+</resources>

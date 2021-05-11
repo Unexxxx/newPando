@@ -1,0 +1,112 @@
+<resources>
+
+    <string name="brave_settings_title">Configuración de protección de sitio de Osiris para</string>
+    <string name="brave_shields_down">Abajo</string>
+    <string name="brave_shields_up">Arriba</string>
+    <string name="brave_shields_ads_trackers">Anuncios y rastreadores bloqueados</string>
+    <string name="brave_shields_https_upgrades">Actualizaciones HTTPS</string>
+    <string name="brave_shields_scripts_blocked">Secuencias de comandos bloqueadas</string>
+    <string name="brave_shields_ads_tracking_switch">Bloquear anuncios y rastreadores</string>
+    <string name="brave_shields_https_everywhere_switch">HTTPS Everywhere</string>
+    <string name="brave_shields_blocks_scripts_switch">Bloquear secuencias de comandos</string>
+    <string name="accessibility_toolbar_btn_brave_shields">Habilitar/Deshabilitar protecciones de Osiris</string>
+    <string name="brave_shields_block_3rd_party_cookies_switch">Bloquear cookies de terceros</string>
+
+    <string name="httpse_summary">Abre los sitios compatibles utilizando HTTPS en lugar de HTTP, cuando sea posible</string>
+    <string name="tracking_protection_title">Modo protección contra el monitoreo</string>
+    <string name="tracking_protection_summary">Evita que carguen los recursos que te monitorean</string>
+    <string name="ad_block_title">Bloqueador de publicidad</string>
+    <string name="ad_block_summary">Evita que carguen las publicidades</string>
+
+    <string name="fingerprinting_protection_title">Protección de huellas dactilares</string>
+    <string name="fingerprinting_protection_summary">Evita que el navegador obtenga las huellas dactilares</string>
+    <string name="brave_shields_fingerprints_blocked">De huellas dactilares bloqueadas</string>
+    <string name="brave_shields_block_fingerprints_switch">Protección de huellas dactilares</string>
+
+    <string name="ad_block_regional_title">Bloqueo de publicidades regionales</string>
+    <string name="ad_block_regional_summary">Evita que carguen las publicidades regionales</string>
+
+    <string name="ad_block_regional_summary_no_list">No hay ninguna lista adicional para su ubicación</string>
+
+    <string name="menu_exit">Salida</string>
+
+    <string name="brave_sync">Osiris Sync</string>
+    <string name="brave_sync_description">Sincroniza los datos de navegación entre
+tus dispositivos de forma segura
+utilizando Osiris Sync; no es necesario
+crear una cuenta. Pulsa abajo para comenzar.</string>
+    <string name="brave_sync_have_existing_code">Ya tengo un código de sincronización</string>
+    <string name="sync_settings_add_device_name_title">Añadir nombre de dispositivo</string>
+    <string name="sync_settings_add_device_name_label">Introducir un nombre opcional para este dispositivo</string>
+    <string name="sync_example_device_name">Dispositivo de Android</string>
+    <string name="brave_sync_qrcode">Sincronizar con dispositivo</string>
+    <string name="brave_sync_qrcode_message">Abre la configuración de Osiris desde un dispositivo
+ya sincronizado y selecciona "Configuración del dispositivo".
+Luego, presiona "+" para añadir un nuevo dispositivo
+y obtener el código de sincronización.</string>
+    <string name="enter_code_words_sync">Introducir palabras clave</string>
+    <string name="enter_code_words_below_sync">Introduce las palabras clave abajo.</string>
+    <string name="sync_device">Sincronizar dispositivo</string>
+    <string name="sync_device_failure">No se pudo establecer la sincronización</string>
+    <string name="sync_device_success">La sincronización se ha completado correctamente</string>
+    <string name="reset_sync">Restablecer sincronización...</string>
+    <string name="resetting_sync">¿Estás seguro de que quieres restablecer la configuración de sincronización de este dispositivo?</string>
+
+    <string name="brave_stats_text_trackers">Rastreadores
+bloqueados</string>
+    <string name="brave_stats_text_ads">Anuncios
+bloqueados</string>
+    <string name="brave_stats_text_https">Actualizaciones
+HTTPS</string>
+    <string name="brave_stats_text_time">Tiempo ahorrado
+estimado</string>
+
+    <string name="send_metrics_title">Enviar mediciones</string>
+
+    <string name="desktop_mode_title">Modo Escritorio</string>
+    <string name="website_settings_category_desktop_view_enabled_summary">Preferir la versión de escritorio de los sitios</string>
+    <string name="website_settings_category_desktop_view_disabled_summary">Preferir la versión móvil de los sitios</string>
+    <string name="website_settings_category_desktop_view_enabled">Habilitar vista de escritorio para nuevas pestañas</string>
+    <string name="website_settings_category_desktop_view_disabled">Utilizar la versión móvil de los sitios para pestañas nuevas (recomendado) </string>
+
+    <string name="brave_shields_first_group_title">Monitor de bloqueo</string>
+    <string name="brave_shields_second_group_title">Controles individuales</string>
+    <string name="brave_shields">Protecciones</string>
+    <string name="brave_shields_ads_and_trackers">Anuncios y Rastreadores</string>
+    <string name="brave_shields_fingerprint_methods">Métodos de huellas dactilares </string>
+    <string name="brave_shields_block_phishing_switch">Bloquear Fraude Electrónico </string>
+
+    <string name="play_video_in_background_title">Reproducción de vídeo en el fondo</string>
+    <string name="website_settings_category_play_video_in_background_enabled_summary">Habilitado</string>
+    <string name="website_settings_category_play_video_in_background_disabled_summary">Discapacitado </string>
+    <string name="website_settings_category_play_video_in_background_enabled">Experimental. Permite reproducir audio de vídeo en el fondo cuando la pestaña no está activa o la pantalla del dispositivo está apagada. Intente cambiar al modo de escritorio si esta característica no funciona.</string>
+    <string name="settings_require_relaunch_notice">Tus cambios tendrán efecto la próxima vez que relances Osiris</string>
+    <string name="settings_require_relaunch_now">RELANZAR AHORA</string>
+    <string name="settings_require_relaunch_later">LUEGO</string>
+
+    <string name="play_yt_video_in_browser_title">Reproducción de video en Osiris</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled_summary">Habilitado </string>
+    <string name="website_settings_category_play_yt_video_in_browser_disabled_summary">Discapacitado</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled">Si habilitado, los videos se reproducirán en Osiris en lugar de la aplicación correspondiente</string>
+
+    <string name="close_tabs_on_exit_title">Cerrar pestañas al salir</string>
+    <string name="close_tabs_on_exit_summary">No persistir las pestañas entre sesiones de navegación</string>
+
+    <string name="open_pages_in_custom_tabs_title">Abrir pestañas en Pestañas Personalizadas</string>
+    <string name="open_pages_in_custom_tabs_summary">Ofrecer abrir las pestañas en Pestañas Personalizadas</string>
+
+    <string name="ddg_offer_title">¿Deseas la búsqueda privada con DuckDuckGo?</string>
+    <string name="ddg_offer_text">Con la búsqueda privada, Osiris usará DuckDuckGo para respoender a tus búsquedas cuando usas una pestaña privada. DuckDuckGo es un motor de búsqueda que no realiza un seguimiento de tu historial de búsquedas, permitiéndote navegar privadamente.</string>
+    <string name="ddg_offer_positive">Si</string>
+    <string name="ddg_offer_negative">No</string>
+    <string name="ddg_offer_link">Conoce más acerca de la búsqueda privada con DuckDuckGo</string>
+    <string name="prefs_standard_search_engine">Pestaña Estándard</string>
+    <string name="prefs_private_search_engine">Pestaña Privada</string>
+
+    <string name="brave_open_in_private_tab">Abrir en pestaña privada</string>
+    <string name="brave_close_all_private_tabs">Cerrar las pestañas privadas</string>
+    <string name="brave_new_private_tab">Nueva pestaña privada</string>
+    <string name="brave_new_tab_private_header">Esta es una Pestaña Privada</string>
+    <string name="brave_new_tab_private_message">A pesar de que los sitios que visitas utilizando pestañas privadas no son guardados localmente, estos no te hacen anónimo o invicible a tu Proveedor de Internet, tu empleador, o a los sitios que visitas.</string>
+
+</resources>
